@@ -7,15 +7,36 @@ questions in Arabic or English with grounded context.
 
 ## Data sources
 
-| # | Source | What we'll use it for | Lands in |
-| - | ------ | --------------------- | -------- |
-| 1 | **Saudi Tourism Reviews — Zenodo** | Arabic tourist reviews + sentiment/preferences | `data/raw/tourism_reviews/` |
-| 2 | **Riyadh Places 8.8K — Kaggle** | POIs, categories, ratings, coordinates | `data/raw/riyadh_places/` |
-| 3 | **Saudi Tourism Dataset 2015–2024 — Kaggle** | Tourism demand, spending, overnight stays | `data/raw/tourism_statistics/` |
-| 4 | **DataSaudi — Tourism Indicators** | Official tourism statistics | `data/raw/tourism_statistics/` |
-| 5 | **Enjoy.sa Events API** | Events, dates, times, city, family/gender constraints | `data/raw/events/` |
-| 6 | **SaudiTourism — Hugging Face** | Supplementary tourism info: attractions, hotels, restaurants, events, transportation, etc. | `data/raw/huggingface/` |
-| 7 | **Entertainment in Saudi Arabia — Kaggle** | Entertainment places, ratings, categories, locations | `data/raw/entertainment/` |
+Six sources feed the concierge. Each has an exploration notebook in `notebooks/` and a
+`FINDINGS.md` alongside its data.
+
+| # | Source | Size | What we'll use it for | Lands in |
+| - | ------ | ---- | --------------------- | -------- |
+| 1 | **Saudi Tourism Reviews — Zenodo** | 3,543 × 10 | Arabic reviews + aspect sentiment | `data/raw/tourism_reviews/` |
+| 2 | **Riyadh Places 8.8K — Kaggle** | 8,836 × 9 | POIs, categories, ratings, coordinates | `data/raw/riyadh_places/` |
+| 3 | **Saudi Tourism Dataset 2015–2024 — Kaggle** | 1,058 × 9 | Tourism demand, spending, overnight stays | `data/raw/tourism_statistics/` |
+| 4 | **DataSaudi — Tourism Indicators** | ~1,915 (11 files) | Official tourism statistics | `data/raw/tourism_statistics/tourism_statistics_datasaudi/` |
+| 5 | **Enjoy.sa Events API** | 5,802 × 14 | Events: dates, times, city, family/gender constraints | `data/raw/events/` |
+| 6 | **Booking.com Hotels — Kaggle** | 1,025 × 21 | Hotels & apartments: price, ratings, rooms, coordinates | `data/raw/Booking.com/` |
+| 7 | **Entertainment in Saudi Arabia — Kaggle** | 564 × 7 | Entertainment places, ratings, categories, locations | `data/raw/entertainment/` |
+
+> The *SaudiTourism — Hugging Face* source was evaluated and dropped; Booking.com replaces
+> it as the accommodation source.
+
+### Provenance & licensing
+
+| Source | License | Original source | Snapshot / date | Current / live? | Main use |
+| ------ | ------- | --------------- | --------------- | --------------- | -------- |
+| Tourism Reviews | CC0 | Zenodo | — | No | Reviews |
+| Riyadh Places | TBD | Kaggle | — | No | POIs |
+| Saudi Tourism | TBD | Kaggle | 2015–24 | No | Statistics |
+| DataSaudi | Official | DataSaudi | 2015–25 | Depends | Statistics |
+| Enjoy.sa | Official API | Enjoy.sa | Retrieved 2026 | **Yes / current API** | Events |
+| Entertainment | TBD | Kaggle | — | No | Entertainment |
+| Booking.com | TBD | Kaggle | **2020** | **No** | Hotels |
+
+> Only the Enjoy.sa events API is live/current; every other source is a static snapshot.
+> Booking.com prices are **2020-era** and should be surfaced as historical.
 
 ## Project structure
 
@@ -25,10 +46,10 @@ Saudi-Digital-Concierge/
 │   ├── raw/                  # unmodified source data
 │   │   ├── tourism_reviews/
 │   │   ├── riyadh_places/
-│   │   ├── tourism_statistics/
+│   │   ├── tourism_statistics/  # + tourism_statistics_datasaudi/
 │   │   ├── entertainment/
-│   │   ├── huggingface/
-│   │   └── events/
+│   │   ├── events/
+│   │   └── Booking.com/
 │   ├── processed/            # cleaned, normalised data
 │   └── final/                # embeddings / vector store artefacts
 │
