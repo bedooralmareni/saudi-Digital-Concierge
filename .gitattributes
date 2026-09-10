@@ -1,0 +1,13 @@
+# Normalise line endings to LF for text files so Windows/macOS/Linux
+# checkouts stay consistent and Git stops warning about LF <-> CRLF.
+* text=auto eol=lf
+
+# Notebooks are JSON — keep LF, never CRLF.
+*.ipynb text eol=lf
+
+# Tabular data — keep LF (UTF-8, incl. Arabic, is preserved).
+*.csv text eol=lf
+
+# Binary formats Git must not touch.
+*.xlsx binary
+*.xls  binary
