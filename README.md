@@ -1,9 +1,10 @@
 # Saudi Digital Concierge
 
-A retrieval-augmented (RAG) AI concierge for tourism in Saudi Arabia. It will
-ingest open data about places, reviews, events, entertainment and tourism
-statistics, clean and embed it into a vector store, and answer visitor
-questions in Arabic or English with grounded context.
+A retrieval-augmented (RAG), multi-agent AI concierge for tourism in Saudi Arabia.
+It ingests open data about places, reviews, events, entertainment, hotels and
+tourism statistics, cleans and embeds it into a vector store, and uses a team of
+agents (Manager → Retrieval → Planning → Verifier) to answer visitor questions
+and build grounded trip itineraries in Arabic or English.
 
 ## Data sources
 
