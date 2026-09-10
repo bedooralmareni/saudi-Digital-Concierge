@@ -73,4 +73,50 @@ Saudi-Digital-Concierge/
 ingestion  ->  cleaning  ->  database  ->  retrieval  ->  agents
 ```
 
+## Agent architecture (planned)
+
+A **4-agent** design for building trip itineraries: a Manager orchestrates, a
+Retrieval agent gathers evidence, a Planning agent builds the itinerary, and a
+Verifier checks it — looping back to Planning until the plan is valid.
+
+```
+User
+ ↓
+Manager
+ ↓
+Retrieval
+ ↓
+Planning
+ ↓
+Verifier
+ ↓
+ ├── PASS → Final Itinerary
+ │
+ └── FAIL → Planning → Verifier
+```
+
+**1. Manager / Orchestrator Agent**
+Understands the request and coordinates the other agents. Extracts:
+destination · dates · number of travelers · budget · family/individual ·
+preferences · constraints — then decides what needs to happen.
+
+**2. Retrieval Agent**
+Finds the relevant evidence from the knowledge base. Draws on:
+Source 1 → reviews · Source 2 → places/restaurants · Source 5 → events ·
+Source 6 → hotels · Source 7 → entertainment · Sources 3/4 → tourism statistics
+when relevant. Returns **evidence, not the final itinerary**.
+
+**3. Planning Agent**
+Constructs the actual itinerary from the retrieved candidates, satisfying:
+budget · dates · preferences · group size · activities · hotels · events ·
+geographic efficiency. Produces a sequenced plan
+(e.g. `Day 1 → Hotel → Museum → Restaurant → Event`) rather than a flat list.
+
+**4. Verifier Agent** ⭐
+Tries to catch mistakes in the proposed itinerary. Checks:
+every user constraint is satisfied · events on the correct dates · hotel within
+budget · hotel suitable for the group size · activities geographically reasonable ·
+no unsupported information · nothing hallucinated by the planner.
+If valid → final answer; if invalid → send back to Planning for revision.
+
 > Note: empty folders are kept under version control with `.gitkeep` files.
