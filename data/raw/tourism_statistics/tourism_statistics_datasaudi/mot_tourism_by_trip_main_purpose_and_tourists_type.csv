@@ -1,0 +1,128 @@
+Year,Economic Sectors ID,Economic Sectors,Nationality ID,Nationality,Trip Purpose Name ID,Trip Purpose Name,Tourists
+2015,Z,Tourism,1,Saudi,2,Leisure,11373.172163435389
+2015,Z,Tourism,1,Saudi,3,Business,1041.5626354697217
+2015,Z,Tourism,1,Saudi,4,Visiting Friends & Relatives,1544.7403108429253
+2015,Z,Tourism,1,Saudi,5,Other,1188.7353107588408
+2015,Z,Tourism,2,Non Saudi,2,Leisure,179.70833781951967
+2015,Z,Tourism,2,Non Saudi,3,Business,966.9216236253507
+2015,Z,Tourism,2,Non Saudi,4,Visiting Friends & Relatives,583.5285550682322
+2015,Z,Tourism,2,Non Saudi,5,Other,3940.4715073492534
+2015,Z,Tourism,3,Total,1,Religious,20786.248748392638
+2015,Z,Tourism,3,Total,2,Leisure,21963.72756138908
+2015,Z,Tourism,3,Total,3,Business,16080.420734469968
+2015,Z,Tourism,3,Total,4,Visiting Friends & Relatives,16220.19534737875
+2015,Z,Tourism,3,Total,5,Other,10212.906571837802
+2016,Z,Tourism,1,Saudi,2,Leisure,7657.313895044244
+2016,Z,Tourism,1,Saudi,3,Business,352.99636982633797
+2016,Z,Tourism,1,Saudi,4,Visiting Friends & Relatives,966.983592694871
+2016,Z,Tourism,1,Saudi,5,Other,229.83574589884705
+2016,Z,Tourism,2,Non Saudi,2,Leisure,790.530367344029
+2016,Z,Tourism,2,Non Saudi,3,Business,4134.055946580207
+2016,Z,Tourism,2,Non Saudi,4,Visiting Friends & Relatives,418.95026710653
+2016,Z,Tourism,2,Non Saudi,5,Other,6656.1734361584995
+2016,Z,Tourism,3,Total,1,Religious,20014.05749247359
+2016,Z,Tourism,3,Total,2,Leisure,20458.882964306722
+2016,Z,Tourism,3,Total,3,Business,17154.703125581837
+2016,Z,Tourism,3,Total,4,Visiting Friends & Relatives,15084.144214426435
+2016,Z,Tourism,3,Total,5,Other,11575.88942143292
+2017,Z,Tourism,1,Saudi,2,Leisure,7235.529883403995
+2017,Z,Tourism,1,Saudi,3,Business,160.60468457593
+2017,Z,Tourism,1,Saudi,4,Visiting Friends & Relatives,1148.057446122182
+2017,Z,Tourism,1,Saudi,5,Other,284.476512855196
+2017,Z,Tourism,2,Non Saudi,2,Leisure,544.994157491777
+2017,Z,Tourism,2,Non Saudi,3,Business,4058.00070430053
+2017,Z,Tourism,2,Non Saudi,4,Visiting Friends & Relatives,123.193946006594
+2017,Z,Tourism,2,Non Saudi,5,Other,7590.996237506404
+2017,Z,Tourism,3,Total,1,Religious,20565.41781199937
+2017,Z,Tourism,3,Total,2,Leisure,19208.924226155556
+2017,Z,Tourism,3,Total,3,Business,15445.265710592861
+2017,Z,Tourism,3,Total,4,Visiting Friends & Relatives,15522.16466540342
+2017,Z,Tourism,3,Total,5,Other,10333.624875068965
+2018,Z,Tourism,1,Saudi,2,Leisure,7991.776239270012
+2018,Z,Tourism,1,Saudi,3,Business,171.12621985228935
+2018,Z,Tourism,1,Saudi,4,Visiting Friends & Relatives,1351.787340438696
+2018,Z,Tourism,1,Saudi,5,Other,350.618858352187
+2018,Z,Tourism,2,Non Saudi,2,Leisure,370.0427552551439
+2018,Z,Tourism,2,Non Saudi,3,Business,2894.3437232053107
+2018,Z,Tourism,2,Non Saudi,4,Visiting Friends & Relatives,112.57353254485601
+2018,Z,Tourism,2,Non Saudi,5,Other,6508.271030301487
+2018,Z,Tourism,3,Total,1,Religious,19655.844313475365
+2018,Z,Tourism,3,Total,2,Leisure,18147.51413322951
+2018,Z,Tourism,3,Total,3,Business,14898.097923533627
+2018,Z,Tourism,3,Total,4,Visiting Friends & Relatives,16388.87561081881
+2018,Z,Tourism,3,Total,5,Other,9250.024986281063
+2019,Z,Tourism,1,Saudi,2,Leisure,8136.838307906587
+2019,Z,Tourism,1,Saudi,3,Business,152.2487332602567
+2019,Z,Tourism,1,Saudi,4,Visiting Friends & Relatives,1217.8584051467437
+2019,Z,Tourism,1,Saudi,5,Other,290.66895022457805
+2019,Z,Tourism,2,Non Saudi,2,Leisure,303.68939463942075
+2019,Z,Tourism,2,Non Saudi,3,Business,2597.536277402596
+2019,Z,Tourism,2,Non Saudi,4,Visiting Friends & Relatives,68.0895732549
+2019,Z,Tourism,2,Non Saudi,5,Other,6243.458367292638
+2019,Z,Tourism,3,Total,1,Religious,20906.086471024977
+2019,Z,Tourism,3,Total,2,Leisure,21497.904715084216
+2019,Z,Tourism,3,Total,3,Business,15360.25151848984
+2019,Z,Tourism,3,Total,4,Visiting Friends & Relatives,17561.963898412643
+2019,Z,Tourism,3,Total,5,Other,9015.0051574078
+2020,Z,Tourism,1,Saudi,2,Leisure,1457.0295245842399
+2020,Z,Tourism,1,Saudi,3,Business,13.159666405662
+2020,Z,Tourism,1,Saudi,4,Visiting Friends & Relatives,265.35824673235703
+2020,Z,Tourism,1,Saudi,5,Other,46.13283718309299
+2020,Z,Tourism,2,Non Saudi,2,Leisure,59.819494410091
+2020,Z,Tourism,2,Non Saudi,3,Business,606.646876727508
+2020,Z,Tourism,2,Non Saudi,4,Visiting Friends & Relatives,7.4827920454529995
+2020,Z,Tourism,2,Non Saudi,5,Other,2383.0931617678957
+2020,Z,Tourism,3,Total,1,Religious,7182.5400496389375
+2020,Z,Tourism,3,Total,2,Leisure,21043.132431390637
+2020,Z,Tourism,3,Total,3,Business,4352.487548008987
+2020,Z,Tourism,3,Total,4,Visiting Friends & Relatives,14622.107610692485
+2020,Z,Tourism,3,Total,5,Other,3883.4243448407833
+2021,Z,Tourism,1,Saudi,2,Leisure,2239.649
+2021,Z,Tourism,1,Saudi,3,Business,83.98
+2021,Z,Tourism,1,Saudi,4,Visiting Friends & Relatives,901.448
+2021,Z,Tourism,1,Saudi,5,Other,92.186
+2021,Z,Tourism,2,Non Saudi,2,Leisure,720.799
+2021,Z,Tourism,2,Non Saudi,3,Business,208.92499999999998
+2021,Z,Tourism,2,Non Saudi,4,Visiting Friends & Relatives,4095.4310000000005
+2021,Z,Tourism,2,Non Saudi,5,Other,72.708
+2021,Z,Tourism,3,Total,1,Religious,5733.080999999999
+2021,Z,Tourism,3,Total,2,Leisure,25639.377000000004
+2021,Z,Tourism,3,Total,3,Business,6736.206
+2021,Z,Tourism,3,Total,4,Visiting Friends & Relatives,34037.433
+2021,Z,Tourism,3,Total,5,Other,3580.146
+2022,Z,Tourism,1,Saudi,2,Leisure,5053.384
+2022,Z,Tourism,1,Saudi,3,Business,252.889
+2022,Z,Tourism,1,Saudi,4,Visiting Friends & Relatives,3822.745
+2022,Z,Tourism,1,Saudi,5,Other,334.65500000000003
+2022,Z,Tourism,2,Non Saudi,2,Leisure,928.8210000000001
+2022,Z,Tourism,2,Non Saudi,3,Business,366.449
+2022,Z,Tourism,2,Non Saudi,4,Visiting Friends & Relatives,5960.808999999999
+2022,Z,Tourism,2,Non Saudi,5,Other,162.667
+2022,Z,Tourism,3,Total,1,Religious,14009.129000000003
+2022,Z,Tourism,3,Total,2,Leisure,38311.310999999994
+2022,Z,Tourism,3,Total,3,Business,6790.976000000001
+2022,Z,Tourism,3,Total,4,Visiting Friends & Relatives,46731.135999999984
+2022,Z,Tourism,3,Total,5,Other,5514.226999999997
+2023,Z,Tourism,1,Saudi,2,Leisure,2797.666
+2023,Z,Tourism,1,Saudi,3,Business,127.447
+2023,Z,Tourism,1,Saudi,4,Visiting Friends & Relatives,2233.372
+2023,Z,Tourism,1,Saudi,5,Other,328.784
+2023,Z,Tourism,2,Non Saudi,2,Leisure,537.91
+2023,Z,Tourism,2,Non Saudi,3,Business,629.3969999999999
+2023,Z,Tourism,2,Non Saudi,4,Visiting Friends & Relatives,2940.0730000000003
+2023,Z,Tourism,2,Non Saudi,5,Other,312.02599999999995
+2023,Z,Tourism,3,Total,1,Religious,21393.298999999995
+2023,Z,Tourism,3,Total,2,Leisure,44592.044
+2023,Z,Tourism,3,Total,3,Business,10815.835000000001
+2023,Z,Tourism,3,Total,4,Visiting Friends & Relatives,36407.362
+2023,Z,Tourism,3,Total,5,Other,6042.497
+2024,Z,Tourism,3,Total,1,Religious,23748.058000000005
+2024,Z,Tourism,3,Total,2,Leisure,39802.158
+2024,Z,Tourism,3,Total,3,Business,10908.447
+2024,Z,Tourism,3,Total,4,Visiting Friends & Relatives,36046.473000000005
+2024,Z,Tourism,3,Total,5,Other,5379.665999999999
+2025,Z,Tourism,3,Total,1,Religious,27933.332000000002
+2025,Z,Tourism,3,Total,2,Leisure,37255.23400000001
+2025,Z,Tourism,3,Total,3,Business,10784.989000000001
+2025,Z,Tourism,3,Total,4,Visiting Friends & Relatives,42028.742
+2025,Z,Tourism,3,Total,5,Other,4576.003
