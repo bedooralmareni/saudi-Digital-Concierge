@@ -1,0 +1,565 @@
+,name,rating,review_count,genre,location,best_comment
+0,المسرح الروماني | Roman Theater,4.1,(151) , Performing arts theater,Al Uqayr Saudi Arabia,
+1,Maraya,4.6,(1.1T) , Concert hall,Al Atheeb Saudi Arabia,"""Also the theater is another level of perfection."""
+2,"Novo Cinemas, Seef Mall",4.3,(801) , Movie theater,"Muharraq, Bahrain · In Seef Mall - Arad, Muharraq","""The theater was comfortable and the screening was of high quality."""
+3,Education Department Theater,4.0,(169) , Performing arts theater,,"""Screen size is good enough."""
+4,Muvi Cinemas - Jubail Mall,4.3,(871) , Movie theater,Al Jubail Saudi Arabia · In Cenomi Al Jubail Mall,
+5,vox cinemas,4.2,(3.5T) , Movie theater,Riyadh Saudi Arabia · In Qasr Mall by Dar Al Arkan,"""Sound system and atmosphere very good."""
+6,AMC Cinemas Azizia 3,4.3,(604) , Movie theater,Riyadh Saudi Arabia,
+7,Muvi Cinemas | موڤي سينما,3.8,(389) , Movie theater,Dhahran Saudi Arabia · In the Mall of Dhahran,
+8,VOX Cinemas - Kingdom Centre,4.3,(1.4T) , Movie theater,Riyadh Saudi Arabia · In Kingdom Centre,"""Comfy chairs, and nice place for couples"""
+9,AMC Cinemas Al Khair 9,4.3,(1.6T) , Movie theater,Riyadh Saudi Arabia · In Almakan Mall,
+10,Empire Cinemas Khobar,3.9,(1.3T) , Movie theater,Al Khobar Saudi Arabia · In Al Rashid Mall,"""Lovely place and staff, prices are reasonable, screens chairs are wonderful 👌🏻"""
+11,Dhahran Movie Theatre,3.5,(210) , Movie theater,Dhahran Saudi Arabia,"""Its a small cinema and staff is not a happy bunch"""
+12,Saudi Aramco Abqaiq Community theater,3.9,(13) , Movie theater,Buqayq Saudi Arabia,
+13,Vox Cinema - Riyadh Front,4.3,(5.8T) , Movie theater,Riyadh Saudi Arabia · In Riyadh Front - Shopping Area,
+14,AMC Cinemas Riyadh Gallery 9,4.2,(1.5T) , Movie theater,Riyadh Saudi Arabia · In Riyadh Gallery Mall,"""Fancy chairs ,nice screens and snacks"""
+15,vox cinema,4.2,(724) , Movie theater,Riyadh Saudi Arabia · In The Esplanade Mall,
+16,Kmax Cinema,4.1,(130) , Movie theater,King Abdullah Economic City Saudi Arabia,
+17,AMC - Hafr Al Batin 8,4.2,(23) , Movie theater,SH Saudi Arabia,
+18,Muvi Boutique Cinema,4.4,(376) , Movie theater,Riyadh Saudi Arabia · In Cenomi Tala Mall,
+19,Empire Cinemas - Head Office,4.0,(36) , Movie theater,Riyadh Saudi Arabia,
+20,AMC Cinemas KAFD,3.9,(5.3T) , Movie theater,Riyadh Saudi Arabia · In Chalmont,"""Spacious and nice theater"""
+21,Cinépolis Cinemas - Lulu Mall,4.0,(1.3T) , Movie theater,Dammam Saudi Arabia · In LuLu Mall - Dammam,Upscale digital movie theater
+22,AMC Stars Avenue 9,4.2,(2.5T) , Movie theater,,
+23,Vox Cinema - Riyadh Front,4.3,(5.8T) , Movie theater,Riyadh Saudi Arabia · In Riyadh Front - Shopping Area,
+24,AMC Cinemas Riyadh Gallery 9,4.2,(1.5T) , Movie theater,Riyadh Saudi Arabia · In Riyadh Gallery Mall,"""Fancy chairs ,nice screens and snacks"""
+25,vox cinema,4.2,(724) , Movie theater,Riyadh Saudi Arabia · In The Esplanade Mall,
+26,Kmax Cinema,4.1,(130) , Movie theater,King Abdullah Economic City Saudi Arabia,
+27,AMC - Hafr Al Batin 8,4.2,(23) , Movie theater,SH Saudi Arabia,
+28,Muvi Boutique Cinema,4.4,(376) , Movie theater,Riyadh Saudi Arabia · In Cenomi Tala Mall,
+29,Empire Cinemas - Head Office,4.0,(36) , Movie theater,Riyadh Saudi Arabia,
+30,Cinépolis Cinemas - Al Jamea Plaza,4.2,(1.8T) , Movie theater,Jeddah Saudi Arabia · In Al Jamea Plaza,
+31,Muvi Cinemas | موڤي سينما,4.2,(1.9T) , Movie theater,Riyadh Saudi Arabia · In The View Mall,"""But small theater"""
+32,Muvi Cinemas | موڤي سينما,4.3,(2.8T) , Movie theater,Riyadh Saudi Arabia · In U Walk,
+33,ڤوكس سينما ذا روف,4.3,(3.6T) , Movie theater,Riyadh Saudi Arabia · In The Roof,
+34,AMC Cinemas Karam 5,4.1,(359) , Movie theater,Al Majma'ah Saudi Arabia · In Karam Mall,
+35,VOX Cinemas,4.4,(2.8T) , Movie theater,Jeddah Saudi Arabia · In Town Square,"""Wide and clean space."""
+36,Vox Cinema - Riyadh Park Mall,4.1,(7.4T) , Movie theater,Riyadh Saudi Arabia · In Riyadh Park,
+37,Ithra Theatre,4.7,(489) , Childrens theater,Dhahran Saudi Arabia,
+38,Empire Cinemas Jeddah,4.1,(1.3T) , Movie theater,Jeddah Saudi Arabia · In Al-Andalus Mall,
+39,VOX Cinemas,4.2,(1.9T) , Movie theater,Riyadh Saudi Arabia · In the Sahara Mall,"""Small theater with good service."""
+40,Empire Cinemas Khobar,3.9,(1.3T) , Movie theater,Al Khobar Saudi Arabia · In Al Rashid Mall,"""Lovely place and staff, prices are reasonable, screens chairs are wonderful 👌🏻"""
+41,Dhahran Movie Theatre,3.5,(210) , Movie theater,,"""But small theater"""
+42,Muvi Cinemas | موڤي سينما,4.3,(2.8T) , Movie theater,Riyadh Saudi Arabia · In U Walk,
+43,ڤوكس سينما ذا روف,4.3,(3.6T) , Movie theater,Riyadh Saudi Arabia · In The Roof,
+44,AMC Cinemas Karam 5,4.1,(359) , Movie theater,Al Majma'ah Saudi Arabia · In Karam Mall,
+45,VOX Cinemas,4.4,(2.8T) , Movie theater,Jeddah Saudi Arabia · In Town Square,"""Wide and clean space."""
+46,Vox Cinema - Riyadh Park Mall,4.1,(7.4T) , Movie theater,Riyadh Saudi Arabia · In Riyadh Park,
+47,Ithra Theatre,4.7,(489) , Childrens theater,Dhahran Saudi Arabia,
+48,Empire Cinemas Jeddah,4.1,(1.3T) , Movie theater,Jeddah Saudi Arabia · In Al-Andalus Mall,
+49,VOX Cinemas,4.2,(1.9T) , Movie theater,Riyadh Saudi Arabia · In the Sahara Mall,"""Small theater with good service."""
+50,Najmah Theater,4.0,(81) , Movie theater,Ras Tanura Saudi Arabia,
+51,AMC Cinemas Tabuk Boulevard,4.3,(55) , Movie theater,Tabuk Saudi Arabia,
+52,AMC Cinemas Panorama 10,4.3,(1.9T) , Movie theater,Riyadh Saudi Arabia · In Panorama Mall,
+53,Muvi Cinemas | موڤي سينما,4.3,(1.9T) , Movie theater,Al Hofuf Saudi Arabia · In Al Ahsa Mall by Arabian Centres,"""Very good place, great experience"""
+54,Muvi Cinemas | موڤي سينما,4.1,(2.7T) , Movie theater,Dammam Saudi Arabia · In Cenomi Al Nakheel Dammam Mall,
+55,AMC cinemas,4.2,(268) , Movie theater,Hafar Al Batin Saudi Arabia,
+56,Hayy Cinema (سينما حي),No reviews · Movie theater,Jeddah Saudi Arabia,,,
+57,Muvi Cinemas | موڤي سينما,4.4,(449) , Movie theater,Riyadh Saudi Arabia,
+58,AMC Dawadmi 3,3.9,(82) , Movie theater,Al Duwadimi Saudi Arabia · In عباية نواعم,
+59,ڤوكس سينما ذا سبوت,4.2,(724) , Movie theater,Riyadh Saudi Arabia · In راكا بلازا RAKAA PLAZA,
+60,Cinépolis Cinemas - Al Jamea Plaza,4.2,(1.8T) , Movie theater,Jeddah Saudi Arabia · In Al Jamea Plaza,
+61,Muvi Cinemas | موڤي سينما,4.2,(1.9T) , Movie theater,Riyadh Saudi Arabia · In The View Mall,"""But small theater"""
+62,Muvi Cinemas | موڤي سينما,4.3,(2.8T) , Movie theater,Riyadh Saudi Arabia · In U Walk,
+63,Muvi Cinemas | موڤي سينما,4.3,(1.9T) , Movie theater,Al Hofuf Saudi Arabia · In Al Ahsa Mall by Arabian Centres,"""Very good place, great experience"""
+64,Muvi Cinemas | موڤي سينما,4.1,(2.7T) , Movie theater,Dammam Saudi Arabia · In Cenomi Al Nakheel Dammam Mall,
+65,AMC cinemas,4.2,(268) , Movie theater,Hafar Al Batin Saudi Arabia,
+66,Hayy Cinema (سينما حي),No reviews · Movie theater,Jeddah Saudi Arabia,,,
+67,Muvi Cinemas | موڤي سينما,4.4,(449) , Movie theater,Riyadh Saudi Arabia,
+68,AMC Dawadmi 3,3.9,(82) , Movie theater,Al Duwadimi Saudi Arabia · In عباية نواعم,
+69,ڤوكس سينما ذا سبوت,4.2,(724) , Movie theater,Riyadh Saudi Arabia · In راكا بلازا RAKAA PLAZA,
+70,Muvi Cinemas | موڤي سينما,4.0,(1.3T) , Movie theater,Taif Saudi Arabia · In Taif City Walk,
+71,Muvi Cinemas,3.9,(108) , Movie theater,Jeddah Saudi Arabia · In Al Salaam Mall,
+72,Cinépolis Cinemas سينما سينيبولس,4.0,(86) , Movie theater,Jazan Saudi Arabia,
+73,Empire Cinemas Jazan,4.1,(975) , Movie theater,Jazan Saudi Arabia,
+74,VOX cinema,4.1,(1T) , Movie theater,Riyadh Saudi Arabia · In Atyaf Mall,
+75,Vox Cinemas,4.1,(4.8T) , Movie theater,Dammam Saudi Arabia · In West Avenue Mall,
+76,موڤي سينما النخيل بلازا_ بريدة,4.4,(1.4T) , Movie theater,Buraydah Saudi Arabia · In Al Nakheel Plaza,
+77,Muvi Cinemas | موڤي سينما,4.2,(840) , Movie theater,Jeddah Saudi Arabia · In Yasmin mall,
+78,AMC Cinemas Ajdan Walk,4.4,(957) , Movie theater,Al Khobar Saudi Arabia · In Ajdan Walk,
+79,Empire Cinemas Hail,4.0,(137) , Movie theater,Hail Saudi Arabia,
+80,Najmah Theater,4.0,(81) , Movie theater,Ras Tanura Saudi Arabia,
+81,AMC Cinemas Tabuk Boulevard,4.3,(55) , Movie theater,Tabuk Saudi Arabia,
+82,AMC Cinemas Panorama 10,4.3,(1.9T) , Movie theater,Riyadh Saudi Arabia · In Panorama Mall,
+83,Muvi Cinemas | موڤي سينما,4.1,(975) , Movie theater,Jazan Saudi Arabia,
+84,VOX cinema,4.1,(1T) , Movie theater,Riyadh Saudi Arabia · In Atyaf Mall,
+85,Vox Cinemas,4.1,(4.8T) , Movie theater,Dammam Saudi Arabia · In West Avenue Mall,
+86,موڤي سينما النخيل بلازا_ بريدة,4.4,(1.4T) , Movie theater,Buraydah Saudi Arabia · In Al Nakheel Plaza,
+87,Muvi Cinemas | موڤي سينما,4.2,(840) , Movie theater,Jeddah Saudi Arabia · In Yasmin mall,
+88,AMC Cinemas Ajdan Walk,4.4,(957) , Movie theater,Al Khobar Saudi Arabia · In Ajdan Walk,
+89,Empire Cinemas Hail,4.0,(137) , Movie theater,Hail Saudi Arabia,
+90,GOLD,4.1,(38) , Movie theater,Riyadh Saudi Arabia · In Vox Cinema - Riyadh Front,
+91,VOX Cinema,4.2,(525) , Movie theater,Hail Saudi Arabia,
+92,ڤوكس سينما تبوك بارك,4.0,(336) , Movie theater,Tabuk Saudi Arabia · In Tabuk Park,
+93,AMC Garden 5 - Hail,4.3,(33) , Movie theater,Hail Saudi Arabia · In Garden Mall,
+94,Empire Cinemas امباير سينما,4.0,(96) , Movie theater,Arar Saudi Arabia · In العثيم مول,
+95,Muvi Cinemas | موڤي سينما,3.7,(694) , Movie theater,Riyadh Saudi Arabia · In Al Nakheel Mall,"""Nice place (dolby experience)."""
+96,Muvi Cinemas - Salaam Mall,3.6,(130) , Movie theater,Riyadh Saudi Arabia · In Cenomi Salam Mall,
+97,Safety Orientation UGP,4.4,(34) , Movie theater,Uthmaniyah Saudi Arabia,
+98,سينما العرب,4.2,(941) , Movie theater,Jeddah Saudi Arabia · In the Mall of Arabia,
+99,VOX Cinemas - Red Sea Mall,4.3,(12T) , Movie theater,Jeddah Saudi Arabia · In the Red Sea Mall,"""Small theatre, but looks good"""
+100,Muvi Cinemas | موڤي سينما,4.0,(1.3T) , Movie theater,Taif Saudi Arabia · In Taif City Walk,
+101,Muvi Cinemas,3.9,(108) , Movie theater,Jeddah Saudi Arabia · In Al Salaam Mall,
+102,Cinépolis Cinemas سينما سينيبولس,4.0,(86) , Movie theater,Jazan Saudi Arabia,
+103,AMC Garden 5 - Hail,4.3,(33) , Movie theater,Hail Saudi Arabia · In Garden Mall,
+104,Empire Cinemas امباير سينما,4.0,(96) , Movie theater,Arar Saudi Arabia · In العثيم مول,"""Excelent movie theater, recommended 100%"""
+105,Muvi Cinemas | موڤي سينما,3.7,(694) , Movie theater,Riyadh Saudi Arabia · In Al Nakheel Mall,"""Nice place (dolby experience)."""
+106,Muvi Cinemas - Salaam Mall,3.6,(130) , Movie theater,Riyadh Saudi Arabia · In Cenomi Salam Mall,"""Big screen with large audience compared to old mall screen Riyadh"""
+107,Safety Orientation UGP,4.4,(34) , Movie theater,Uthmaniyah Saudi Arabia,
+108,سينما العرب,4.2,(941) , Movie theater,Jeddah Saudi Arabia · In the Mall of Arabia,"""Nice small theater to watch movies"""
+109,VOX Cinemas - Red Sea Mall,4.3,(12T) , Movie theater,Jeddah Saudi Arabia · In the Red Sea Mall,"""Small theatre, but looks good"""
+110,VOX Cinemas Jubail Galleria Mall,3.4,(87) , Movie theater,Al Jubail Saudi Arabia · In Galleria Mall,"""Just an average ordinary cinema!!!"""
+111,Muvi Cinemas | موڤي سينما,4.3,(577) , Movie theater,Khamis Mushait Saudi Arabia · In Mujan Park,"""New clean and organized theater."""
+112,Muvi Suites Cinemas | موڤي سويتس سينما,3.5,(274) , Movie theater,Jeddah Saudi Arabia,"""Very fancy and cozy place."""
+113,King Abdulaziz Center for World Culture - Ithra,4.6,(5.2T) , Movie theater,Dhahran Saudi Arabia,Cultural center with a striking design
+114,مسرح بكر الشدي,4.3,(125) , Performing arts theater,Riyadh Saudi Arabia · In Boulevard studios,Dine-in
+115,Muvi Cinemas The Village,4.4,(17) , Movie theater,Jeddah Saudi Arabia · In The village mall,
+116,Al Hamra Cinema,3.8,(1.6T) , Movie theater,"Manama, Bahrain","""Budget theater cleaned and maintained well"""
+117,Heritage village theatre,4.1,(96) , Performing arts theater,1c Saudi Arabia,
+118,Rotana Theater,3.6,(30) , Performing arts theater,Riyadh Saudi Arabia,
+119,super dome theater,4.4,(38) , Concert hall,Jeddah Saudi Arabia,
+120,GOLD,4.1,(38) , Movie theater,Riyadh Saudi Arabia · In Vox Cinema - Riyadh Front,
+121,VOX Cinema,4.2,(525) , Movie theater,Hail Saudi Arabia,"""temperatures is very low so it's very cold inside the theater."""
+122,ڤوكس سينما تبوك بارك,4.0,(336) , Movie theater,Tabuk Saudi Arabia · In Tabuk Park,"""Very fancy and cozy place."""
+123,King Abdulaziz Center for World Culture - Ithra,4.6,(5.2T) , Movie theater,Dhahran Saudi Arabia,Cultural center with a striking design
+124,مسرح بكر الشدي,4.3,(125) , Performing arts theater,Riyadh Saudi Arabia · In Boulevard studios,Dine-in
+125,Muvi Cinemas The Village,4.4,(17) , Movie theater,Jeddah Saudi Arabia · In The village mall,
+126,Al Hamra Cinema,3.8,(1.6T) , Movie theater,"Manama, Bahrain","""Budget theater cleaned and maintained well"""
+127,Heritage village theatre,4.1,(96) , Performing arts theater,1c Saudi Arabia,
+128,Rotana Theater,3.6,(30) , Performing arts theater,Riyadh Saudi Arabia,
+129,super dome theater,4.4,(38) , Concert hall,Jeddah Saudi Arabia,
+130,نطيطات حايل,3.2,(5) , Movie theater,Hail Saudi Arabia,
+131,Okaz Market Theater,4.3,(834) , Performing arts theater,Taif Saudi Arabia · In Souq Okaz,"""Best theater we enjoyed and had fun"""
+132,College of Science Theatre,No reviews · Amphitheater,Saudi Arabia ," In Northern Border University, Main Campus",,
+133,Muvi Cinemas | موڤي سينما,4.6,(1.2T) , Movie theater,Unayzah Saudi Arabia · In The Boulevard Unayzah,"""Nice theatre 🎭🎭 well maintained.."""
+134,Al Comedy Club,4.4,(18) , Performing arts theater,Dammam Saudi Arabia,
+135,TSCK IMAX,No reviews · IMAX theater,"Salmiya, Kuwait",,,
+136,Theater Lasan,3.5,(61) , Stage,Abha Saudi Arabia,
+137,University Theater,4.2,(116) , Stage,Abha Saudi Arabia · In King Khalid University,
+138,End Of The World Cinema,4.3,(37) , Movie theater,"Qesm Sharm Ash Sheikh, Egypt","""Edit after 3 years: Movie still did not started..."""
+139,Scitech,4.3,(6.3T) , Science museum,Al Khobar Saudi Arabia,"""The movie theater is cool..."""
+140,VOX Cinemas Jubail Galleria Mall,3.4,(87) , Movie theater,Al Jubail Saudi Arabia · In Galleria Mall,"""Just an average ordinary cinema!!!"""
+141,Muvi Cinemas | موڤي سينما,4.3,(577) , Movie theater,Khamis Mushait Saudi Arabia · In Mujan Park,"""New clean and organized theater."""
+142,Muvi Suites Cinemas | موڤي سويتس سينما,3.5,(274) , Movie theater,Jeddah Saudi Arabia,"""Very fancy and cozy place."""
+143,King Abdulaziz Center for World Culture - Ithra,4.6,(1.2T) , Movie theater,Unayzah Saudi Arabia · In The Boulevard Unayzah,"""Nice theatre 🎭🎭 well maintained.."""
+144,Al Comedy Club,4.4,(18) , Performing arts theater,Dammam Saudi Arabia,
+145,TSCK IMAX,No reviews · IMAX theater,"Salmiya, Kuwait",,,
+146,Theater Lasan,3.5,(61) , Stage,Abha Saudi Arabia,
+147,University Theater,4.2,(116) , Stage,Abha Saudi Arabia · In King Khalid University,
+148,End Of The World Cinema,4.3,(37) , Movie theater,"Qesm Sharm Ash Sheikh, Egypt","""Edit after 3 years: Movie still did not started..."""
+149,Scitech,4.3,(6.3T) , Science museum,Al Khobar Saudi Arabia,"""The movie theater is cool..."""
+150,المسرح الروماني | Roman Theater,4.1,(151) , Performing arts theater,Al Uqayr Saudi Arabia,
+151,Maraya,4.6,(1.1T) , Concert hall,Al Atheeb Saudi Arabia,"""Also the theater is another level of perfection."""
+152,"Novo Cinemas, Seef Mall",4.3,(801) , Movie theater,"Muharraq, Bahrain · In Seef Mall - Arad, Muharraq","""The theater was comfortable and the screening was of high quality."""
+153,Education Department Theater,4.0,(169) , Performing arts theater,Al Madinah Al Munawwarah Saudi Arabia,
+154,Benchmark Stage,4.3,(219) , Live Music,Jeddah Saudi Arabia,"""Very nice theater setup."""
+155,Live Show Arabia,5.0,(1) , Entertainment agency,Riyadh Saudi Arabia,Closed ⋅ Opens 9 am Wed
+156,Far-is studio,4.6,(17) , Museum,Riyadh Saudi Arabia,
+157,Terhal,5.0,(65) , Concert hall,Diriyah Saudi Arabia,"""The food is not allowed inside the theater, so eat and drink your ..."""
+158,Riyadh Front - Shopping Area,4.5,(25T) , Shopping mall,Riyadh Saudi Arabia,"""Very nice mall with Cinema theater facility"""
+159,TheClub,4.4,(654) , Entertainer,Jeddah Saudi Arabia,Open now
+160,نطيطات حايل,3.2,(5) , Movie theater,Hail Saudi Arabia,
+161,Okaz Market Theater,4.3,(834) , Performing arts theater,Taif Saudi Arabia · In Souq Okaz,"""Best theater we enjoyed and had fun"""
+162,,4.3,(801) , Movie theater,"Muharraq, Bahrain · In Seef Mall - Arad, Muharraq","""The theater was comfortable and the screening was of high quality."""
+163,Education Department Theater,4.0,(169) , Performing arts theater,Al Madinah Al Munawwarah Saudi Arabia,
+164,Benchmark Stage,4.3,(219) , Live Music,Jeddah Saudi Arabia,"""Very nice theater setup."""
+165,Live Show Arabia,5.0,(1) , Entertainment agency,Riyadh Saudi Arabia,Closed ⋅ Opens 9 am Wed
+166,Far-is studio,4.6,(17) , Museum,Riyadh Saudi Arabia,
+167,Terhal,5.0,(65) , Concert hall,Diriyah Saudi Arabia,"""The food is not allowed inside the theater, so eat and drink your ..."""
+168,Riyadh Front - Shopping Area,4.5,(25T) , Shopping mall,Riyadh Saudi Arabia,"""Very nice mall with Cinema theater facility"""
+169,TheClub,4.4,(654) , Entertainer,Jeddah Saudi Arabia,Open now
+170,Jeddah Superdome,4.3,(5.1T) , Event venue,Jeddah Saudi Arabia,"""Very big theater for all kind of shows"""
+171,Conference Center,4.5,(735) , Conference center,Riyadh Saudi Arabia · In the Princess Nora bint Abdul Rahman University,"""Feels like you are sitting on stadium, not theater."""
+172,SUNRISE RESORT,4.9,(98) , Resort hotel,Riyadh Saudi Arabia,"""I mostly enjoyed the cinema theater"""
+173,"Crowne Plaza al Khobar, an IHG Hotel",4.4,(5.2T) , Hotel,Al Khobar Saudi Arabia,Upmarket hotel with fine dining
+174,Al Dana Amphitheatre,4.4,(512) , Amphitheater,"Zallaq, Bahrain","""First visit to this Theater and found that everything is organized."""
+175,"Staybridge Suites al Khobar, an IHG Hotel",4.5,(1.9T) , Hotel,Al Khobar Saudi Arabia,Contemporary all-suite hotel with a pool
+176,Hezwa,Saudi Arabia,,,,
+177,Emerald Hall,4.3,(67) , Event venue,Dammam Saudi Arabia,"""... makes it perfect for hosting concerts, recitals, theater performances ..."""
+178,Muvi Cinemas - Drive In Riyadh,3.7,(155) , Movie theater,Riyadh Saudi Arabia,Temporarily closed
+179,Talal Maddah Theater,3.9,(2.5T) , Stage,Abha Saudi Arabia,Temporarily closed
+180,المسرح الروماني | Roman Theater,4.1,(151) , Performing arts theater,Al Uqayr Saudi Arabia,
+181,Maraya,4.6,(1.1T) , Concert hall,Al Atheeb Saudi Arabia,"""Also the theater is another level of perfection."""
+182,,4.9,(98) , Resort hotel,Riyadh Saudi Arabia,"""I mostly enjoyed the cinema theater"""
+183,"Crowne Plaza al Khobar, an IHG Hotel",4.4,(5.2T) , Hotel,Al Khobar Saudi Arabia,Upmarket hotel with fine dining
+184,Al Dana Amphitheatre,4.4,(512) , Amphitheater,"Zallaq, Bahrain","""First visit to this Theater and found that everything is organized."""
+185,"Staybridge Suites al Khobar, an IHG Hotel",4.5,(1.9T) , Hotel,Al Khobar Saudi Arabia,Contemporary all-suite hotel with a pool
+186,Hezwa,Saudi Arabia,,,,
+187,Emerald Hall,4.3,(67) , Event venue,Dammam Saudi Arabia,"""... makes it perfect for hosting concerts, recitals, theater performances ..."""
+188,Muvi Cinemas - Drive In Riyadh,3.7,(155) , Movie theater,Riyadh Saudi Arabia,Temporarily closed
+189,Talal Maddah Theater,3.9,(2.5T) , Stage,Abha Saudi Arabia,Temporarily closed
+190,Tekka Tatbeelah,4.6,(593) , ₹ ,Safwa Saudi Arabia,Dine-in·
+191,Goodbye,No reviews · Drama theater,Dammam Saudi Arabia,,Temporarily closed,
+192,Crystals restaurant,No reviews · Restaurant,Riyadh Saudi Arabia , In Novotel Riyadh Al Anoud,Closed ⋅ Opens 7 am Wed,Dine-in·
+193,مركز الجونة للمؤتمرات والثقافة,4.6,(9) , Outdoor movie theater,"Hurghada 2, Egypt",
+194,مركز ضيافة كيان المستقبل,4.2,(86) , Kindergarten School,Riyadh Saudi Arabia,Closed ⋅ Opens 6:30 am Wed
+195,مدرج طائرات,No reviews · Amphitheater,Saudi Arabia,,Temporarily closed,
+196,Riyadh Schools Theater,No reviews · School,Riyadh Saudi Arabia,,Temporarily closed,
+200,Alkuzama,4.5,(2) , Tourist attraction,Riyadh Saudi Arabia,
+201,برج الفيصلية,4.6,(872) , Tourist attraction,Riyadh Saudi Arabia · In Tamimi Markets - Olaya,"""A luxurious place with restaurants and markets"""
+202,Sa'ad Red Sand - Dunes,4.8,(6) , Tourist attraction,Sa'ad Saudi Arabia,"""Rubbish are everywhere near the rental place."""
+203,Durat Al Sahel Water Theme Park,3.7,(3.2T) , Theme park,Riyadh Saudi Arabia,Closed ⋅ Opens 1 pm Thu
+204,The old palace,3.9,(69) , Tourist attraction,Al Moqbel Palaces Saudi Arabia,Closed ⋅ Opens 6:30 am Wed
+205,Al-Samar Amusement Center,3.9,(855) , Amusement center,Riyadh Saudi Arabia,"""Like the place, very entertaining just choose your favourite activity"""
+206,Mosary Arena,3.4,(230) , Amusement center,Riyadh Saudi Arabia,"""Nice place my kids was very happy that day Will visit again very ..."""
+207,Diriyah,4.4,(23) , Tourist attraction,Diriyah Saudi Arabia,"""Beautiful historical place in a contemporary design for restaurants."""
+208,Snow City,3.9,(7T) , Amusement center,Riyadh Saudi Arabia · In العثيم مول | Othaim Mall,"""Nb 1 entertainment place"""
+209,Al Muhaijah المحيجة,No reviews · Tourist attraction,الصفيراء Saudi Arabia,,,
+210,King Fahad's Fountain,4.5,(8.9T) , Tourist attraction,Jeddah Saudi Arabia,Closed ⋅ Opens 9 am Wed
+211,Al Hokair Time,4.0,(2.9T) , Theme park,Riyadh Saudi Arabia,"""Nice place, variety of kids entertainment"""
+212,Saffori Land,4.1,(4.6T) , Amusement center,Riyadh Saudi Arabia · In العثيم مول | Othaim Mall,"""Entertainment place for kids"""
+213,Wild Baboons,3.6,(27) , Tourist attraction,Riyadh Saudi Arabia,"""... this location im planning to visit this place. thanks in advance"""
+214,Ushaiqer Heritage Village,4.5,(3T) , Tourist attraction,Ushaiqer Saudi Arabia,"""Great place to visit that shows you the old cities in Saudi Arabia"""
+215,Sky Zone | سكاي زون,3.8,(276) , Amusement center,Riyadh Saudi Arabia · In Al Maathar Plaza 2,"""Prefect place to go to chill have fun and get some exercise on."""
+216,مواقف ادارة البوليڤارد,4.1,(28) , Tourist attraction,Riyadh Saudi Arabia,
+217,الدرعية,4.5,(101) , Tourist attraction,Riyadh Saudi Arabia,"""... district is place where you can have calm and charming dinner."""
+218,Al Masmak Palace Museum,4.5,(3.2T) , Tourist attraction,Riyadh Saudi Arabia,Closes soon ⋅ 9 pm
+219,Blvd World,4.6,(746) , Tourist attraction,Riyadh Saudi Arabia,Open now
+220,Alkuzama,4.5,(2) , Tourist attraction,Riyadh Saudi Arabia,
+221,برج الفيصلية,4.6,(872) , Tourist attraction,Riyadh Saudi Arabia · In Tamimi Markets - Olaya,"""A luxurious place with restaurants and markets"""
+222,Sa'ad Red Sand - Dunes,4.8,(6) , Tourist attraction,Sa'ad Saudi Arabia,"""Rubbish are everywhere near the rental place."""
+223,Wild Baboons,3.6,(27) , Tourist attraction,Riyadh Saudi Arabia,"""... this location im planning to visit this place. thanks in advance"""
+224,Ushaiqer Heritage Village,4.5,(3T) , Tourist attraction,Ushaiqer Saudi Arabia,"""Great place to visit that shows you the old cities in Saudi Arabia"""
+225,Sky Zone | سكاي زون,3.8,(276) , Amusement center,Riyadh Saudi Arabia · In Al Maathar Plaza 2,"""Prefect place to go to chill have fun and get some exercise on."""
+226,مواقف ادارة البوليڤارد,4.1,(28) , Tourist attraction,Riyadh Saudi Arabia,
+227,الدرعية,4.5,(101) , Tourist attraction,Riyadh Saudi Arabia,"""... district is place where you can have calm and charming dinner."""
+228,Al Masmak Palace Museum,4.5,(3.2T) , Tourist attraction,Riyadh Saudi Arabia,Closes soon ⋅ 9 pm
+229,Blvd World,4.6,(746) , Tourist attraction,Riyadh Saudi Arabia,Open now
+230,Sparky's | سباركيز,4.0,(168) , Amusement center,Riyadh Saudi Arabia,"""Nice place for kids entertainment, fully isolated"""
+231,Al-Bujairi Heritage Park,4.4,(12T) , National park,Riyadh Saudi Arabia,"""Nice place for family entertainment.... enough parking space ..."""
+232,Red Sand Dunes,4.5,(1.2T) , Tourist attraction,Saudi Arabia,"""Nice entertainment place."""
+233,King Abdullah Park,4.2,(33T) , Tourist attraction,Riyadh Saudi Arabia,"""Good entertainment place"""
+234,Riyadh Zoo,4.2,(36T) , Tourist attraction,Riyadh Saudi Arabia,Closed ⋅ Opens 10 am Wed
+235,Observatory Thanian,4.6,(23) , Tourist attraction,Al-Muzahmiya Saudi Arabia,
+236,Sparky's,4.0,(961) , Amusement park,Riyadh Saudi Arabia · In Riyadh Gallery Mall,"""One of the favorite places for kids"""
+237,DAZ داز,4.5,(278) , Amusement center,Jeddah Saudi Arabia,"""My daughter’s favorite place !"""
+238,Long Flag,4.4,(792) , Tourist attraction,Diriyah Saudi Arabia · In King Salman Square in Diriyah,"""Good place and very quiet."""
+239,Magic Planet Riyadh Front - ماجيك بلانيت واجهة الرياض,4.2,(44) , Amusement center,Riyadh Saudi Arabia · In Riyadh Front - Shopping Area,"""I personally highly recommend him for a very sensitive areas in your ..."""
+240,King Fahad's Fountain,4.5,(8.9T) , Tourist attraction,Jeddah Saudi Arabia,Closed ⋅ Opens 9 am Wed
+241,Al Hokair Time,4.0,(2.9T) , Theme park,Riyadh Saudi Arabia,"""Nice place, variety of kids entertainment"""
+242,Saffori Land,4.1,(4.6T) , Amusement center,Riyadh Saudi Arabia · In العثيم مول | Othaim Mall,
+243,King Abdullah Park,4.2,(33T) , Tourist attraction,Riyadh Saudi Arabia,"""Good entertainment place"""
+244,Riyadh Zoo,4.2,(36T) , Tourist attraction,Riyadh Saudi Arabia,Closed ⋅ Opens 10 am Wed
+245,Observatory Thanian,4.6,(23) , Tourist attraction,Al-Muzahmiya Saudi Arabia,
+246,Sparky's,4.0,(961) , Amusement park,Riyadh Saudi Arabia · In Riyadh Gallery Mall,"""One of the favorite places for kids"""
+247,DAZ داز,4.5,(278) , Amusement center,Jeddah Saudi Arabia,"""My daughter’s favorite place !"""
+248,Long Flag,4.4,(792) , Tourist attraction,Diriyah Saudi Arabia · In King Salman Square in Diriyah,"""Good place and very quiet."""
+249,Magic Planet Riyadh Front - ماجيك بلانيت واجهة الرياض,4.2,(44) , Amusement center,Riyadh Saudi Arabia · In Riyadh Front - Shopping Area,"""I personally highly recommend him for a very sensitive areas in your ..."""
+250,Real Edge of the World,4.6,(89) , Tourist attraction,العويند Saudi Arabia,"""Just amazing Place can be reached by 4x4 The place may be close ..."""
+251,Little Red Sand,4.3,(7) , Tourist attraction,Riyadh Saudi Arabia,
+252,Valley of Life,4.0,(17) , Tourist attraction,Riyadh Saudi Arabia,"""Good place there ..."""
+253,Park near Museum,4.1,(8) , Park,Riyadh Saudi Arabia,"""Very nice and well maintained place Good for morning & evening ..."""
+254,Edge of the World,4.6,(3.3T) , Tourist attraction,Saudi Arabia,"""An interesting location with amazing views"""
+255,Last Hour Escape Room,4.9,(1T) , Escape room center,Riyadh Saudi Arabia,"""A great place if you're looking to have fun in Riyadh!!"""
+256,سفوري لاند | Safforiland,3.8,(296) , Amusement center,Riyadh Saudi Arabia · In Al Othaim Mall,
+257,Escape the Room,4.8,(3.2T) , Escape room center,Al Khobar Saudi Arabia,"""The best entertainment place in Khobar."""
+258,Raghba observation tower,4.6,(74) , Tourist attraction,Rughabah Saudi Arabia,
+259,Al Haeer Park Khamsa Khamsa,3.8,(451) , Tourist attraction,Riyadh Saudi Arabia,"""Super nice place away from city crowd."""
+260,Sparky's | سباركيز,4.0,(168) , Amusement center,Riyadh Saudi Arabia,"""Nice place for kids entertainment, fully isolated"""
+261,Al-Bujairi Heritage Park,4.4,(12T) , National park,Riyadh Saudi Arabia,"""Nice place for family entertainment.... enough parking space ..."""
+262,Red Sand Dunes,4.5,(17) , Tourist attraction,Riyadh Saudi Arabia,"""Good place there ..."""
+263,Park near Museum,4.1,(8) , Park,Riyadh Saudi Arabia,"""Very nice and well maintained place Good for morning & evening ..."""
+264,Edge of the World,4.6,(3.3T) , Tourist attraction,Saudi Arabia,"""An interesting location with amazing views"""
+265,Last Hour Escape Room,4.9,(1T) , Escape room center,Riyadh Saudi Arabia,"""A great place if you're looking to have fun in Riyadh!!"""
+266,سفوري لاند | Safforiland,3.8,(296) , Amusement center,Riyadh Saudi Arabia · In Al Othaim Mall,
+267,Escape the Room,4.8,(3.2T) , Escape room center,Al Khobar Saudi Arabia,"""The best entertainment place in Khobar."""
+268,Raghba observation tower,4.6,(74) , Tourist attraction,Rughabah Saudi Arabia,
+269,Al Haeer Park Khamsa Khamsa,3.8,(451) , Tourist attraction,Riyadh Saudi Arabia,"""Super nice place away from city crowd."""
+270,Xtreme Play اكستريم بلاي,4.1,(93) , Amusement center,Jeddah Saudi Arabia,"""Awesome place… look out for Majed AlGhamdi, he is an awesome ..."""
+271,Al Muruj Park,3.9,(1.4T) , Tourist attraction,Riyadh Saudi Arabia,
+272,Sparky's | سباركيز,3.8,(1.1T) , Amusement center,Dammam Saudi Arabia · In Dareen Mall,"""This place is the best in area they have too much games and kids ..."""
+273,The Escape Hotel,4.7,(735) , Escape room center,Jeddah Saudi Arabia,"""Spooky yet fun place to try.. with different levels from easy to hard I ..."""
+274,The sky bridge of the kingdom center,4.5,(94) , Tourist attraction,Riyadh Saudi Arabia · In Kingdom Centre,"""It locates on the 99th Floor."""
+275,Isteraha Al Faris,4.4,(38) , Community garden,Riyadh Saudi Arabia,Open now
+276,كهف الوالي,No reviews · Tourist attraction,Algtaar Saudi Arabia,,,
+277,Riyadh Season,4.5,(14T) , Tourist attraction,Riyadh Saudi Arabia,"""Ful on entertainment place in riyadh"""
+278,Heritage Village,4.5,(260) , Tourist attraction,Shaqra Saudi Arabia,
+279,Corniche Island,4.7,(22) , Tourist attraction,Al Khobar Saudi Arabia,
+280,Real Edge of the World,4.6,(89) , Tourist attraction,العويند Saudi Arabia,"""Just amazing Place can be reached by 4x4 The place may be close ..."""
+281,Little Red Sand,4.3,(7) , Tourist attraction,Riyadh Saudi Arabia,
+282,Valley of Life,4.0,(17) , Tourist attraction,Riyadh Saudi Arabia,
+283,The Escape Hotel,4.7,(735) , Escape room center,Jeddah Saudi Arabia,"""Spooky yet fun place to try.. with different levels from easy to hard I ..."""
+284,The sky bridge of the kingdom center,4.5,(94) , Tourist attraction,Riyadh Saudi Arabia · In Kingdom Centre,"""It locates on the 99th Floor."""
+285,Isteraha Al Faris,4.4,(38) , Community garden,Riyadh Saudi Arabia,Open now
+286,كهف الوالي,No reviews · Tourist attraction,Algtaar Saudi Arabia,,,
+287,Riyadh Season,4.5,(14T) , Tourist attraction,Riyadh Saudi Arabia,"""Ful on entertainment place in riyadh"""
+288,Heritage Village,4.5,(260) , Tourist attraction,Shaqra Saudi Arabia,
+289,Corniche Island,4.7,(22) , Tourist attraction,Al Khobar Saudi Arabia,
+290,Alsafat Square,4.4,(1.1T) , Tourist attraction,Riyadh Saudi Arabia,"""This is my Home place"""
+291,Saffori Land,4.0,(1.6T) , Amusement center,Riyadh Saudi Arabia · In أسواق عبدالله العثيم |Abdullah Alothaim Markets,"""Awesome place for children entertainment"""
+292,Market DQ,2.5,(4) , Tourist attraction,Riyadh Saudi Arabia,
+293,عين العباس,3.7,(3) , Tourist attraction,Saudi Arabia,
+294,ALNakheel Park,4.0,(2.3T) , Tourist attraction,Riyadh Saudi Arabia,"Lawns, palm trees & sports facilities"
+295,Magic Planet Riyadh Park - ماجيك بلانيت الرياض بارك,3.7,(398) , Amusement center,Riyadh Saudi Arabia · In Riyadh Park,"""Very fun place for the kids.. Only problem is traffic ..."""
+296,Zero Latency | زيرو ليتنسي,3.9,(761) , Amusement center,Riyadh Saudi Arabia,"""Best place for Virtual Reality entertainment."""
+297,Fanta Park,4.1,(49) , Amusement center,Riyadh Saudi Arabia · In Royal Mall Riyadh,"""It a nice place for entertainment for your children but your children ..."""
+298,Jabal Baloum,4.3,(6) , Tourist attraction,Riyadh Saudi Arabia,"""Great location for camping and to have fun around."""
+299,Escape Room,4.5,(721) , Escape room center,Riyadh Saudi Arabia,"""I highly recommend this place for spending fun time with your family ..."""
+300,Xtreme Play اكستريم بلاي,4.1,(93) , Amusement center,Jeddah Saudi Arabia,"""Awesome place… look out for Majed AlGhamdi, he is an awesome ..."""
+301,Al Muruj Park,3.9,(1.4T) , Tourist attraction,Riyadh Saudi Arabia,
+302,Sparky's | سباركيز,3.8,(1.1T) , Amusement center,Dammam Saudi Arabia · In Dareen Mall,"""This place is the best in area they have too much games and kids ..."""
+303,The Escape Hotel,4.7,(3) , Tourist attraction,Saudi Arabia,
+304,ALNakheel Park,4.0,(2.3T) , Tourist attraction,Riyadh Saudi Arabia,"Lawns, palm trees & sports facilities"
+305,Magic Planet Riyadh Park - ماجيك بلانيت الرياض بارك,3.7,(398) , Amusement center,Riyadh Saudi Arabia · In Riyadh Park,"""Very fun place for the kids.. Only problem is traffic ..."""
+306,Zero Latency | زيرو ليتنسي,3.9,(761) , Amusement center,Riyadh Saudi Arabia,"""Best place for Virtual Reality entertainment."""
+307,Fanta Park,4.1,(49) , Amusement center,Riyadh Saudi Arabia · In Royal Mall Riyadh,"""It a nice place for entertainment for your children but your children ..."""
+308,Jabal Baloum,4.3,(6) , Tourist attraction,Riyadh Saudi Arabia,"""Great location for camping and to have fun around."""
+309,Escape Room,4.5,(721) , Escape room center,Riyadh Saudi Arabia,"""I highly recommend this place for spending fun time with your family ..."""
+310,Manakh King Abdulaziz Park,3.8,(2.4T) , Tourist attraction,Riyadh Saudi Arabia,"""It is very nice place. Especially for BarBQ."""
+311,Al Fazari Courtyard,4.0,(34) , Garden,Riyadh Saudi Arabia,"""Just gets better with time a few really nice places to eat, with great ..."""
+312,Al-Hayer Park Lake,4.5,(568) , Park,Riyadh Saudi Arabia,"""A very nice place for entertainment with family"""
+313,Mount Uraidh Hidden Spring,3.0,(4) , Tourist attraction,Riyadh Saudi Arabia,"""Nice and quite place."""
+314,Sky Zone,4.0,(3.8T) , Amusement center,Riyadh Saudi Arabia · In Al Hokair Time,"""Great place for entertainment."""
+315,ALHOKAIR TIME | الحكير تايم,3.8,(3.1T) , Amusement center,Al Madinah Al Munawwarah Saudi Arabia,"""Amusement place for all most especially for kids."""
+316,Tuwaiq Garden,4.4,(535) , Tourist attraction,Riyadh Saudi Arabia,"""Beautiful place to jog. I enjoyed walking around the place to ..."""
+317,Sparky's | سباركيز,3.4,(18) , Amusement center,Buraydah Saudi Arabia · In Al Nakheel Plaza,
+318,I Love Riyadh Sign,4.5,(50) , Tourist attraction,Riyadh Saudi Arabia,
+319,Sparky's,3.8,(740) , Children's amusement center,الظهرانDhahran Saudi Arabia · In the Mall of Dhahran,"""Good place for kids entertainment"""
+320,Alsafat Square,4.4,(1.1T) , Tourist attraction,Riyadh Saudi Arabia,"""This is my Home place"""
+321,Saffori Land,4.0,(1.6T) , Amusement center,Riyadh Saudi Arabia · In أسواق عبدالله العثيم |Abdullah Alothaim Markets,"""Awesome place for children entertainment"""
+322,Market DQ,2.5,(4) , Tourist attraction,Riyadh Saudi Arabia,
+323,عين العباس,3.7,(3) , Tourist attraction,Riyadh Saudi Arabia,"""Nice and quite place."""
+324,Sky Zone,4.0,(3.8T) , Amusement center,Riyadh Saudi Arabia · In Al Hokair Time,"""Great place for entertainment."""
+325,ALHOKAIR TIME | الحكير تايم,3.8,(3.1T) , Amusement center,Al Madinah Al Munawwarah Saudi Arabia,"""Amusement place for all most especially for kids."""
+326,Tuwaiq Garden,4.4,(535) , Tourist attraction,Riyadh Saudi Arabia,"""Beautiful place to jog. I enjoyed walking around the place to ..."""
+327,Sparky's | سباركيز,3.4,(18) , Amusement center,Buraydah Saudi Arabia · In Al Nakheel Plaza,
+328,I Love Riyadh Sign,4.5,(50) , Tourist attraction,Riyadh Saudi Arabia,
+329,Sparky's,3.8,(740) , Children's amusement center,الظهرانDhahran Saudi Arabia · In the Mall of Dhahran,"""Good place for kids entertainment"""
+330,Salam Park,4.3,(3.9T) , Park,Riyadh Saudi Arabia,"""Has many areas for entertainment including boat riding."""
+331,بركس ابو عسلة,5.0,(4) , Tourist attraction,السلام العليا Saudi Arabia,
+332,Sphinx Rock,4.4,(11) , Nature preserve,عجاج Saudi Arabia,"""Superb off road location!"""
+333,Round About,5.0,(1) , Tourist attraction,Saudi Arabia,
+334,واحة مصك توارن,4.8,(11) , Tourist attraction,Tuwarin Saudi Arabia,
+335,غار بنو وعابد,No reviews · Tourist attraction,Al Mudheyba'ah Saudi Arabia,,,
+336,صلال المبروقة,4.8,(13) , Tourist attraction,Saudi Arabia,
+337,Boulevard World,4.6,(4.7T) , Theme park,Riyadh Saudi Arabia,"""... experience, comparable to the world's entertainment areas."""
+338,Riyadh Safari,3.9,(1.4T) , Park,Saudi Arabia,"""Best place ever. It got so many entertaining stuff in it."""
+339,Sparky's | سباركيز,3.6,(349) , Amusement center,Alkharaj Saudi Arabia,"""Grear Fun place for kids. Very well maintained."""
+340,Manakh King Abdulaziz Park,3.8,(2.4T) , Tourist attraction,Riyadh Saudi Arabia,"""It is very nice place. Especially for BarBQ."""
+341,Al Fazari Courtyard,4.0,(34) , Garden,Riyadh Saudi Arabia,"""Just gets better with time a few really nice places to eat, with great ..."""
+342,Al-Hayer Park Lake,4.5,(568) , Park,Riyadh Saudi Arabia,"""A very nice place for entertainment with family"""
+343,Round About,5.0,(1) , Tourist attraction,Saudi Arabia,
+344,واحة مصك توارن,4.8,(11) , Tourist attraction,Tuwarin Saudi Arabia,
+345,غار بنو وعابد,No reviews · Tourist attraction,Al Mudheyba'ah Saudi Arabia,,,
+346,صلال المبروقة,4.8,(13) , Tourist attraction,Saudi Arabia,
+347,Boulevard World,4.6,(4.7T) , Theme park,Riyadh Saudi Arabia,"""... experience, comparable to the world's entertainment areas."""
+348,Riyadh Safari,3.9,(1.4T) , Park,Saudi Arabia,"""Best place ever. It got so many entertaining stuff in it."""
+349,Sparky's | سباركيز,3.6,(349) , Amusement center,Alkharaj Saudi Arabia,"""Grear Fun place for kids. Very well maintained."""
+350,فزز هوا Fizz Hawa,4.6,(2.1T) , Amusement center,Riyadh Saudi Arabia,"""It's vast and really good for the price compared to other places"""
+351,Naquibs Pond,3.7,(26) , Tourist attraction,Riyadh Saudi Arabia,"""Beautiful place during sunset"""
+352,Cave Park,4.0,(25) , Park,Riyadh Saudi Arabia,
+353,Snowy Forest,3.6,(417) , Amusement center,Riyadh Saudi Arabia,
+354,Park Zoo in Al-Kharj,3.4,(1.4T) , Tourist attraction,Al-Kharj Saudi Arabia,"""Al_kharj small Zoo place for children and family entertainment, Lion, ..."""
+355,Winter Wonderland,4.2,(6.7T) , Theme park,وحيدة Saudi Arabia,"""It’s the best entertainment place hosted by Riyadh season ever"""
+356,Wadi Namar Waterfall,4.4,(5.9T) , Tourist attraction,Riyadh Saudi Arabia,"""Wadi Nimar in Riyadh is my favorite place for entertainment"""
+357,Sparky's,3.9,(925) , Amusement park,Riyadh Saudi Arabia · In Al Nakheel Mall,"""Entertainment for kids"""
+358,حديقة الفوطة,3.7,(6.9T) , Park,Riyadh Saudi Arabia,"""Amazing place for entertainment."""
+359,مطل العماريه,3.9,(338) , Tourist attraction,Saudi Arabia,
+360,Salam Park,4.3,(3.9T) , Park,Riyadh Saudi Arabia,"""Has many areas for entertainment including boat riding."""
+361,بركس ابو عسلة,5.0,(4) , Tourist attraction,السلام العليا Saudi Arabia,
+362,Sphinx Rock,4.4,(11) , Nature preserve,عجاج Saudi Arabia,"""Superb off road location!"""
+363,Round About,3.6,(417) , Amusement center,Riyadh Saudi Arabia,
+364,Park Zoo in Al-Kharj,3.4,(1.4T) , Tourist attraction,Al-Kharj Saudi Arabia,"""Al_kharj small Zoo place for children and family entertainment, Lion, ..."""
+365,Winter Wonderland,4.2,(6.7T) , Theme park,وحيدة Saudi Arabia,"""It’s the best entertainment place hosted by Riyadh season ever"""
+366,Wadi Namar Waterfall,4.4,(5.9T) , Tourist attraction,Riyadh Saudi Arabia,"""Wadi Nimar in Riyadh is my favorite place for entertainment"""
+367,Sparky's,3.9,(925) , Amusement park,Riyadh Saudi Arabia · In Al Nakheel Mall,"""Entertainment for kids"""
+368,حديقة الفوطة,3.7,(6.9T) , Park,Riyadh Saudi Arabia,"""Amazing place for entertainment."""
+369,مطل العماريه,3.9,(338) , Tourist attraction,Saudi Arabia,
+370,TAKENDA,4.2,(37) , Amusement park,Riyadh Saudi Arabia · In Boulevard Riyadh City,"""Nice family entertainment places"""
+371,RMROMA LAND,2.9,(21) , Theme park,Dammam Saudi Arabia · In Marina Mall,"""Entertainment for children🤩🤩 but dangerous for parents 🤣🤣🤑🤑.. Lovely place."""
+372,Saudi Television Tower,4.4,(224) , Tourist attraction,Riyadh Saudi Arabia,"""nice place and nice people inside tv station."""
+373,Ahaji Escape Rooms أحاجي,4.8,(1.1T) , Escape room center,Riyadh Saudi Arabia,"""Very entertaining place with very humble and great staff"""
+374,بداية المسار,4.6,(16) , Hiking area,Al Moqbel Palaces Saudi Arabia,
+375,Saudi Discovery,4.9,(15) , Travel agency,Riyadh Saudi Arabia,"""We visited several historical sites such as the Masmak Fortress and ..."""
+376,sparkys,3.8,(646) , Amusement park,Riyadh Saudi Arabia · In Panorama Mall,"""All games working and having Operational technical stuff."""
+377,Planet X,3.9,(109) , Amusement center,Riyadh Saudi Arabia · In The Zone,"""The place has a hydraulic driving rig with a bunch of games on it."""
+378,Mazebox Escape Room,4.5,(1.2T) , Escape room center,Jeddah Saudi Arabia,"""It's a really nice place. We had fun good price."""
+379,Family Park,4.1,(98) , Park,Riyadh Saudi Arabia,"""OMG i was walking around and I saw the skinny legend queen jiafei ..."""
+380,فزز هوا Fizz Hawa,4.6,(2.1T) , Amusement center,Riyadh Saudi Arabia,"""It's vast and really good for the price compared to other places"""
+381,Naquibs Pond,3.7,(26) , Tourist attraction,Riyadh Saudi Arabia,"""Beautiful place during sunset"""
+382,Cave Park,4.0,(25) , Park,Riyadh Saudi Arabia,
+383,Snowy Forest,3.6,(1.1T) , Escape room center,Riyadh Saudi Arabia,"""Very entertaining place with very humble and great staff"""
+384,بداية المسار,4.6,(16) , Hiking area,Al Moqbel Palaces Saudi Arabia,
+385,Saudi Discovery,4.9,(15) , Travel agency,Riyadh Saudi Arabia,"""We visited several historical sites such as the Masmak Fortress and ..."""
+386,sparkys,3.8,(646) , Amusement park,Riyadh Saudi Arabia · In Panorama Mall,"""All games working and having Operational technical stuff."""
+387,Planet X,3.9,(109) , Amusement center,Riyadh Saudi Arabia · In The Zone,"""The place has a hydraulic driving rig with a bunch of games on it."""
+388,Mazebox Escape Room,4.5,(1.2T) , Escape room center,Jeddah Saudi Arabia,"""It's a really nice place. We had fun good price."""
+389,Family Park,4.1,(98) , Park,Riyadh Saudi Arabia,"""OMG i was walking around and I saw the skinny legend queen jiafei ..."""
+390,Sky Zone,3.9,(1T) , Amusement center,Riyadh Saudi Arabia · In Almakan Mall,"""My favourite place .."""
+391,Snowy Forest | سنوي فورست,2.8,(97) , Amusement center,Jeddah Saudi Arabia · In the Red Sea Mall,
+392,Hello Park,4.6,(55) , Park,Riyadh Saudi Arabia · In Panorama Mall,
+393,Modon Lake Park,4.3,(4.9T) , Tourist attraction,Dammam Saudi Arabia,"""Good place for entertainment"""
+394,Lake park View point,4.5,(62) , Park,Riyadh Saudi Arabia,
+395,Escape The Room - Riyadh,4.7,(2T) , Escape room center,Riyadh Saudi Arabia,"""Best entertainment Place for family’s and friends in Riyadh !!"""
+396,DOOMIDOO,3.9,(573) , Children's amusement center,Riyadh Saudi Arabia,Closes soon ⋅ 9:30 pm
+397,Riyadh Water Tower,4.3,(2.1T) , Tourist attraction,Riyadh Saudi Arabia,"""Nice Location for kids"""
+398,Nofa Wildlife Park,4.2,(466) , Wildlife and safari park,الرياض Saudi Arabia,Closed ⋅ Opens 8 am Wed
+399,Sulai,4.0,(1) , Garden,Riyadh Saudi Arabia,
+400,TAKENDA,4.2,(37) , Amusement park,Riyadh Saudi Arabia · In Boulevard Riyadh City,"""Nice family entertainment places"""
+401,RMROMA LAND,2.9,(21) , Theme park,Dammam Saudi Arabia · In Marina Mall,"""Entertainment for children🤩🤩 but dangerous for parents 🤣🤣🤑🤑.. Lovely place."""
+402,Saudi Television Tower,4.4,(224) , Tourist attraction,Riyadh Saudi Arabia,"""nice place and nice people inside tv station."""
+403,Ahaji Escape Rooms أحاجي,4.8,(4.9T) , Tourist attraction,Dammam Saudi Arabia,"""Good place for entertainment"""
+404,Lake park View point,4.5,(62) , Park,Riyadh Saudi Arabia,
+405,Escape The Room - Riyadh,4.7,(2T) , Escape room center,Riyadh Saudi Arabia,"""Best entertainment Place for family’s and friends in Riyadh !!"""
+406,DOOMIDOO,3.9,(573) , Children's amusement center,Riyadh Saudi Arabia,Closes soon ⋅ 9:30 pm
+407,Riyadh Water Tower,4.3,(2.1T) , Tourist attraction,Riyadh Saudi Arabia,"""Nice Location for kids"""
+408,Nofa Wildlife Park,4.2,(466) , Wildlife and safari park,الرياض Saudi Arabia,Closed ⋅ Opens 8 am Wed
+409,Sulai,4.0,(1) , Garden,Riyadh Saudi Arabia,
+410,Chuck E. Cheese's,3.8,(3.1T) , ₹ ,Riyadh Saudi Arabia,"""Excellent kids and family entertainment place"""
+411,Ammaria cleft,3.8,(33) , Tourist attraction,Saudi Arabia,"""Amazing location, worth a visit."""
+412,King Khalid Grand Mosque,4.8,(10T) , Tourist attraction,Riyadh Saudi Arabia,Worship hall with stain-glass windows
+413,Lake park Riyadh,4.4,(703) , Tourist attraction,Riyadh Saudi Arabia,"""A place away from the hustle and bustle of city."""
+414,IS IT REAL?,4.7,(10) , Tourist attraction,Riyadh Saudi Arabia,
+415,Chuck E Cheese's,4.1,(4.3T) , ₹₹ ,Riyadh Saudi Arabia,"""a place where kids can have fun and their parents too!"""
+416,مركز كفّك للترفيه - هاي فايف Hi 5,4.3,(106) , Amusement center,Riyadh Saudi Arabia,"""Great place for kids for entertainment"""
+417,مزرعة معيوف بن وصل بن مبرك الفقية,No reviews · Tourist attraction,القعور Saudi Arabia,,,
+418,Woosh,4.2,(2.1T) , Recreation center,Riyadh Saudi Arabia,"""A nice place to spend some time with your kids."""
+419,اسكيب مشن | Escape Mission,4.6,(436) , Escape room center,Riyadh Saudi Arabia,"""Fun place, intelligent games and reasonable price range for activities."""
+420,Sky Zone,3.9,(1T) , Amusement center,Riyadh Saudi Arabia · In Almakan Mall,"""My favourite place .."""
+421,Snowy Forest | سنوي فورست,2.8,(97) , Amusement center,Jeddah Saudi Arabia · In the Red Sea Mall,
+422,Hello Park,4.6,(55) , Park,Riyadh Saudi Arabia · In Panorama Mall,
+423,Modon Lake Park,4.3,(4.9T) , Tourist attraction,,"""A place away from the hustle and bustle of city."""
+424,IS IT REAL?,4.7,(10) , Tourist attraction,Riyadh Saudi Arabia,
+425,Chuck E Cheese's,4.1,(4.3T) , ₹₹ ,Riyadh Saudi Arabia,"""a place where kids can have fun and their parents too!"""
+426,مركز كفّك للترفيه - هاي فايف Hi 5,4.3,(106) , Amusement center,Riyadh Saudi Arabia,"""Great place for kids for entertainment"""
+427,مزرعة معيوف بن وصل بن مبرك الفقية,No reviews · Tourist attraction,القعور Saudi Arabia,,,
+428,Woosh,4.2,(2.1T) , Recreation center,Riyadh Saudi Arabia,"""A nice place to spend some time with your kids."""
+429,اسكيب مشن | Escape Mission,4.6,(436) , Escape room center,Riyadh Saudi Arabia,"""Fun place, intelligent games and reasonable price range for activities."""
+430,shifa,4.4,(504) , Country park,Riyadh Saudi Arabia,"""A super relaxing place in riyadh"""
+431,Umluj Beach,4.4,(1.2T) , State park,Umluj Saudi Arabia,Clear-water beach for diving & birding
+432,Billy Beez City,3.5,(609) , Children's amusement center,Riyadh Saudi Arabia · In Al Nakheel Mall,"""Billy Beez City my favorite place...even me I enjoy and love this place..."""
+433,جامع سليمان الراجحي,4.8,(27T) , Tourist attraction,Riyadh Saudi Arabia,Closed ⋅ Opens 4 am Wed
+434,سفوري لاند | Safforiland,3.4,(59) , Amusement park,Buraydah Saudi Arabia · In Al Othaim Mall,
+435,Al Douh Park,3.6,(4.7T) , Tourist attraction,Riyadh Saudi Arabia,"""Really good place to relax😀"""
+436,Lake Park,4.5,(2.1T) , Tourist attraction,Al Mithnab Saudi Arabia,"""I am gonna tell my friends about the place"""
+437,Nofa wild life park and safari,4.4,(199) , Wildlife and safari park,Khubayb Al Reem Saudi Arabia,
+438,Lambee Tily,4.2,(1.2T) , Amusement center,Riyadh Saudi Arabia,"""NYC place... Kidz njying.... Tq waad for helping kidz..."""
+439,Wadi Park,4.0,(2.4T) , Tourist attraction,Riyadh Saudi Arabia,Palm-shaded park for walks & kids’ games
+440,Chuck E. Cheese's,3.8,(3.1T) , ₹ ,Riyadh Saudi Arabia,"""Excellent kids and family entertainment place"""
+441,Ammaria cleft,3.8,(33) , Tourist attraction,Saudi Arabia,"""Amazing location, worth a visit."""
+442,King Khalid Grand Mosque,4.8,(10T) , Tourist attraction,Riyadh Saudi Arabia,Worship hall with stain-glass windows
+443,Lake park Riyadh,4.4,(703) , Tourist attraction,Riyadh Saudi Arabia,Closed ⋅ Opens 4 am Wed
+444,سفوري لاند | Safforiland,3.4,(59) , Amusement park,Buraydah Saudi Arabia · In Al Othaim Mall,
+445,Al Douh Park,3.6,(4.7T) , Tourist attraction,Riyadh Saudi Arabia,"""Really good place to relax😀"""
+446,Lake Park,4.5,(2.1T) , Tourist attraction,Al Mithnab Saudi Arabia,"""I am gonna tell my friends about the place"""
+447,Nofa wild life park and safari,4.4,(199) , Wildlife and safari park,Khubayb Al Reem Saudi Arabia,
+448,Lambee Tily,4.2,(1.2T) , Amusement center,Riyadh Saudi Arabia,"""NYC place... Kidz njying.... Tq waad for helping kidz..."""
+449,Wadi Park,4.0,(2.4T) , Tourist attraction,Riyadh Saudi Arabia,Palm-shaded park for walks & kids’ games
+450,Al Musawkaf Market,4.2,(4.1T) , Tourist attraction,Unayzah Saudi Arabia,Closes soon ⋅ 9:30 pm
+451,Sala Hub,4.1,(14) , Children's amusement center,Riyadh Saudi Arabia,Open now
+452,بئر زعير,No reviews · Tourist attraction,ع Saudi Arabia,,,
+453,Oz Lounge,3.8,(743) , Amusement center,Riyadh Saudi Arabia,"""A cafe and a restaurant."""
+454,محمية الوعول,4.0,(950) , National reserve,بوضان Saudi Arabia,Desert reserve with native wildlife
+455,Happy Cheese,4.6,(2.7T) , Children's amusement center,Riyadh Saudi Arabia,Takeaway
+456,The Escape Hotel,4.5,(313) , Escape room center,Riyadh Saudi Arabia,
+457,Uplay,3.6,(253) , Children's amusement center,Riyadh Saudi Arabia,"""Best place to take you kids away from TV/iPad"""
+458,faylaqia,5.0,(15) , Tourist attraction,Ushaiqer Saudi Arabia,
+459,وادي الديسة - المدخل الشمالي,No reviews · Tourist attraction,Saudi Arabia,,,
+460,shifa,4.4,(504) , Country park,Riyadh Saudi Arabia,"""A super relaxing place in riyadh"""
+461,Umluj Beach,4.4,(1.2T) , State park,Umluj Saudi Arabia,Clear-water beach for diving & birding
+462,Billy Beez City,3.5,(609) , Children's amusement center,Riyadh Saudi Arabia · In Al Nakheel Mall,"""Billy Beez City my favorite place...even me I enjoy and love this place..."""
+463,جامع سليمان الراجحي,4.8,(27T) , Tourist attraction,Riyadh Saudi Arabia,Closed ⋅ Opens 4 am Wed
+464,,4.0,(950) , National reserve,بوضان Saudi Arabia,Desert reserve with native wildlife
+465,Happy Cheese,4.6,(2.7T) , Children's amusement center,Riyadh Saudi Arabia,Takeaway
+466,The Escape Hotel,4.5,(313) , Escape room center,Riyadh Saudi Arabia,
+467,Uplay,3.6,(253) , Children's amusement center,Riyadh Saudi Arabia,"""Best place to take you kids away from TV/iPad"""
+468,faylaqia,5.0,(15) , Tourist attraction,Ushaiqer Saudi Arabia,
+469,وادي الديسة - المدخل الشمالي,No reviews · Tourist attraction,Saudi Arabia,,,
+470,The Hidden Valley,4.8,(4) , Hiking area,Saudi Arabia,
+471,Al Shaeeb Park,4.0,(2.1T) , Tourist attraction,Riyadh Saudi Arabia,
+472,Natural Arch Riyadh,4.6,(98) , Hiking area,Saudi Arabia,
+473,أفاتار للترفية,3.7,(725) , Amusement center,Riyadh Saudi Arabia,"""Vary fun place , they can easily spend 6 hours without notice 😍😍"""
+474,Tomb of Lihyan son of Kuza,4.6,(552) , Historical landmark,Hegra Saudi Arabia,"""Living place of Samood's."""
+475,منطقة سياحية,No reviews · Tourist attraction,Khurayyim Sa'id Saudi Arabia,,,
+476,حديقة الفيحاء الأولى,3.9,(201) , Garden,Riyadh Saudi Arabia,
+477,Universal Bowling Center,4.2,(5T) , Bowling alley,Riyadh Saudi Arabia,"""Family place entertainment"""
+478,تشكي تشيز,4.0,(2.4T) , ₹ ,Riyadh Saudi Arabia,
+479,King Fahad library Park,4.3,(65) , Park,Riyadh Saudi Arabia,
+480,Al Musawkaf Market,4.2,(4.1T) , Tourist attraction,Unayzah Saudi Arabia,Closes soon ⋅ 9:30 pm
+481,Sala Hub,4.1,(14) , Children's amusement center,Riyadh Saudi Arabia,Open now
+482,بئر زعير,No reviews · Tourist attraction,ع Saudi Arabia,,,
+483,Oz Lounge,3.8,(743) , Amusement center,Riyadh Saudi Arabia,"""A cafe and a restaurant."""
+484,محمية الوعول,4.6,(552) , Historical landmark,Hegra Saudi Arabia,"""Living place of Samood's."""
+485,منطقة سياحية,No reviews · Tourist attraction,Khurayyim Sa'id Saudi Arabia,,,
+486,حديقة الفيحاء الأولى,3.9,(201) , Garden,Riyadh Saudi Arabia,
+487,Universal Bowling Center,4.2,(5T) , Bowling alley,Riyadh Saudi Arabia,"""Family place entertainment"""
+488,تشكي تشيز,4.0,(2.4T) , ₹ ,Riyadh Saudi Arabia,
+489,King Fahad library Park,4.3,(65) , Park,Riyadh Saudi Arabia,
+490,Chuck E. Cheese,4.1,(1.6T) , ₹ ,Riyadh Saudi Arabia,"""Great place for kids entertainment"""
+491,Kids Gym,4.0,(95) , Children's amusement center,Riyadh Saudi Arabia,
+492,الخزامى وادي حنيفه,4.5,(26) , Hiking area,Riyadh Saudi Arabia,
+493,Go Bowling & Laser Strike | Makan Mall,4.2,(283) , Video arcade,Riyadh Saudi Arabia,"""Very nice place for entertainment❤❤❤"""
+494,Dhurma,3.8,(142) , Garden,Dhurma Saudi Arabia,"""Beatiful tinny city near Riyadh"""
+495,ChuckE cheese,4.3,(3T) , ₹₹ ,Riyadh Saudi Arabia · In Thaghr Plaza,Takeaway
+496,مركز الصملة للترفيه | ALSAMLAH,4.1,(451) , Amusement center,Riyadh Saudi Arabia,
+497,Chuck E. Cheese,4.1,(544) , Theme park,Buraydah Saudi Arabia,
+498,Masjid Diplomatic Quarters,4.6,(77) , Tourist attraction,Riyadh Saudi Arabia,
+499,Lonely Castle,5.0,(5) , Museum,Hegra Saudi Arabia,
+500,The Hidden Valley,4.8,(4) , Hiking area,Saudi Arabia,
+501,Al Shaeeb Park,4.0,(2.1T) , Tourist attraction,Riyadh Saudi Arabia,
+502,Natural Arch Riyadh,4.6,(98) , Hiking area,Saudi Arabia,
+503,أفاتار للترفية,3.7,(725) , Amusement center,Riyadh Saudi Arabia,"""Vary fun place , they can easily spend 6 hours without notice 😍😍"""
+504,,3.8,(142) , Garden,Dhurma Saudi Arabia,"""Beatiful tinny city near Riyadh"""
+505,ChuckE cheese,4.3,(3T) , ₹₹ ,Riyadh Saudi Arabia · In Thaghr Plaza,Takeaway
+506,مركز الصملة للترفيه | ALSAMLAH,4.1,(451) , Amusement center,Riyadh Saudi Arabia,
+507,Chuck E. Cheese,4.1,(544) , Theme park,Buraydah Saudi Arabia,
+508,Masjid Diplomatic Quarters,4.6,(77) , Tourist attraction,Riyadh Saudi Arabia,
+509,Lonely Castle,5.0,(5) , Museum,Hegra Saudi Arabia,
+510,Syrup,4.5,(406) , Corporate office,Riyadh Saudi Arabia,"""A go to place for entertainment in Riyadh"""
+511,Khararah Lake,4.2,(958) , Park,Al-Muzahmiya Saudi Arabia,
+512,Kingdom Centre,4.4,(24T) , Shopping mall,Riyadh Saudi Arabia,"""Amazing place center of Riyadh a kingdom Tower located at olaya rd."""
+513,Bujairi Terrace,4.4,(560) , Tourist attraction,Riyadh Saudi Arabia,Dine-in·
+514,البوليفارد الجديد,4.7,(1.5T) , Tourist attraction,Riyadh Saudi Arabia,"""And very good locations"""
+515,Triangle Park,3.9,(109) , Garden,Riyadh Saudi Arabia,
+516,Chuck E Cheese's,4.1,(2.4T) , ₹₹ ,Riyadh Saudi Arabia,"""Best kid's and family entertainment place"""
+517,شعيب حريملاء,4.5,(324) , Park,Huraymila Saudi Arabia,
+518,Firstaiment,4.0,(1.9T) , Paintball center,Riyadh Saudi Arabia,"""amazing and entertaining"""
+519,العاذرية للطيران الرياضي,4.5,(99) , Amusement center,Riyadh Saudi Arabia · In قلعة استطلاعية,Closed ⋅ Opens 2:30 pm Wed
+520,Chuck E. Cheese,4.1,(1.6T) , ₹ ,Riyadh Saudi Arabia,"""Great place for kids entertainment"""
+521,Kids Gym,4.0,(95) , Children's amusement center,Riyadh Saudi Arabia,
+522,الخزامى وادي حنيفه,4.5,(26) , Hiking area,Riyadh Saudi Arabia,
+523,Go Bowling & Laser Strike | Makan Mall,4.2,(283) , Video arcade,Riyadh Saudi Arabia,Dine-in·
+524,البوليفارد الجديد,4.7,(1.5T) , Tourist attraction,Riyadh Saudi Arabia,"""And very good locations"""
+525,Triangle Park,3.9,(109) , Garden,Riyadh Saudi Arabia,
+526,Chuck E Cheese's,4.1,(2.4T) , ₹₹ ,Riyadh Saudi Arabia,"""Best kid's and family entertainment place"""
+527,شعيب حريملاء,4.5,(324) , Park,Huraymila Saudi Arabia,
+528,Firstaiment,4.0,(1.9T) , Paintball center,Riyadh Saudi Arabia,"""amazing and entertaining"""
+529,العاذرية للطيران الرياضي,4.5,(99) , Amusement center,Riyadh Saudi Arabia · In قلعة استطلاعية,Closed ⋅ Opens 2:30 pm Wed
+530,RIM rural farm in Dalam,4.4,(266) , Farm,Ad Dilam Saudi Arabia,
+531,Chifty شفتي,4.1,(1.7T) , ₹₹₹₹ ,Riyadh Saudi Arabia,"Hip place with global eats, shisha & DJs"
+532,روضة الخرارة,4.2,(3.5T) , State park,Al-Muzahmiya Saudi Arabia,"""Among one of the emerging Visiting Places near to Riyadh.."""
+533,Al Orjouan,4.3,(705) , Buffet,"Riyadh Saudi Arabia · In The Ritz-Carlton, Riyadh",Buffet restaurant at the Ritz-Carlton
+534,Bulalohan sa Riyadh,4.3,(258) , Filipino,Riyadh Saudi Arabia,"""Delicious food and have vedioke for entertainment"""
+535,Seafood restaurants,3.3,(4) , Seafood,Riyadh Saudi Arabia,Dine-in·
+536,حديقة الوطن,4.2,(8.4T) , Theme park,Riyadh Saudi Arabia,Temporarily closed
+537,Subaie heritage house,4.3,(192) , Tourist attraction,Shaqra Saudi Arabia,Temporarily closed
+538,WORLD SIGHTS PARK,4.1,(3.1T) , Tourist attraction,Riyadh Saudi Arabia,Temporarily closed
+539,منطقة أوايسس | Oasis Zone,4.0,(182) , Tourist attraction,الرياض Saudi Arabia,Temporarily closed
+540,Syrup,4.5,(406) , Corporate office,Ad Dilam Saudi Arabia,
+541,Chifty شفتي,4.1,(1.7T) , ₹₹₹₹ ,Riyadh Saudi Arabia,"Hip place with global eats, shisha & DJs"
+542,روضة الخرارة,4.2,(3.5T) , State park,Al-Muzahmiya Saudi Arabia,"""Among one of the emerging Visiting Places near to Riyadh.."""
+543,Al Orjouan,4.3,(705) , Buffet,"Riyadh Saudi Arabia · In The Ritz-Carlton, Riyadh",Buffet restaurant at the Ritz-Carlton
+544,Bulalohan sa Riyadh,4.3,(258) , Filipino,Riyadh Saudi Arabia,"""Delicious food and have vedioke for entertainment"""
+545,Seafood restaurants,3.3,(4) , Seafood,Riyadh Saudi Arabia,Dine-in·
+546,حديقة الوطن,4.2,(8.4T) , Theme park,Riyadh Saudi Arabia,Temporarily closed
+547,Subaie heritage house,4.3,(192) , Tourist attraction,Shaqra Saudi Arabia,Temporarily closed
+548,WORLD SIGHTS PARK,4.1,(3.1T) , Tourist attraction,Riyadh Saudi Arabia,Temporarily closed
+549,منطقة أوايسس | Oasis Zone,4.0,(182) , Tourist attraction,الرياض Saudi Arabia,Temporarily closed
+550,موسم الجيمرز,4.3,(68) , Tourist attraction,Riyadh Saudi Arabia,Temporarily closed
+551,كريته لاونج - karretah lounge,4.4,(12) , Tourist attraction,Saudi Arabia,Temporarily closed
+552,Jammoly World,5.0,(1) , Children's amusement center,Riyadh Saudi Arabia,Temporarily closed
+553,Red Sea Beach,4.5,(137) , Children's amusement center,Riyadh Saudi Arabia,Temporarily closed
+554,The Secret Room,4.2,(353) , Escape room center,Riyadh Saudi Arabia,Temporarily closed
+555,Tim Tech Rimal Center,5.0,(2) , Children's amusement center,Riyadh Saudi Arabia · In Rimal Center,Temporarily closed
+556,Mabelle,4.7,(42) , Children's amusement center,Riyadh Saudi Arabia,Temporarily closed
+560,RIM rural farm in Dalam,4.4,(266) , Farm,Ad Dilam Saudi Arabia,
+561,Chifty شفتي,4.1,(1.7T) , ₹₹₹₹ ,Riyadh Saudi Arabia,"Hip place with global eats, shisha & DJs"
+562,روضة الخرارة,4.2,(3.5T) , State park,Al-Muzahmiya Saudi Arabia,"""Among one of the emerging Visiting Places near to Riyadh.."""
+563,,4.5,(137) , Children's amusement center,Riyadh Saudi Arabia,Temporarily closed
+564,The Secret Room,4.2,(353) , Escape room center,Riyadh Saudi Arabia,Temporarily closed
+565,Tim Tech Rimal Center,5.0,(2) , Children's amusement center,Riyadh Saudi Arabia · In Rimal Center,Temporarily closed
+566,Mabelle,4.7,(42) , Children's amusement center,Riyadh Saudi Arabia,Temporarily closed
+580,موسم الجيمرز,4.3,(68) , Tourist attraction,Riyadh Saudi Arabia,Temporarily closed
+581,كريته لاونج - karretah lounge,4.4,(12) , Tourist attraction,Saudi Arabia,Temporarily closed
+582,Jammoly World,5.0,(1) ,,,
