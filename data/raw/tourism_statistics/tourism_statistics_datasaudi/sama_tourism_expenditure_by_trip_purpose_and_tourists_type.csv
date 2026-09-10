@@ -1,0 +1,127 @@
+Economic Sectors ID,Economic Sectors,Tourist Type Name ID,Tourist Type Name,Trip Purpose Name ID,Trip Purpose Name,Year,Million SAR
+Z,Tourism,1,Inbound,1,Religious,2014,31372.0
+Z,Tourism,1,Inbound,1,Religious,2015,47765.821025684
+Z,Tourism,1,Inbound,1,Religious,2016,54090.5778610591
+Z,Tourism,1,Inbound,1,Religious,2017,70909.1435143147
+Z,Tourism,1,Inbound,1,Religious,2018,68837.79192249691
+Z,Tourism,1,Inbound,1,Religious,2019,68077.0202295627
+Z,Tourism,1,Inbound,1,Religious,2020,11101.6903757638
+Z,Tourism,1,Inbound,1,Religious,2021,1783.0
+Z,Tourism,1,Inbound,1,Religious,2022,37255.0
+Z,Tourism,1,Inbound,2,Leisure,2014,2127.0
+Z,Tourism,1,Inbound,2,Leisure,2015,4954.06816396099
+Z,Tourism,1,Inbound,2,Leisure,2016,2880.57635571463
+Z,Tourism,1,Inbound,2,Leisure,2017,1703.4581252074402
+Z,Tourism,1,Inbound,2,Leisure,2018,1991.23594681827
+Z,Tourism,1,Inbound,2,Leisure,2019,5048.877119575371
+Z,Tourism,1,Inbound,2,Leisure,2020,1933.5108163581501
+Z,Tourism,1,Inbound,2,Leisure,2021,1267.0
+Z,Tourism,1,Inbound,2,Leisure,2022,12622.0
+Z,Tourism,1,Inbound,3,Business,2014,8947.0
+Z,Tourism,1,Inbound,3,Business,2015,10090.8264364065
+Z,Tourism,1,Inbound,3,Business,2016,26279.8276069441
+Z,Tourism,1,Inbound,3,Business,2017,18382.194483184197
+Z,Tourism,1,Inbound,3,Business,2018,16484.486698371
+Z,Tourism,1,Inbound,3,Business,2019,20421.3166796031
+Z,Tourism,1,Inbound,3,Business,2020,3392.36981588814
+Z,Tourism,1,Inbound,3,Business,2021,5286.0
+Z,Tourism,1,Inbound,3,Business,2022,14318.0
+Z,Tourism,1,Inbound,4,Visiting Friends & Relatives,2014,4805.0
+Z,Tourism,1,Inbound,4,Visiting Friends & Relatives,2015,10621.8862796244
+Z,Tourism,1,Inbound,4,Visiting Friends & Relatives,2016,7064.63938245143
+Z,Tourism,1,Inbound,4,Visiting Friends & Relatives,2017,5687.09747755823
+Z,Tourism,1,Inbound,4,Visiting Friends & Relatives,2018,5245.89908412361
+Z,Tourism,1,Inbound,4,Visiting Friends & Relatives,2019,7772.778656464359
+Z,Tourism,1,Inbound,4,Visiting Friends & Relatives,2020,2475.0222141131603
+Z,Tourism,1,Inbound,4,Visiting Friends & Relatives,2021,4561.0
+Z,Tourism,1,Inbound,4,Visiting Friends & Relatives,2022,22869.0
+Z,Tourism,1,Inbound,5,Other,2014,6037.0
+Z,Tourism,1,Inbound,5,Other,2015,9067.18002690308
+Z,Tourism,1,Inbound,5,Other,2016,3107.21343792878
+Z,Tourism,1,Inbound,5,Other,2017,1096.5155139802198
+Z,Tourism,1,Inbound,5,Other,2018,918.220109932818
+Z,Tourism,1,Inbound,5,Other,2019,2033.8738084577801
+Z,Tourism,1,Inbound,5,Other,2020,1198.1477701782699
+Z,Tourism,1,Inbound,5,Other,2021,1818.0
+Z,Tourism,1,Inbound,5,Other,2022,3797.0
+Z,Tourism,2,Domestic,1,Religious,2014,10236.0
+Z,Tourism,2,Domestic,1,Religious,2015,10156.9251745943
+Z,Tourism,2,Domestic,1,Religious,2016,11716.4293718212
+Z,Tourism,2,Domestic,1,Religious,2017,10820.9289462688
+Z,Tourism,2,Domestic,1,Religious,2018,9959.87907080757
+Z,Tourism,2,Domestic,1,Religious,2019,12358.6524779655
+Z,Tourism,2,Domestic,1,Religious,2020,5461.31103915007
+Z,Tourism,2,Domestic,1,Religious,2021,8790.08199538
+Z,Tourism,2,Domestic,1,Religious,2022,0.0
+Z,Tourism,2,Domestic,2,Leisure,2014,13391.0
+Z,Tourism,2,Domestic,2,Leisure,2015,21183.4552402041
+Z,Tourism,2,Domestic,2,Leisure,2016,24317.8387839418
+Z,Tourism,2,Domestic,2,Leisure,2017,19007.7010495367
+Z,Tourism,2,Domestic,2,Leisure,2018,19046.2555859555
+Z,Tourism,2,Domestic,2,Leisure,2019,29153.2385074722
+Z,Tourism,2,Domestic,2,Leisure,2020,23187.7005719722
+Z,Tourism,2,Domestic,2,Leisure,2021,47075.65212902
+Z,Tourism,2,Domestic,2,Leisure,2022,0.0
+Z,Tourism,2,Domestic,3,Business,2014,3031.0
+Z,Tourism,2,Domestic,3,Business,2015,3247.66676141741
+Z,Tourism,2,Domestic,3,Business,2016,1885.84880066727
+Z,Tourism,2,Domestic,3,Business,2017,1940.71011844969
+Z,Tourism,2,Domestic,3,Business,2018,2247.70531019836
+Z,Tourism,2,Domestic,3,Business,2019,2250.89039787808
+Z,Tourism,2,Domestic,3,Business,2020,2147.2053258234
+Z,Tourism,2,Domestic,3,Business,2021,3607.36000551
+Z,Tourism,2,Domestic,3,Business,2022,0.0
+Z,Tourism,2,Domestic,4,Visiting Friends & Relatives,2014,12122.0
+Z,Tourism,2,Domestic,4,Visiting Friends & Relatives,2015,9771.68737712195
+Z,Tourism,2,Domestic,4,Visiting Friends & Relatives,2016,14016.604783262
+Z,Tourism,2,Domestic,4,Visiting Friends & Relatives,2017,12737.1314548396
+Z,Tourism,2,Domestic,4,Visiting Friends & Relatives,2018,15084.3333579542
+Z,Tourism,2,Domestic,4,Visiting Friends & Relatives,2019,15761.5085596912
+Z,Tourism,2,Domestic,4,Visiting Friends & Relatives,2020,11067.7287770373
+Z,Tourism,2,Domestic,4,Visiting Friends & Relatives,2021,19118.16933985
+Z,Tourism,2,Domestic,4,Visiting Friends & Relatives,2022,0.0
+Z,Tourism,2,Domestic,5,Other,2014,4302.0
+Z,Tourism,2,Domestic,5,Other,2015,4059.35126537937
+Z,Tourism,2,Domestic,5,Other,2016,3492.2698110602
+Z,Tourism,2,Domestic,5,Other,2017,1593.77036759171
+Z,Tourism,2,Domestic,5,Other,2018,1784.13221601258
+Z,Tourism,2,Domestic,5,Other,2019,1681.59255041198
+Z,Tourism,2,Domestic,5,Other,2020,1483.19354790932
+Z,Tourism,2,Domestic,5,Other,2021,2310.53255248
+Z,Tourism,2,Domestic,5,Other,2022,0.0
+Z,Tourism,3,Outbound,2,Leisure,2014,32507.0
+Z,Tourism,3,Outbound,2,Leisure,2015,42437.4661740671
+Z,Tourism,3,Outbound,2,Leisure,2016,47317.390231169404
+Z,Tourism,3,Outbound,2,Leisure,2017,39118.0305751329
+Z,Tourism,3,Outbound,2,Leisure,2018,38759.0695927921
+Z,Tourism,3,Outbound,2,Leisure,2019,40769.7937653903
+Z,Tourism,3,Outbound,2,Leisure,2020,9391.588617587671
+Z,Tourism,3,Outbound,2,Leisure,2021,18628.0
+Z,Tourism,3,Outbound,2,Leisure,2022,19625.0
+Z,Tourism,3,Outbound,3,Business,2014,3021.0
+Z,Tourism,3,Outbound,3,Business,2015,7041.649113615341
+Z,Tourism,3,Outbound,3,Business,2016,4989.00602222336
+Z,Tourism,3,Outbound,3,Business,2017,2409.1343233947896
+Z,Tourism,3,Outbound,3,Business,2018,2162.71860343745
+Z,Tourism,3,Outbound,3,Business,2019,1472.82614729323
+Z,Tourism,3,Outbound,3,Business,2020,259.927560380486
+Z,Tourism,3,Outbound,3,Business,2021,1561.0
+Z,Tourism,3,Outbound,3,Business,2022,2881.0
+Z,Tourism,3,Outbound,4,Visiting Friends & Relatives,2014,10977.0
+Z,Tourism,3,Outbound,4,Visiting Friends & Relatives,2015,21546.363343175803
+Z,Tourism,3,Outbound,4,Visiting Friends & Relatives,2016,37292.9126475598
+Z,Tourism,3,Outbound,4,Visiting Friends & Relatives,2017,32545.841008275802
+Z,Tourism,3,Outbound,4,Visiting Friends & Relatives,2018,23269.025460560602
+Z,Tourism,3,Outbound,4,Visiting Friends & Relatives,2019,23781.6137752221
+Z,Tourism,3,Outbound,4,Visiting Friends & Relatives,2020,11976.492716210601
+Z,Tourism,3,Outbound,4,Visiting Friends & Relatives,2021,32694.0
+Z,Tourism,3,Outbound,4,Visiting Friends & Relatives,2022,28522.0
+Z,Tourism,3,Outbound,5,Other,2014,31534.0
+Z,Tourism,3,Outbound,5,Other,2015,13095.1288999156
+Z,Tourism,3,Outbound,5,Other,2016,7694.328576742009
+Z,Tourism,3,Outbound,5,Other,2017,3831.66243774003
+Z,Tourism,3,Outbound,5,Other,2018,3639.94459443312
+Z,Tourism,3,Outbound,5,Other,2019,2054.97235078331
+Z,Tourism,3,Outbound,5,Other,2020,341.025328337192
+Z,Tourism,3,Outbound,5,Other,2021,331.0
+Z,Tourism,3,Outbound,5,Other,2022,1510.0

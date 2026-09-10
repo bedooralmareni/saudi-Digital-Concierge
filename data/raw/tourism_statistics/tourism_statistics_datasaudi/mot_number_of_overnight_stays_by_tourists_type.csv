@@ -1,0 +1,50 @@
+Year,Economic Sectors ID,Economic Sectors,Nationality ID,Nationality,Tourist Type Name ID,Tourist Type Name,Overnight Stays
+2015,Z,Tourism,1,Saudi,3,Outbound,116065.28814481206
+2015,Z,Tourism,2,Non Saudi,3,Outbound,159157.28745515726
+2015,Z,Tourism,3,Total,1,Inbound,193084.25782401123
+2015,Z,Tourism,3,Total,2,Domestic,240852.7555278291
+2015,Z,Tourism,3,Total,3,Outbound,275222.5755999693
+2016,Z,Tourism,1,Saudi,3,Outbound,58953.551966619256
+2016,Z,Tourism,2,Non Saudi,3,Outbound,281428.0936535036
+2016,Z,Tourism,3,Total,1,Inbound,187224.95268189214
+2016,Z,Tourism,3,Total,2,Domestic,235803.55237518268
+2016,Z,Tourism,3,Total,3,Outbound,340381.6456201228
+2017,Z,Tourism,1,Saudi,3,Outbound,60810.197596511236
+2017,Z,Tourism,2,Non Saudi,3,Outbound,267826.2585024735
+2017,Z,Tourism,3,Total,1,Inbound,171035.79795177325
+2017,Z,Tourism,3,Total,2,Domestic,224212.42549147026
+2017,Z,Tourism,3,Total,3,Outbound,328636.45609898464
+2018,Z,Tourism,1,Saudi,3,Outbound,66754.02405381518
+2018,Z,Tourism,2,Non Saudi,3,Outbound,217166.2604844558
+2018,Z,Tourism,3,Total,1,Inbound,173928.98416324705
+2018,Z,Tourism,3,Total,2,Domestic,232122.10045514663
+2018,Z,Tourism,3,Total,3,Outbound,283920.284538271
+2019,Z,Tourism,1,Saudi,3,Outbound,65974.31041604478
+2019,Z,Tourism,2,Non Saudi,3,Outbound,227172.58146287594
+2019,Z,Tourism,3,Total,1,Inbound,189035.6846877373
+2019,Z,Tourism,3,Total,2,Domestic,268750.50480223016
+2019,Z,Tourism,3,Total,3,Outbound,293146.8918789207
+2020,Z,Tourism,1,Saudi,3,Outbound,11967.321372812758
+2020,Z,Tourism,2,Non Saudi,3,Outbound,82931.8070039288
+2020,Z,Tourism,3,Total,1,Inbound,37824.22498972154
+2020,Z,Tourism,3,Total,2,Domestic,228538.20287712227
+2020,Z,Tourism,3,Total,3,Outbound,94899.12837674156
+2021,Z,Tourism,1,Saudi,3,Outbound,22512.949999999997
+2021,Z,Tourism,2,Non Saudi,3,Outbound,100362.423
+2021,Z,Tourism,3,Total,1,Inbound,31771.380999999994
+2021,Z,Tourism,3,Total,2,Domestic,353331.202
+2021,Z,Tourism,3,Total,3,Outbound,122875.373
+2022,Z,Tourism,1,Saudi,3,Outbound,48532.816
+2022,Z,Tourism,2,Non Saudi,3,Outbound,128154.959
+2022,Z,Tourism,3,Total,1,Inbound,270728.18100000004
+2022,Z,Tourism,3,Total,2,Domestic,369606.39300000004
+2022,Z,Tourism,3,Total,3,Outbound,176687.773
+2023,Z,Tourism,1,Saudi,3,Outbound,38175.726
+2023,Z,Tourism,2,Non Saudi,3,Outbound,143485.415
+2023,Z,Tourism,3,Total,1,Inbound,432299.345
+2023,Z,Tourism,3,Total,2,Domestic,495341.18400000007
+2023,Z,Tourism,3,Total,3,Outbound,181661.141
+2024,Z,Tourism,3,Total,1,Inbound,560227.192
+2024,Z,Tourism,3,Total,2,Domestic,538617.553
+2025,Z,Tourism,3,Total,1,Inbound,547683.872
+2025,Z,Tourism,3,Total,2,Domestic,564068.462
