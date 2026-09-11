@@ -1,45 +1,131 @@
 # Saudi Digital Concierge
 
-A retrieval-augmented (RAG), multi-agent AI concierge for tourism in Saudi Arabia.
-It ingests open data about places, reviews, events, entertainment, hotels and
-tourism statistics, cleans and embeds it into a vector store, and uses a team of
-agents (Manager → Retrieval → Planning → Verifier) to answer visitor questions
-and build grounded trip itineraries in Arabic or English.
+### A Multi-Agent LLM Framework for Personalized, Constraint-Aware, and Evidence-Grounded Travel Planning in Saudi Arabia
+
+## Overview
+
+Saudi Digital Concierge is a research project investigating whether a multi-agent Large Language Model (LLM) architecture can improve travel planning compared with an equivalent single-agent LLM architecture.
+
+The system generates personalized travel itineraries for destinations in Saudi Arabia while considering constraints such as:
+
+- Travel dates
+- Trip duration
+- Budget
+- Number and type of travelers
+- Personal interests
+- Accommodation preferences
+- Family-friendly requirements
+- Events and their schedules
+- Geographic efficiency
+- Evidence from tourism data sources
+
+#### The primary goal is not to build a commercial travel-booking application, but to experimentally investigate the benefits and costs of multi-agent LLM planning.
 
 ## Research Question
 
 Does a multi-agent LLM architecture improve personalized, constraint-aware, and evidence-grounded travel planning in Saudi Arabia compared with an equivalent single-agent LLM?
 
+## Research Hypotheses
+
+## System Architectures
+
+The experiment compares two architectures while keeping the underlying model, knowledge base, test scenarios, and evaluation methodology consistent.
+
+### Baseline — Single-Agent
+
+
+### Treatment — Multi-Agent
+
+# Experimental Design
+
+The independent variable is:
+
+#### Agent architecture: Single-Agent vs. Multi-Agent
+
+Both systems will use:
+
+- The same LLM model
+- The same Saudi tourism knowledge base
+- The same retrieval resources
+- The same user scenarios
+- The same output format
+- The same evaluation criteria
+- The same generation configuration where applicable
+
+This ensures that the experiment primarily measures the effect of architecture, rather than differences in data or model capability
+
+## Evaluation Metrics
+
+The systems will be evaluated using three groups of metrics.
+
+## Evaluation Dataset
+
+The evaluation set will consist of realistic Saudi travel scenarios containing different levels and types of constraints.
+
+Scenario categories
+
+| Category | Purpose |
+| --- | --- |
+| Simple | Basic itinerary planning |
+| Constraint-heavy | Multiple simultaneous constraints |
+| Temporal | Date/time and event constraints |
+| Spatial | Geographic planning |
+| Preference-heavy | Personalization |
+| Conflicting constraints | Ability to recognize infeasible requirements |
+
+An initial target is approximately 50–100 scenarios, with a possible initial set of around 70 scenarios.
+
+Each scenario will be provided to both architectures using the exact same user request.
+
+### Example Test Scenario
+
+```text
+Destination: Riyadh
+Duration: 4 days
+Travelers: 2 adults + 2 children
+Budget: 3,000 SAR
+Interests: Culture + Food + Entertainment
+Hotel: 4 stars or higher
+Preference: Family-friendly
+Additional constraint: Include an event during the trip
+```
+
+The evaluator will compare how well each architecture satisfies these requirements.
+
+## Repeated Evaluation
+
+Because LLM outputs can vary between runs, each scenario may be executed multiple times under the same configuration.
+
+For example: 70 scenarios × 3 runs × 2 architectures = 420 generated itineraries.
+
+The final number of runs will depend on computational resources.
 
 ## Data sources
 
-Six sources feed the concierge. Each has an exploration notebook in `notebooks/` and a
-`FINDINGS.md` alongside its data.
+The project uses publicly available Saudi tourism datasets and event data.
 
-| # | Source | Size | What we'll use it for | Lands in |
+| # | Source | Size | Role | Lands in |
 | - | ------ | ---- | --------------------- | -------- |
-| 1 | **Saudi Tourism Reviews — Zenodo** | 3,543 × 10 | Arabic reviews + aspect sentiment | `data/raw/tourism_reviews/` |
-| 2 | **Riyadh Places 8.8K — Kaggle** | 8,836 × 9 | POIs, categories, ratings, coordinates | `data/raw/riyadh_places/` |
-| 3 | **Saudi Tourism Dataset 2015–2024 — Kaggle** | 1,058 × 9 | Tourism demand, spending, overnight stays | `data/raw/tourism_statistics/` |
+| 1 | **Saudi Tourism Reviews — Zenodo** | 3,543 × 10 | Review evidence and personalization | `data/raw/tourism_reviews/` |
+| 2 | **Riyadh Places 8.8K — Kaggle** | 8,836 × 9 | Places, restaurants, ratings, coordinates | `data/raw/riyadh_places/` |
+| 3 | **Saudi Tourism Dataset 2015–2024 — Kaggle** | 1,058 × 9 | Tourism statistics and regional context | `data/raw/tourism_statistics/` |
 | 4 | **DataSaudi — Tourism Indicators** | ~1,915 (11 files) | Official tourism statistics | `data/raw/tourism_statistics/tourism_statistics_datasaudi/` |
-| 5 | **Enjoy.sa Events API** | 5,802 × 14 | Events: dates, times, city, family/gender constraints | `data/raw/events/` |
-| 6 | **Booking.com Hotels — Kaggle** | 1,025 × 21 | Hotels & apartments: price, ratings, rooms, coordinates | `data/raw/Booking.com/` |
-| 7 | **Entertainment in Saudi Arabia — Kaggle** | 564 × 7 | Entertainment places, ratings, categories, locations | `data/raw/entertainment/` |
+| 5 | **Enjoy.sa Events API** | 5,802 × 14 | Events, dates, times, cities, audience restrictions | `data/raw/events/` |
+| 6 | **Booking.com Hotels — Kaggle** | 1,025 × 21 | Hotel information and static benchmark prices | `data/raw/Booking.com/` |
+| 7 | **Entertainment in Saudi Arabia — Kaggle** | 564 × 7 | Attractions and entertainment recommendations | `data/raw/entertainment/` |
 
-> The *SaudiTourism — Hugging Face* source was evaluated and dropped; Booking.com replaces
-> it as the accommodation source.
 
 ### Provenance & licensing
 
-| Source | License | Original source | Snapshot / date | Current / live? | Main use |
-| ------ | ------- | --------------- | --------------- | --------------- | -------- |
-| Tourism Reviews | CC0 | Zenodo | — | No | Reviews |
-| Riyadh Places | TBD | Kaggle | — | No | POIs |
-| Saudi Tourism | TBD | Kaggle | 2015–24 | No | Statistics |
-| DataSaudi | Official | DataSaudi | 2015–25 | Depends | Statistics |
-| Enjoy.sa | Official API | Enjoy.sa | Retrieved 2026 | **Yes / current API** | Events |
-| Entertainment | TBD | Kaggle | — | No | Entertainment |
-| Booking.com | TBD | Kaggle | **2020** | **No** | Hotels |
+| Source | License | Original source | Current / live? | Main use |
+| ------ | ------- | --------------- | --------------- | -------- |
+| Tourism Reviews | CC0 | Zenodo | No | Reviews |
+| Riyadh Places | TBD | Kaggle | No | POIs |
+| Saudi Tourism | TBD | Kaggle | No | Statistics |
+| DataSaudi | Official | DataSaudi | Depends | Statistics |
+| Enjoy.sa | Official API | Enjoy.sa | **Yes / current API** | Events |
+| Entertainment | TBD | Kaggle | No | Entertainment |
+| Booking.com | TBD | Kaggle | **No** | Hotels |
 
 > Only the Enjoy.sa events API is live/current; every other source is a static snapshot.
 > Booking.com prices are **2020-era** and should be surfaced as historical.
