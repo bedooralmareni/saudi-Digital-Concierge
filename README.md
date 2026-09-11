@@ -128,9 +128,51 @@ The project uses publicly available Saudi tourism datasets and event data.
 | Booking.com | TBD | Kaggle | **No** | Hotels |
 
 > Only the Enjoy.sa events API is live/current; every other source is a static snapshot.
-> Booking.com prices are **2020-era** and should be surfaced as historical.
 
-## Project structure
+## knowledge Base
+
+The data will be organized into logical entities rather than merged into a single dataset.
+
+```
+Saudi Tourism Knowledge Base
+│
+├── Places
+├── Reviews
+├── Restaurants
+├── Hotels
+├── Events
+├── Entertainment
+└── Tourism Statistics
+```
+## Evaluation Procedure
+
+The evaluation follows the same process for both architectures.
+
+```
+Traveler Scenario
+       ↓
+Generate Itinerary
+       ↓
+Objective Constraint Checks
+       ↓
+Temporal Validation
+       ↓
+Spatial Validation
+       ↓
+Evidence Verification
+       ↓
+Human Evaluation
+       ↓
+Efficiency Measurements
+       ↓
+Statistical Comparison
+```
+
+Where possible, objective metrics will be evaluated using deterministic rules rather than relying exclusively on LLM-as-a-judge.
+
+Human evaluation will primarily be used for subjective dimensions such as personalization and itinerary quality.
+
+## Planned Project Structure
 
 ```
 Saudi-Digital-Concierge/
@@ -159,56 +201,41 @@ Saudi-Digital-Concierge/
 └── README.md
 ```
 
-## Pipeline
+## Research Pipeline
+
+The project follows the following development pipeline:
 
 ```
-ingestion  ->  cleaning  ->  database  ->  retrieval  ->  agents
+1. Data Source Inventory
+        ↓
+2. Raw Data Collection
+        ↓
+3. Dataset Exploration
+        ↓
+4. Data Quality Audit
+        ↓
+5. Data Cleaning & Standardization
+        ↓
+6. Entity Matching / Deduplication
+        ↓
+7. Knowledge Base Construction
+        ↓
+8. Structured + Semantic Retrieval
+        ↓
+9. Single-Agent Baseline
+        ↓
+10. Multi-Agent Architecture
+        ↓
+11. Evaluation Test Set
+        ↓
+12. Experimental Runs
+        ↓
+13. Metric Evaluation
+        ↓
+14. Statistical Analysis
+        ↓
+15. Failure Analysis
+        ↓
+16. Thesis Results
 ```
 
-## Agent architecture (planned)
-
-A **4-agent** design for building trip itineraries: a Manager orchestrates, a
-Retrieval agent gathers evidence, a Planning agent builds the itinerary, and a
-Verifier checks it — looping back to Planning until the plan is valid.
-
-```
-User
- ↓
-Manager
- ↓
-Retrieval
- ↓
-Planning
- ↓
-Verifier
- ↓
- ├── PASS → Final Itinerary
- │
- └── FAIL → Planning → Verifier
-```
-
-**1. Manager / Orchestrator Agent**
-Understands the request and coordinates the other agents. Extracts:
-destination · dates · number of travelers · budget · family/individual ·
-preferences · constraints — then decides what needs to happen.
-
-**2. Retrieval Agent**
-Finds the relevant evidence from the knowledge base. Draws on:
-Source 1 → reviews · Source 2 → places/restaurants · Source 5 → events ·
-Source 6 → hotels · Source 7 → entertainment · Sources 3/4 → tourism statistics
-when relevant. Returns **evidence, not the final itinerary**.
-
-**3. Planning Agent**
-Constructs the actual itinerary from the retrieved candidates, satisfying:
-budget · dates · preferences · group size · activities · hotels · events ·
-geographic efficiency. Produces a sequenced plan
-(e.g. `Day 1 → Hotel → Museum → Restaurant → Event`) rather than a flat list.
-
-**4. Verifier Agent** ⭐
-Tries to catch mistakes in the proposed itinerary. Checks:
-every user constraint is satisfied · events on the correct dates · hotel within
-budget · hotel suitable for the group size · activities geographically reasonable ·
-no unsupported information · nothing hallucinated by the planner.
-If valid → final answer; if invalid → send back to Planning for revision.
-
-> Note: empty folders are kept under version control with `.gitkeep` files.
