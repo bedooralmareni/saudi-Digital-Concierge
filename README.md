@@ -6,6 +6,11 @@ tourism statistics, cleans and embeds it into a vector store, and uses a team of
 agents (Manager → Retrieval → Planning → Verifier) to answer visitor questions
 and build grounded trip itineraries in Arabic or English.
 
+## Research Question
+
+Does a multi-agent LLM architecture improve personalized, constraint-aware, and evidence-grounded travel planning in Saudi Arabia compared with an equivalent single-agent LLM?
+
+
 ## Data sources
 
 Six sources feed the concierge. Each has an exploration notebook in `notebooks/` and a
