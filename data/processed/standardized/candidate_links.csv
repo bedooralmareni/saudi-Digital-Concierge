@@ -1,0 +1,76 @@
+canonical_id_a,source_a,id_a,name_a,canonical_id_b,source_b,id_b,name_b,city,name_sim
+RYD_001808,riyadh_places_kaggle,places_01019,Chuck E Cheese's,RYD_001815,entertainment_kaggle,entertainment_00377,Chuck E. Cheese's,Riyadh,1.0
+RYD_001808,riyadh_places_kaggle,places_01019,Chuck E Cheese's,RYD_001809,entertainment_kaggle,entertainment_00382,Chuck E Cheese's,Riyadh,1.0
+RYD_001808,riyadh_places_kaggle,places_01019,Chuck E Cheese's,RYD_001810,entertainment_kaggle,entertainment_00390,Chuck E Cheese's,Riyadh,1.0
+RYD_001808,riyadh_places_kaggle,places_01019,Chuck E Cheese's,RYD_001816,entertainment_kaggle,entertainment_00404,Chuck E. Cheese's,Riyadh,1.0
+RYD_001808,riyadh_places_kaggle,places_01019,Chuck E Cheese's,RYD_001813,entertainment_kaggle,entertainment_00447,Chuck E. Cheese,Riyadh,0.933
+RYD_001808,riyadh_places_kaggle,places_01019,Chuck E Cheese's,RYD_001811,entertainment_kaggle,entertainment_00472,Chuck E Cheese's,Riyadh,1.0
+RYD_001808,riyadh_places_kaggle,places_01019,Chuck E Cheese's,RYD_001814,entertainment_kaggle,entertainment_00476,Chuck E. Cheese,Riyadh,0.933
+RYD_001808,riyadh_places_kaggle,places_01019,Chuck E Cheese's,RYD_001812,entertainment_kaggle,entertainment_00482,Chuck E Cheese's,Riyadh,1.0
+RYD_001805,riyadh_places_kaggle,places_03206,Chuck E Cheese,RYD_001815,entertainment_kaggle,entertainment_00377,Chuck E. Cheese's,Riyadh,0.933
+RYD_001805,riyadh_places_kaggle,places_03206,Chuck E Cheese,RYD_001809,entertainment_kaggle,entertainment_00382,Chuck E Cheese's,Riyadh,0.933
+RYD_001805,riyadh_places_kaggle,places_03206,Chuck E Cheese,RYD_001810,entertainment_kaggle,entertainment_00390,Chuck E Cheese's,Riyadh,0.933
+RYD_001805,riyadh_places_kaggle,places_03206,Chuck E Cheese,RYD_001816,entertainment_kaggle,entertainment_00404,Chuck E. Cheese's,Riyadh,0.933
+RYD_001805,riyadh_places_kaggle,places_03206,Chuck E Cheese,RYD_001813,entertainment_kaggle,entertainment_00447,Chuck E. Cheese,Riyadh,1.0
+RYD_001805,riyadh_places_kaggle,places_03206,Chuck E Cheese,RYD_001818,entertainment_kaggle,entertainment_00452,ChuckE cheese,Riyadh,0.963
+RYD_001805,riyadh_places_kaggle,places_03206,Chuck E Cheese,RYD_001819,entertainment_kaggle,entertainment_00461,ChuckE cheese,Riyadh,0.963
+RYD_001805,riyadh_places_kaggle,places_03206,Chuck E Cheese,RYD_001811,entertainment_kaggle,entertainment_00472,Chuck E Cheese's,Riyadh,0.933
+RYD_001805,riyadh_places_kaggle,places_03206,Chuck E Cheese,RYD_001814,entertainment_kaggle,entertainment_00476,Chuck E. Cheese,Riyadh,1.0
+RYD_001805,riyadh_places_kaggle,places_03206,Chuck E Cheese,RYD_001812,entertainment_kaggle,entertainment_00482,Chuck E Cheese's,Riyadh,0.933
+RYD_003327,riyadh_places_kaggle,places_05895,Happy Cheese,RYD_003328,entertainment_kaggle,entertainment_00418,Happy Cheese,Riyadh,1.0
+RYD_003327,riyadh_places_kaggle,places_05895,Happy Cheese,RYD_003329,entertainment_kaggle,entertainment_00426,Happy Cheese,Riyadh,1.0
+RYD_001806,riyadh_places_kaggle,places_07516,Chuck E Cheese,RYD_001815,entertainment_kaggle,entertainment_00377,Chuck E. Cheese's,Riyadh,0.933
+RYD_001806,riyadh_places_kaggle,places_07516,Chuck E Cheese,RYD_001809,entertainment_kaggle,entertainment_00382,Chuck E Cheese's,Riyadh,0.933
+RYD_001806,riyadh_places_kaggle,places_07516,Chuck E Cheese,RYD_001810,entertainment_kaggle,entertainment_00390,Chuck E Cheese's,Riyadh,0.933
+RYD_001806,riyadh_places_kaggle,places_07516,Chuck E Cheese,RYD_001816,entertainment_kaggle,entertainment_00404,Chuck E. Cheese's,Riyadh,0.933
+RYD_001806,riyadh_places_kaggle,places_07516,Chuck E Cheese,RYD_001813,entertainment_kaggle,entertainment_00447,Chuck E. Cheese,Riyadh,1.0
+RYD_001806,riyadh_places_kaggle,places_07516,Chuck E Cheese,RYD_001818,entertainment_kaggle,entertainment_00452,ChuckE cheese,Riyadh,0.963
+RYD_001806,riyadh_places_kaggle,places_07516,Chuck E Cheese,RYD_001819,entertainment_kaggle,entertainment_00461,ChuckE cheese,Riyadh,0.963
+RYD_001806,riyadh_places_kaggle,places_07516,Chuck E Cheese,RYD_001811,entertainment_kaggle,entertainment_00472,Chuck E Cheese's,Riyadh,0.933
+RYD_001806,riyadh_places_kaggle,places_07516,Chuck E Cheese,RYD_001814,entertainment_kaggle,entertainment_00476,Chuck E. Cheese,Riyadh,1.0
+RYD_001806,riyadh_places_kaggle,places_07516,Chuck E Cheese,RYD_001812,entertainment_kaggle,entertainment_00482,Chuck E Cheese's,Riyadh,0.933
+RYD_001807,riyadh_places_kaggle,places_08707,Chuck E Cheese,RYD_001815,entertainment_kaggle,entertainment_00377,Chuck E. Cheese's,Riyadh,0.933
+RYD_001807,riyadh_places_kaggle,places_08707,Chuck E Cheese,RYD_001809,entertainment_kaggle,entertainment_00382,Chuck E Cheese's,Riyadh,0.933
+RYD_001807,riyadh_places_kaggle,places_08707,Chuck E Cheese,RYD_001810,entertainment_kaggle,entertainment_00390,Chuck E Cheese's,Riyadh,0.933
+RYD_001807,riyadh_places_kaggle,places_08707,Chuck E Cheese,RYD_001816,entertainment_kaggle,entertainment_00404,Chuck E. Cheese's,Riyadh,0.933
+RYD_001807,riyadh_places_kaggle,places_08707,Chuck E Cheese,RYD_001813,entertainment_kaggle,entertainment_00447,Chuck E. Cheese,Riyadh,1.0
+RYD_001807,riyadh_places_kaggle,places_08707,Chuck E Cheese,RYD_001818,entertainment_kaggle,entertainment_00452,ChuckE cheese,Riyadh,0.963
+RYD_001807,riyadh_places_kaggle,places_08707,Chuck E Cheese,RYD_001819,entertainment_kaggle,entertainment_00461,ChuckE cheese,Riyadh,0.963
+RYD_001807,riyadh_places_kaggle,places_08707,Chuck E Cheese,RYD_001811,entertainment_kaggle,entertainment_00472,Chuck E Cheese's,Riyadh,0.933
+RYD_001807,riyadh_places_kaggle,places_08707,Chuck E Cheese,RYD_001814,entertainment_kaggle,entertainment_00476,Chuck E. Cheese,Riyadh,1.0
+RYD_001807,riyadh_places_kaggle,places_08707,Chuck E Cheese,RYD_001812,entertainment_kaggle,entertainment_00482,Chuck E Cheese's,Riyadh,0.933
+RYD_008147,riyadh_places_kaggle,places_02947,VOX Cinemas,RYD_008877,entertainment_kaggle,entertainment_00003,vox cinemas,Riyadh,1.0
+RYD_008147,riyadh_places_kaggle,places_02947,VOX Cinemas,RYD_008875,entertainment_kaggle,entertainment_00013,vox cinema,Riyadh,0.952
+RYD_008147,riyadh_places_kaggle,places_02947,VOX Cinemas,RYD_008876,entertainment_kaggle,entertainment_00022,vox cinema,Riyadh,0.952
+RYD_008147,riyadh_places_kaggle,places_02947,VOX Cinemas,RYD_008152,entertainment_kaggle,entertainment_00036,VOX Cinemas,Riyadh,1.0
+RYD_008147,riyadh_places_kaggle,places_02947,VOX Cinemas,RYD_008153,entertainment_kaggle,entertainment_00045,VOX Cinemas,Riyadh,1.0
+RYD_008147,riyadh_places_kaggle,places_02947,VOX Cinemas,RYD_008159,entertainment_kaggle,entertainment_00068,VOX cinema,Riyadh,0.952
+RYD_008147,riyadh_places_kaggle,places_02947,VOX Cinemas,RYD_008160,entertainment_kaggle,entertainment_00078,VOX cinema,Riyadh,0.952
+RYD_008148,riyadh_places_kaggle,places_05317,VOX Cinemas,RYD_008877,entertainment_kaggle,entertainment_00003,vox cinemas,Riyadh,1.0
+RYD_008148,riyadh_places_kaggle,places_05317,VOX Cinemas,RYD_008875,entertainment_kaggle,entertainment_00013,vox cinema,Riyadh,0.952
+RYD_008148,riyadh_places_kaggle,places_05317,VOX Cinemas,RYD_008876,entertainment_kaggle,entertainment_00022,vox cinema,Riyadh,0.952
+RYD_008148,riyadh_places_kaggle,places_05317,VOX Cinemas,RYD_008152,entertainment_kaggle,entertainment_00036,VOX Cinemas,Riyadh,1.0
+RYD_008148,riyadh_places_kaggle,places_05317,VOX Cinemas,RYD_008153,entertainment_kaggle,entertainment_00045,VOX Cinemas,Riyadh,1.0
+RYD_008148,riyadh_places_kaggle,places_05317,VOX Cinemas,RYD_008159,entertainment_kaggle,entertainment_00068,VOX cinema,Riyadh,0.952
+RYD_008148,riyadh_places_kaggle,places_05317,VOX Cinemas,RYD_008160,entertainment_kaggle,entertainment_00078,VOX cinema,Riyadh,0.952
+RYD_008149,riyadh_places_kaggle,places_06757,VOX Cinemas,RYD_008877,entertainment_kaggle,entertainment_00003,vox cinemas,Riyadh,1.0
+RYD_008149,riyadh_places_kaggle,places_06757,VOX Cinemas,RYD_008875,entertainment_kaggle,entertainment_00013,vox cinema,Riyadh,0.952
+RYD_008149,riyadh_places_kaggle,places_06757,VOX Cinemas,RYD_008876,entertainment_kaggle,entertainment_00022,vox cinema,Riyadh,0.952
+RYD_008149,riyadh_places_kaggle,places_06757,VOX Cinemas,RYD_008152,entertainment_kaggle,entertainment_00036,VOX Cinemas,Riyadh,1.0
+RYD_008149,riyadh_places_kaggle,places_06757,VOX Cinemas,RYD_008153,entertainment_kaggle,entertainment_00045,VOX Cinemas,Riyadh,1.0
+RYD_008149,riyadh_places_kaggle,places_06757,VOX Cinemas,RYD_008159,entertainment_kaggle,entertainment_00068,VOX cinema,Riyadh,0.952
+RYD_008149,riyadh_places_kaggle,places_06757,VOX Cinemas,RYD_008160,entertainment_kaggle,entertainment_00078,VOX cinema,Riyadh,0.952
+RYD_008150,riyadh_places_kaggle,places_07422,VOX Cinemas,RYD_008877,entertainment_kaggle,entertainment_00003,vox cinemas,Riyadh,1.0
+RYD_008150,riyadh_places_kaggle,places_07422,VOX Cinemas,RYD_008875,entertainment_kaggle,entertainment_00013,vox cinema,Riyadh,0.952
+RYD_008150,riyadh_places_kaggle,places_07422,VOX Cinemas,RYD_008876,entertainment_kaggle,entertainment_00022,vox cinema,Riyadh,0.952
+RYD_008150,riyadh_places_kaggle,places_07422,VOX Cinemas,RYD_008152,entertainment_kaggle,entertainment_00036,VOX Cinemas,Riyadh,1.0
+RYD_008150,riyadh_places_kaggle,places_07422,VOX Cinemas,RYD_008153,entertainment_kaggle,entertainment_00045,VOX Cinemas,Riyadh,1.0
+RYD_008150,riyadh_places_kaggle,places_07422,VOX Cinemas,RYD_008159,entertainment_kaggle,entertainment_00068,VOX cinema,Riyadh,0.952
+RYD_008150,riyadh_places_kaggle,places_07422,VOX Cinemas,RYD_008160,entertainment_kaggle,entertainment_00078,VOX cinema,Riyadh,0.952
+RYD_008151,riyadh_places_kaggle,places_08207,VOX Cinemas,RYD_008877,entertainment_kaggle,entertainment_00003,vox cinemas,Riyadh,1.0
+RYD_008151,riyadh_places_kaggle,places_08207,VOX Cinemas,RYD_008875,entertainment_kaggle,entertainment_00013,vox cinema,Riyadh,0.952
+RYD_008151,riyadh_places_kaggle,places_08207,VOX Cinemas,RYD_008876,entertainment_kaggle,entertainment_00022,vox cinema,Riyadh,0.952
+RYD_008151,riyadh_places_kaggle,places_08207,VOX Cinemas,RYD_008152,entertainment_kaggle,entertainment_00036,VOX Cinemas,Riyadh,1.0
+RYD_008151,riyadh_places_kaggle,places_08207,VOX Cinemas,RYD_008153,entertainment_kaggle,entertainment_00045,VOX Cinemas,Riyadh,1.0
+RYD_008151,riyadh_places_kaggle,places_08207,VOX Cinemas,RYD_008159,entertainment_kaggle,entertainment_00068,VOX cinema,Riyadh,0.952
+RYD_008151,riyadh_places_kaggle,places_08207,VOX Cinemas,RYD_008160,entertainment_kaggle,entertainment_00078,VOX cinema,Riyadh,0.952
