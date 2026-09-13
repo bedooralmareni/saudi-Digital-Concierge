@@ -18,7 +18,7 @@ FILE_CLEANERS = [
     ("hotels", clean_hotels),
     ("entertainment", clean_entertainment),
     ("tourism_statistics", clean_tourism_statistics),
-    ("tourism_indicators", clean_datasaudi),
+    ("tourism_indicators", clean_datasaudi)
 ]
 
 
