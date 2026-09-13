@@ -1,404 +1,404 @@
 indicator,period,dimension,dimension_value,value,unit,source,source_id,source_url,data_period,snapshot_date,retrieved_at,is_live
-tourists_by_purpose,2015,trip_purpose|nationality,Leisure | Saudi,11373.172163435387,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2015,trip_purpose|nationality,Business | Saudi,1041.5626354697215,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2015,trip_purpose|nationality,Visiting Friends & Relatives | Saudi,1544.7403108429253,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2015,trip_purpose|nationality,Other | Saudi,1188.7353107588408,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2015,trip_purpose|nationality,Leisure | Non Saudi,179.70833781951967,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2015,trip_purpose|nationality,Business | Non Saudi,966.9216236253508,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2015,trip_purpose|nationality,Visiting Friends & Relatives | Non Saudi,583.5285550682322,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2015,trip_purpose|nationality,Other | Non Saudi,3940.471507349253,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2015,trip_purpose|nationality,Religious | Total,20786.24874839264,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2015,trip_purpose|nationality,Leisure | Total,21963.72756138908,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2015,trip_purpose|nationality,Business | Total,16080.420734469968,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2015,trip_purpose|nationality,Visiting Friends & Relatives | Total,16220.19534737875,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2015,trip_purpose|nationality,Other | Total,10212.906571837802,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2016,trip_purpose|nationality,Leisure | Saudi,7657.313895044244,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2016,trip_purpose|nationality,Business | Saudi,352.996369826338,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2016,trip_purpose|nationality,Visiting Friends & Relatives | Saudi,966.983592694871,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2016,trip_purpose|nationality,Other | Saudi,229.83574589884705,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2016,trip_purpose|nationality,Leisure | Non Saudi,790.530367344029,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2016,trip_purpose|nationality,Business | Non Saudi,4134.055946580207,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2016,trip_purpose|nationality,Visiting Friends & Relatives | Non Saudi,418.95026710653,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2016,trip_purpose|nationality,Other | Non Saudi,6656.1734361585,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2016,trip_purpose|nationality,Religious | Total,20014.05749247359,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2016,trip_purpose|nationality,Leisure | Total,20458.88296430672,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2016,trip_purpose|nationality,Business | Total,17154.703125581837,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2016,trip_purpose|nationality,Visiting Friends & Relatives | Total,15084.144214426437,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2016,trip_purpose|nationality,Other | Total,11575.88942143292,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2017,trip_purpose|nationality,Leisure | Saudi,7235.529883403995,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2017,trip_purpose|nationality,Business | Saudi,160.60468457593,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2017,trip_purpose|nationality,Visiting Friends & Relatives | Saudi,1148.057446122182,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2017,trip_purpose|nationality,Other | Saudi,284.476512855196,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2017,trip_purpose|nationality,Leisure | Non Saudi,544.994157491777,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2017,trip_purpose|nationality,Business | Non Saudi,4058.00070430053,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2017,trip_purpose|nationality,Visiting Friends & Relatives | Non Saudi,123.193946006594,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2017,trip_purpose|nationality,Other | Non Saudi,7590.996237506404,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2017,trip_purpose|nationality,Religious | Total,20565.41781199937,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2017,trip_purpose|nationality,Leisure | Total,19208.92422615556,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2017,trip_purpose|nationality,Business | Total,15445.26571059286,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2017,trip_purpose|nationality,Visiting Friends & Relatives | Total,15522.16466540342,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2017,trip_purpose|nationality,Other | Total,10333.624875068965,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2018,trip_purpose|nationality,Leisure | Saudi,7991.776239270012,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2018,trip_purpose|nationality,Business | Saudi,171.12621985228935,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2018,trip_purpose|nationality,Visiting Friends & Relatives | Saudi,1351.787340438696,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2018,trip_purpose|nationality,Other | Saudi,350.618858352187,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2018,trip_purpose|nationality,Leisure | Non Saudi,370.0427552551439,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2018,trip_purpose|nationality,Business | Non Saudi,2894.3437232053107,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2018,trip_purpose|nationality,Visiting Friends & Relatives | Non Saudi,112.573532544856,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2018,trip_purpose|nationality,Other | Non Saudi,6508.271030301487,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2018,trip_purpose|nationality,Religious | Total,19655.844313475365,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2018,trip_purpose|nationality,Leisure | Total,18147.51413322951,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2018,trip_purpose|nationality,Business | Total,14898.097923533627,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2018,trip_purpose|nationality,Visiting Friends & Relatives | Total,16388.87561081881,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2018,trip_purpose|nationality,Other | Total,9250.024986281063,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2019,trip_purpose|nationality,Leisure | Saudi,8136.838307906587,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2019,trip_purpose|nationality,Business | Saudi,152.2487332602567,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2019,trip_purpose|nationality,Visiting Friends & Relatives | Saudi,1217.8584051467435,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2019,trip_purpose|nationality,Other | Saudi,290.66895022457805,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2019,trip_purpose|nationality,Leisure | Non Saudi,303.68939463942075,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2019,trip_purpose|nationality,Business | Non Saudi,2597.536277402596,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2019,trip_purpose|nationality,Visiting Friends & Relatives | Non Saudi,68.0895732549,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2019,trip_purpose|nationality,Other | Non Saudi,6243.458367292638,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2019,trip_purpose|nationality,Religious | Total,20906.086471024977,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2019,trip_purpose|nationality,Leisure | Total,21497.904715084216,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2019,trip_purpose|nationality,Business | Total,15360.25151848984,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2019,trip_purpose|nationality,Visiting Friends & Relatives | Total,17561.963898412643,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2019,trip_purpose|nationality,Other | Total,9015.0051574078,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2020,trip_purpose|nationality,Leisure | Saudi,1457.02952458424,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2020,trip_purpose|nationality,Business | Saudi,13.159666405662,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2020,trip_purpose|nationality,Visiting Friends & Relatives | Saudi,265.35824673235703,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2020,trip_purpose|nationality,Other | Saudi,46.13283718309299,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2020,trip_purpose|nationality,Leisure | Non Saudi,59.819494410091,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2020,trip_purpose|nationality,Business | Non Saudi,606.646876727508,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2020,trip_purpose|nationality,Visiting Friends & Relatives | Non Saudi,7.482792045452999,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2020,trip_purpose|nationality,Other | Non Saudi,2383.093161767896,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2020,trip_purpose|nationality,Religious | Total,7182.5400496389375,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2020,trip_purpose|nationality,Leisure | Total,21043.13243139064,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2020,trip_purpose|nationality,Business | Total,4352.487548008987,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2020,trip_purpose|nationality,Visiting Friends & Relatives | Total,14622.107610692485,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2020,trip_purpose|nationality,Other | Total,3883.4243448407833,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2021,trip_purpose|nationality,Leisure | Saudi,2239.649,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2021,trip_purpose|nationality,Business | Saudi,83.98,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2021,trip_purpose|nationality,Visiting Friends & Relatives | Saudi,901.448,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2021,trip_purpose|nationality,Other | Saudi,92.186,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2021,trip_purpose|nationality,Leisure | Non Saudi,720.799,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2021,trip_purpose|nationality,Business | Non Saudi,208.925,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2021,trip_purpose|nationality,Visiting Friends & Relatives | Non Saudi,4095.431000000001,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2021,trip_purpose|nationality,Other | Non Saudi,72.708,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2021,trip_purpose|nationality,Religious | Total,5733.080999999999,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2021,trip_purpose|nationality,Leisure | Total,25639.377000000004,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2021,trip_purpose|nationality,Business | Total,6736.206,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2021,trip_purpose|nationality,Visiting Friends & Relatives | Total,34037.433,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2021,trip_purpose|nationality,Other | Total,3580.146,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2022,trip_purpose|nationality,Leisure | Saudi,5053.384,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2022,trip_purpose|nationality,Business | Saudi,252.889,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2022,trip_purpose|nationality,Visiting Friends & Relatives | Saudi,3822.745,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2022,trip_purpose|nationality,Other | Saudi,334.65500000000003,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2022,trip_purpose|nationality,Leisure | Non Saudi,928.821,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2022,trip_purpose|nationality,Business | Non Saudi,366.449,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2022,trip_purpose|nationality,Visiting Friends & Relatives | Non Saudi,5960.808999999999,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2022,trip_purpose|nationality,Other | Non Saudi,162.667,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2022,trip_purpose|nationality,Religious | Total,14009.129000000004,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2022,trip_purpose|nationality,Leisure | Total,38311.311,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2022,trip_purpose|nationality,Business | Total,6790.976000000001,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2022,trip_purpose|nationality,Visiting Friends & Relatives | Total,46731.135999999984,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2022,trip_purpose|nationality,Other | Total,5514.226999999997,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2023,trip_purpose|nationality,Leisure | Saudi,2797.666,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2023,trip_purpose|nationality,Business | Saudi,127.447,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2023,trip_purpose|nationality,Visiting Friends & Relatives | Saudi,2233.372,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2023,trip_purpose|nationality,Other | Saudi,328.784,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2023,trip_purpose|nationality,Leisure | Non Saudi,537.91,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2023,trip_purpose|nationality,Business | Non Saudi,629.3969999999999,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2023,trip_purpose|nationality,Visiting Friends & Relatives | Non Saudi,2940.0730000000003,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2023,trip_purpose|nationality,Other | Non Saudi,312.02599999999995,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2023,trip_purpose|nationality,Religious | Total,21393.298999999995,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2023,trip_purpose|nationality,Leisure | Total,44592.044,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2023,trip_purpose|nationality,Business | Total,10815.835,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2023,trip_purpose|nationality,Visiting Friends & Relatives | Total,36407.362,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2023,trip_purpose|nationality,Other | Total,6042.497,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2024,trip_purpose|nationality,Religious | Total,23748.058000000005,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2024,trip_purpose|nationality,Leisure | Total,39802.158,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2024,trip_purpose|nationality,Business | Total,10908.447,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2024,trip_purpose|nationality,Visiting Friends & Relatives | Total,36046.473000000005,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2024,trip_purpose|nationality,Other | Total,5379.665999999999,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2025,trip_purpose|nationality,Religious | Total,27933.332,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2025,trip_purpose|nationality,Leisure | Total,37255.23400000001,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2025,trip_purpose|nationality,Business | Total,10784.989,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2025,trip_purpose|nationality,Visiting Friends & Relatives | Total,42028.742,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourists_by_purpose,2025,trip_purpose|nationality,Other | Total,4576.003,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2014,trip_purpose|tourist_type,Religious | Inbound,31372.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2015,trip_purpose|tourist_type,Religious | Inbound,47765.821025684,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2016,trip_purpose|tourist_type,Religious | Inbound,54090.5778610591,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2017,trip_purpose|tourist_type,Religious | Inbound,70909.1435143147,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2018,trip_purpose|tourist_type,Religious | Inbound,68837.79192249691,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2019,trip_purpose|tourist_type,Religious | Inbound,68077.0202295627,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2020,trip_purpose|tourist_type,Religious | Inbound,11101.6903757638,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2021,trip_purpose|tourist_type,Religious | Inbound,1783.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2022,trip_purpose|tourist_type,Religious | Inbound,37255.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2014,trip_purpose|tourist_type,Leisure | Inbound,2127.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2015,trip_purpose|tourist_type,Leisure | Inbound,4954.06816396099,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2016,trip_purpose|tourist_type,Leisure | Inbound,2880.57635571463,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2017,trip_purpose|tourist_type,Leisure | Inbound,1703.4581252074402,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2018,trip_purpose|tourist_type,Leisure | Inbound,1991.23594681827,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2019,trip_purpose|tourist_type,Leisure | Inbound,5048.877119575371,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2020,trip_purpose|tourist_type,Leisure | Inbound,1933.51081635815,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2021,trip_purpose|tourist_type,Leisure | Inbound,1267.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2022,trip_purpose|tourist_type,Leisure | Inbound,12622.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2014,trip_purpose|tourist_type,Business | Inbound,8947.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2015,trip_purpose|tourist_type,Business | Inbound,10090.8264364065,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2016,trip_purpose|tourist_type,Business | Inbound,26279.8276069441,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2017,trip_purpose|tourist_type,Business | Inbound,18382.1944831842,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2018,trip_purpose|tourist_type,Business | Inbound,16484.486698371,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2019,trip_purpose|tourist_type,Business | Inbound,20421.3166796031,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2020,trip_purpose|tourist_type,Business | Inbound,3392.36981588814,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2021,trip_purpose|tourist_type,Business | Inbound,5286.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2022,trip_purpose|tourist_type,Business | Inbound,14318.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2014,trip_purpose|tourist_type,Visiting Friends & Relatives | Inbound,4805.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2015,trip_purpose|tourist_type,Visiting Friends & Relatives | Inbound,10621.8862796244,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2016,trip_purpose|tourist_type,Visiting Friends & Relatives | Inbound,7064.63938245143,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2017,trip_purpose|tourist_type,Visiting Friends & Relatives | Inbound,5687.09747755823,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2018,trip_purpose|tourist_type,Visiting Friends & Relatives | Inbound,5245.89908412361,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2019,trip_purpose|tourist_type,Visiting Friends & Relatives | Inbound,7772.778656464359,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2020,trip_purpose|tourist_type,Visiting Friends & Relatives | Inbound,2475.0222141131603,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2021,trip_purpose|tourist_type,Visiting Friends & Relatives | Inbound,4561.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2022,trip_purpose|tourist_type,Visiting Friends & Relatives | Inbound,22869.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2014,trip_purpose|tourist_type,Other | Inbound,6037.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2015,trip_purpose|tourist_type,Other | Inbound,9067.18002690308,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2016,trip_purpose|tourist_type,Other | Inbound,3107.21343792878,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2017,trip_purpose|tourist_type,Other | Inbound,1096.5155139802198,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2018,trip_purpose|tourist_type,Other | Inbound,918.220109932818,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2019,trip_purpose|tourist_type,Other | Inbound,2033.87380845778,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2020,trip_purpose|tourist_type,Other | Inbound,1198.14777017827,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2021,trip_purpose|tourist_type,Other | Inbound,1818.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2022,trip_purpose|tourist_type,Other | Inbound,3797.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2014,trip_purpose|tourist_type,Religious | Domestic,10236.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2015,trip_purpose|tourist_type,Religious | Domestic,10156.9251745943,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2016,trip_purpose|tourist_type,Religious | Domestic,11716.4293718212,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2017,trip_purpose|tourist_type,Religious | Domestic,10820.9289462688,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2018,trip_purpose|tourist_type,Religious | Domestic,9959.87907080757,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2019,trip_purpose|tourist_type,Religious | Domestic,12358.6524779655,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2020,trip_purpose|tourist_type,Religious | Domestic,5461.31103915007,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2021,trip_purpose|tourist_type,Religious | Domestic,8790.08199538,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2022,trip_purpose|tourist_type,Religious | Domestic,0.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2014,trip_purpose|tourist_type,Leisure | Domestic,13391.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2015,trip_purpose|tourist_type,Leisure | Domestic,21183.4552402041,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2016,trip_purpose|tourist_type,Leisure | Domestic,24317.8387839418,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2017,trip_purpose|tourist_type,Leisure | Domestic,19007.7010495367,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2018,trip_purpose|tourist_type,Leisure | Domestic,19046.2555859555,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2019,trip_purpose|tourist_type,Leisure | Domestic,29153.2385074722,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2020,trip_purpose|tourist_type,Leisure | Domestic,23187.7005719722,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2021,trip_purpose|tourist_type,Leisure | Domestic,47075.65212902,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2022,trip_purpose|tourist_type,Leisure | Domestic,0.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2014,trip_purpose|tourist_type,Business | Domestic,3031.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2015,trip_purpose|tourist_type,Business | Domestic,3247.66676141741,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2016,trip_purpose|tourist_type,Business | Domestic,1885.84880066727,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2017,trip_purpose|tourist_type,Business | Domestic,1940.71011844969,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2018,trip_purpose|tourist_type,Business | Domestic,2247.70531019836,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2019,trip_purpose|tourist_type,Business | Domestic,2250.89039787808,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2020,trip_purpose|tourist_type,Business | Domestic,2147.2053258234,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2021,trip_purpose|tourist_type,Business | Domestic,3607.36000551,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2022,trip_purpose|tourist_type,Business | Domestic,0.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2014,trip_purpose|tourist_type,Visiting Friends & Relatives | Domestic,12122.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2015,trip_purpose|tourist_type,Visiting Friends & Relatives | Domestic,9771.68737712195,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2016,trip_purpose|tourist_type,Visiting Friends & Relatives | Domestic,14016.604783262,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2017,trip_purpose|tourist_type,Visiting Friends & Relatives | Domestic,12737.1314548396,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2018,trip_purpose|tourist_type,Visiting Friends & Relatives | Domestic,15084.3333579542,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2019,trip_purpose|tourist_type,Visiting Friends & Relatives | Domestic,15761.5085596912,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2020,trip_purpose|tourist_type,Visiting Friends & Relatives | Domestic,11067.7287770373,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2021,trip_purpose|tourist_type,Visiting Friends & Relatives | Domestic,19118.16933985,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2022,trip_purpose|tourist_type,Visiting Friends & Relatives | Domestic,0.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2014,trip_purpose|tourist_type,Other | Domestic,4302.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2015,trip_purpose|tourist_type,Other | Domestic,4059.35126537937,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2016,trip_purpose|tourist_type,Other | Domestic,3492.2698110602,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2017,trip_purpose|tourist_type,Other | Domestic,1593.77036759171,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2018,trip_purpose|tourist_type,Other | Domestic,1784.13221601258,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2019,trip_purpose|tourist_type,Other | Domestic,1681.59255041198,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2020,trip_purpose|tourist_type,Other | Domestic,1483.19354790932,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2021,trip_purpose|tourist_type,Other | Domestic,2310.53255248,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2022,trip_purpose|tourist_type,Other | Domestic,0.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2014,trip_purpose|tourist_type,Leisure | Outbound,32507.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2015,trip_purpose|tourist_type,Leisure | Outbound,42437.4661740671,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2016,trip_purpose|tourist_type,Leisure | Outbound,47317.39023116941,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2017,trip_purpose|tourist_type,Leisure | Outbound,39118.0305751329,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2018,trip_purpose|tourist_type,Leisure | Outbound,38759.0695927921,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2019,trip_purpose|tourist_type,Leisure | Outbound,40769.7937653903,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2020,trip_purpose|tourist_type,Leisure | Outbound,9391.588617587671,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2021,trip_purpose|tourist_type,Leisure | Outbound,18628.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2022,trip_purpose|tourist_type,Leisure | Outbound,19625.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2014,trip_purpose|tourist_type,Business | Outbound,3021.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2015,trip_purpose|tourist_type,Business | Outbound,7041.649113615341,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2016,trip_purpose|tourist_type,Business | Outbound,4989.00602222336,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2017,trip_purpose|tourist_type,Business | Outbound,2409.1343233947896,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2018,trip_purpose|tourist_type,Business | Outbound,2162.71860343745,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2019,trip_purpose|tourist_type,Business | Outbound,1472.82614729323,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2020,trip_purpose|tourist_type,Business | Outbound,259.927560380486,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2021,trip_purpose|tourist_type,Business | Outbound,1561.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2022,trip_purpose|tourist_type,Business | Outbound,2881.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2014,trip_purpose|tourist_type,Visiting Friends & Relatives | Outbound,10977.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2015,trip_purpose|tourist_type,Visiting Friends & Relatives | Outbound,21546.363343175803,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2016,trip_purpose|tourist_type,Visiting Friends & Relatives | Outbound,37292.9126475598,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2017,trip_purpose|tourist_type,Visiting Friends & Relatives | Outbound,32545.8410082758,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2018,trip_purpose|tourist_type,Visiting Friends & Relatives | Outbound,23269.0254605606,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2019,trip_purpose|tourist_type,Visiting Friends & Relatives | Outbound,23781.6137752221,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2020,trip_purpose|tourist_type,Visiting Friends & Relatives | Outbound,11976.4927162106,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2021,trip_purpose|tourist_type,Visiting Friends & Relatives | Outbound,32694.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2022,trip_purpose|tourist_type,Visiting Friends & Relatives | Outbound,28522.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2014,trip_purpose|tourist_type,Other | Outbound,31534.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2015,trip_purpose|tourist_type,Other | Outbound,13095.1288999156,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2016,trip_purpose|tourist_type,Other | Outbound,7694.328576742009,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2017,trip_purpose|tourist_type,Other | Outbound,3831.66243774003,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2018,trip_purpose|tourist_type,Other | Outbound,3639.94459443312,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2019,trip_purpose|tourist_type,Other | Outbound,2054.97235078331,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2020,trip_purpose|tourist_type,Other | Outbound,341.025328337192,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2021,trip_purpose|tourist_type,Other | Outbound,331.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-spending_by_purpose,2022,trip_purpose|tourist_type,Other | Outbound,1510.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-net_promoter_score,2024-Q2,,,70.0,index,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-net_promoter_score,2024-Q3,,,68.0,index,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-net_promoter_score,2024-Q4,,,70.0,index,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-net_promoter_score,2025-Q1,,,76.0,index,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-net_promoter_score,2025-Q2,,,77.0,index,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-net_promoter_score,2025-Q3,,,71.0,index,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourism_satisfaction_index,2024-Q2,,,0.6399999856948853,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourism_satisfaction_index,2024-Q3,,,0.6299999952316284,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourism_satisfaction_index,2024-Q4,,,0.6000000238418579,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourism_satisfaction_index,2025-Q1,,,0.6499999761581421,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourism_satisfaction_index,2025-Q2,,,0.6100000143051147,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-tourism_satisfaction_index,2025-Q3,,,0.6100000143051147,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:gross_travel_propensity,2019,,,2.0766157012613182,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:gross_travel_propensity,2020,,,1.5249782245107857,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:gross_travel_propensity,2021,,,2.289809558098548,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:gross_travel_propensity,2022,,,3.150597091538564,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:gross_travel_propensity,2023,,,3.039994503709506,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:gross_travel_propensity,2024,,,3.119537748709075,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:inbound_tourism_expenditure_over_current_account_credits,2019,,,0.063950520402142,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:inbound_tourism_expenditure_over_current_account_credits,2020,,,0.0224859646255805,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:inbound_tourism_expenditure_over_current_account_credits,2021,,,0.0147062030965607,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:inbound_tourism_expenditure_over_current_account_credits,2022,,,0.0591268954394894,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:inbound_tourism_expenditure_over_current_account_credits,2023,,,0.0999144114579537,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:inbound_tourism_expenditure_over_current_account_credits,2024,,,0.1135368911907817,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:inbound_tourism_expenditure_over_exports_of_goods,2019,,,0.0758711200641146,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:inbound_tourism_expenditure_over_exports_of_goods,2020,,,0.0267185492875657,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:inbound_tourism_expenditure_over_exports_of_goods,2021,,,0.0167968726124634,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:inbound_tourism_expenditure_over_exports_of_goods,2022,,,0.0686872910117403,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:inbound_tourism_expenditure_over_exports_of_goods,2023,,,0.1276189452540474,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:inbound_tourism_expenditure_over_exports_of_goods,2024,,,0.1515427193068683,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:inbound_tourism_expenditure_over_exports_of_services,2019,,,0.7052367695153127,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:inbound_tourism_expenditure_over_exports_of_services,2020,,,0.4222503087610416,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:inbound_tourism_expenditure_over_exports_of_services,2021,,,0.363942669883044,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:inbound_tourism_expenditure_over_exports_of_services,2022,,,0.6965184659297237,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:inbound_tourism_expenditure_over_exports_of_services,2023,,,0.7489024297801457,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:inbound_tourism_expenditure_over_exports_of_services,2024,,,0.7379859472863616,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:inbound_tourism_expenditure_over_gdp,2019,,,0.023670430084205,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:inbound_tourism_expenditure_over_gdp,2020,,,0.0063265370545732,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:inbound_tourism_expenditure_over_gdp,2021,,,0.0053071405166454,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:inbound_tourism_expenditure_over_gdp,2022,,,0.0254788696386334,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:inbound_tourism_expenditure_over_gdp,2023,,,0.0335357452476297,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:inbound_tourism_expenditure_over_gdp,2024,,,0.036948214609506,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:inbound_tourism_expenditure_over_total_exports,2019,,,0.0685015531495072,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:inbound_tourism_expenditure_over_total_exports,2020,,,0.0251285038685251,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:inbound_tourism_expenditure_over_total_exports,2021,,,0.0160558544147997,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:inbound_tourism_expenditure_over_total_exports,2022,,,0.0625217023400226,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:inbound_tourism_expenditure_over_total_exports,2023,,,0.1090380005655962,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:inbound_tourism_expenditure_over_total_exports,2024,,,0.1257254560331913,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:outbound_tourism_expenditure_over_current_account_debits,2019,,,0.0663439768981036,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:outbound_tourism_expenditure_over_current_account_debits,2020,,,0.0454049246460113,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:outbound_tourism_expenditure_over_current_account_debits,2021,,,0.056914487146315,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:outbound_tourism_expenditure_over_current_account_debits,2022,,,0.0645393029659692,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:outbound_tourism_expenditure_over_current_account_debits,2023,,,0.0806961855246179,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:outbound_tourism_expenditure_over_current_account_debits,2024,,,0.0848868737668492,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:outbound_tourism_expenditure_over_gdp,2019,,,0.019574691122265,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:outbound_tourism_expenditure_over_gdp,2020,,,0.0127737008671601,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:outbound_tourism_expenditure_over_gdp,2021,,,0.0150198871996011,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:outbound_tourism_expenditure_over_gdp,2022,,,0.0168333383733925,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:outbound_tourism_expenditure_over_gdp,2023,,,0.0226073808116561,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:outbound_tourism_expenditure_over_gdp,2024,,,0.0252921565277719,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:outbound_tourism_expenditure_over_imports_of_goods,2019,,,0.118304155595006,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:outbound_tourism_expenditure_over_imports_of_goods,2020,,,0.0753121609577898,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:outbound_tourism_expenditure_over_imports_of_goods,2021,,,0.0950009000045151,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:outbound_tourism_expenditure_over_imports_of_goods,2022,,,0.1072329135776639,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:outbound_tourism_expenditure_over_imports_of_goods,2023,,,0.1450480192152101,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:outbound_tourism_expenditure_over_imports_of_goods,2024,,,0.1483956558318069,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:outbound_tourism_expenditure_over_imports_of_services,2019,,,0.1820201125879857,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:outbound_tourism_expenditure_over_imports_of_services,2020,,,0.1363240215564873,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:outbound_tourism_expenditure_over_imports_of_services,2021,,,0.1789239202323585,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:outbound_tourism_expenditure_over_imports_of_services,2022,,,0.1959175710272799,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:outbound_tourism_expenditure_over_imports_of_services,2023,,,0.2390945657524865,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:outbound_tourism_expenditure_over_imports_of_services,2024,,,0.253601722633176,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:outbound_tourism_expenditure_over_total_imports,2019,,,0.0717016172263134,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:outbound_tourism_expenditure_over_total_imports,2020,,,0.0485118212391814,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:outbound_tourism_expenditure_over_total_imports,2021,,,0.0620532795812783,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:outbound_tourism_expenditure_over_total_imports,2022,,,0.0693015945189471,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:outbound_tourism_expenditure_over_total_imports,2023,,,0.0902794809131492,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:outbound_tourism_expenditure_over_total_imports,2024,,,0.0936160183281004,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_balance_over_gdp,2019,,,0.00409573896194,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_balance_over_gdp,2020,,,-0.0064471638125868,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_balance_over_gdp,2021,,,-0.0097127466829557,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_balance_over_gdp,2022,,,0.0086455312652409,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_balance_over_gdp,2023,,,0.0109283644359736,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_balance_over_gdp,2024,,,0.0116560580817341,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_contribution_to_gfcf,2019,,,0.057857454873802,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_contribution_to_gfcf,2020,,,0.0299063146077301,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_contribution_to_gfcf,2021,,,0.0574379914455847,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_contribution_to_gfcf,2022,,,0.069451601137785,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_contribution_to_gfcf,2023,,,0.062946528509249,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_contribution_to_gfcf,2024,,,0.0586851512439224,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_contribution_to_government_consumption,2019,,,0.0234475409329957,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_contribution_to_government_consumption,2020,,,0.0057763024476073,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_contribution_to_government_consumption,2021,,,0.004531988438062,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_contribution_to_government_consumption,2022,,,0.0246559725736461,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_contribution_to_government_consumption,2023,,,0.0351512192173125,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_contribution_to_government_consumption,2024,,,0.0380467435992438,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_contribution_to_non-oil_gva,2019,,,0.0525222774571144,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_contribution_to_non-oil_gva,2020,,,0.0205756300249115,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_contribution_to_non-oil_gva,2021,,,0.0341435118255468,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_contribution_to_non-oil_gva,2022,,,0.056974561955878,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_contribution_to_non-oil_gva,2023,,,0.06275588922757,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_contribution_to_non-oil_gva,2024,,,0.0664833149031358,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_coverage,2019,,,1.209236454172263,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_coverage,2020,,,0.4952783159998766,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_coverage,2021,,,0.3533409037044133,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_coverage,2022,,,1.5135957629715542,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_coverage,2023,,,1.483398078132919,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_coverage,2024,,,1.4608566323292842,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_direct_contribution_to_gdp,2019,,,0.036308815125674,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_direct_contribution_to_gdp,2020,,,0.0161341671129006,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_direct_contribution_to_gdp,2021,,,0.0245288284444905,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_direct_contribution_to_gdp,2022,,,0.034595886164741,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_direct_contribution_to_gdp,2023,,,0.0442646146595375,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_direct_contribution_to_gdp,2024,,,0.0492184437370403,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_employment_share_(domestic_labor),2019,,,0.042652084706304,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_employment_share_(domestic_labor),2020,,,0.0512946535764982,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_employment_share_(domestic_labor),2021,,,0.0584854795290051,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_employment_share_(domestic_labor),2022,,,0.0596367156834114,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_employment_share_(domestic_labor),2023,,,0.0582505596851462,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_employment_share_(domestic_labor),2024,,,0.0546919552496651,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_employment_share_(non-domestic_labor),2019,,,0.0588801986256857,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_employment_share_(non-domestic_labor),2020,,,0.0707607512523098,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_employment_share_(non-domestic_labor),2021,,,0.0779572018428772,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_employment_share_(non-domestic_labor),2022,,,0.0788916129056546,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_employment_share_(non-domestic_labor),2023,,,0.0767313399039929,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_employment_share_(non-domestic_labor),2024,,,0.0708678165875084,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_employment_share_(private_sector),2019,,,0.0701783724207755,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_employment_share_(private_sector),2020,,,0.0851110534439131,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_employment_share_(private_sector),2021,,,0.0943756955651932,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_employment_share_(private_sector),2022,,,0.0934109780558387,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_employment_share_(private_sector),2023,,,0.0899175789208794,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_employment_share_(private_sector),2024,,,0.0816497950288401,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_intensity,2019,,,2.030469896650914,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_intensity,2020,,,1.502221739509933,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_intensity,2021,,,2.13330458686171,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_intensity,2022,,,3.142462520455249,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_intensity,2023,,,3.244363134845066,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_intensity,2024,,,3.282829541295423,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_openness,2019,,,0.04324512120647,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_openness,2020,,,0.0191002379217333,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_openness,2021,,,0.0203270277162465,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_openness,2022,,,0.042312208012026,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_openness,2023,,,0.0561431260592859,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_openness,2024,,,0.062240371137278,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_share_of_non-oil_exports,2019,,,0.2244683225586899,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_share_of_non-oil_exports,2020,,,0.0731141469632241,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_share_of_non-oil_exports,2021,,,0.0541531757337995,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_share_of_non-oil_exports,2022,,,0.2281897957338681,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_share_of_non-oil_exports,2023,,,0.3243517348902652,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
-complementary:tourism_share_of_non-oil_exports,2024,,,0.3231098779597941,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T07:14:45.029620+00:00,False
+tourists_by_purpose,2015,trip_purpose|nationality,Leisure | Saudi,11373.172163435387,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2015,trip_purpose|nationality,Business | Saudi,1041.5626354697215,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2015,trip_purpose|nationality,Visiting Friends & Relatives | Saudi,1544.7403108429253,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2015,trip_purpose|nationality,Other | Saudi,1188.7353107588408,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2015,trip_purpose|nationality,Leisure | Non Saudi,179.70833781951967,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2015,trip_purpose|nationality,Business | Non Saudi,966.9216236253508,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2015,trip_purpose|nationality,Visiting Friends & Relatives | Non Saudi,583.5285550682322,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2015,trip_purpose|nationality,Other | Non Saudi,3940.471507349253,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2015,trip_purpose|nationality,Religious | Total,20786.24874839264,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2015,trip_purpose|nationality,Leisure | Total,21963.72756138908,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2015,trip_purpose|nationality,Business | Total,16080.420734469968,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2015,trip_purpose|nationality,Visiting Friends & Relatives | Total,16220.19534737875,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2015,trip_purpose|nationality,Other | Total,10212.906571837802,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2016,trip_purpose|nationality,Leisure | Saudi,7657.313895044244,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2016,trip_purpose|nationality,Business | Saudi,352.996369826338,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2016,trip_purpose|nationality,Visiting Friends & Relatives | Saudi,966.983592694871,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2016,trip_purpose|nationality,Other | Saudi,229.83574589884705,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2016,trip_purpose|nationality,Leisure | Non Saudi,790.530367344029,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2016,trip_purpose|nationality,Business | Non Saudi,4134.055946580207,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2016,trip_purpose|nationality,Visiting Friends & Relatives | Non Saudi,418.95026710653,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2016,trip_purpose|nationality,Other | Non Saudi,6656.1734361585,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2016,trip_purpose|nationality,Religious | Total,20014.05749247359,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2016,trip_purpose|nationality,Leisure | Total,20458.88296430672,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2016,trip_purpose|nationality,Business | Total,17154.703125581837,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2016,trip_purpose|nationality,Visiting Friends & Relatives | Total,15084.144214426437,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2016,trip_purpose|nationality,Other | Total,11575.88942143292,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2017,trip_purpose|nationality,Leisure | Saudi,7235.529883403995,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2017,trip_purpose|nationality,Business | Saudi,160.60468457593,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2017,trip_purpose|nationality,Visiting Friends & Relatives | Saudi,1148.057446122182,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2017,trip_purpose|nationality,Other | Saudi,284.476512855196,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2017,trip_purpose|nationality,Leisure | Non Saudi,544.994157491777,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2017,trip_purpose|nationality,Business | Non Saudi,4058.00070430053,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2017,trip_purpose|nationality,Visiting Friends & Relatives | Non Saudi,123.193946006594,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2017,trip_purpose|nationality,Other | Non Saudi,7590.996237506404,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2017,trip_purpose|nationality,Religious | Total,20565.41781199937,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2017,trip_purpose|nationality,Leisure | Total,19208.92422615556,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2017,trip_purpose|nationality,Business | Total,15445.26571059286,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2017,trip_purpose|nationality,Visiting Friends & Relatives | Total,15522.16466540342,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2017,trip_purpose|nationality,Other | Total,10333.624875068965,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2018,trip_purpose|nationality,Leisure | Saudi,7991.776239270012,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2018,trip_purpose|nationality,Business | Saudi,171.12621985228935,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2018,trip_purpose|nationality,Visiting Friends & Relatives | Saudi,1351.787340438696,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2018,trip_purpose|nationality,Other | Saudi,350.618858352187,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2018,trip_purpose|nationality,Leisure | Non Saudi,370.0427552551439,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2018,trip_purpose|nationality,Business | Non Saudi,2894.3437232053107,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2018,trip_purpose|nationality,Visiting Friends & Relatives | Non Saudi,112.573532544856,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2018,trip_purpose|nationality,Other | Non Saudi,6508.271030301487,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2018,trip_purpose|nationality,Religious | Total,19655.844313475365,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2018,trip_purpose|nationality,Leisure | Total,18147.51413322951,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2018,trip_purpose|nationality,Business | Total,14898.097923533627,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2018,trip_purpose|nationality,Visiting Friends & Relatives | Total,16388.87561081881,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2018,trip_purpose|nationality,Other | Total,9250.024986281063,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2019,trip_purpose|nationality,Leisure | Saudi,8136.838307906587,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2019,trip_purpose|nationality,Business | Saudi,152.2487332602567,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2019,trip_purpose|nationality,Visiting Friends & Relatives | Saudi,1217.8584051467435,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2019,trip_purpose|nationality,Other | Saudi,290.66895022457805,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2019,trip_purpose|nationality,Leisure | Non Saudi,303.68939463942075,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2019,trip_purpose|nationality,Business | Non Saudi,2597.536277402596,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2019,trip_purpose|nationality,Visiting Friends & Relatives | Non Saudi,68.0895732549,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2019,trip_purpose|nationality,Other | Non Saudi,6243.458367292638,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2019,trip_purpose|nationality,Religious | Total,20906.086471024977,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2019,trip_purpose|nationality,Leisure | Total,21497.904715084216,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2019,trip_purpose|nationality,Business | Total,15360.25151848984,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2019,trip_purpose|nationality,Visiting Friends & Relatives | Total,17561.963898412643,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2019,trip_purpose|nationality,Other | Total,9015.0051574078,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2020,trip_purpose|nationality,Leisure | Saudi,1457.02952458424,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2020,trip_purpose|nationality,Business | Saudi,13.159666405662,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2020,trip_purpose|nationality,Visiting Friends & Relatives | Saudi,265.35824673235703,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2020,trip_purpose|nationality,Other | Saudi,46.13283718309299,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2020,trip_purpose|nationality,Leisure | Non Saudi,59.819494410091,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2020,trip_purpose|nationality,Business | Non Saudi,606.646876727508,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2020,trip_purpose|nationality,Visiting Friends & Relatives | Non Saudi,7.482792045452999,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2020,trip_purpose|nationality,Other | Non Saudi,2383.093161767896,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2020,trip_purpose|nationality,Religious | Total,7182.5400496389375,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2020,trip_purpose|nationality,Leisure | Total,21043.13243139064,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2020,trip_purpose|nationality,Business | Total,4352.487548008987,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2020,trip_purpose|nationality,Visiting Friends & Relatives | Total,14622.107610692485,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2020,trip_purpose|nationality,Other | Total,3883.4243448407833,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2021,trip_purpose|nationality,Leisure | Saudi,2239.649,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2021,trip_purpose|nationality,Business | Saudi,83.98,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2021,trip_purpose|nationality,Visiting Friends & Relatives | Saudi,901.448,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2021,trip_purpose|nationality,Other | Saudi,92.186,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2021,trip_purpose|nationality,Leisure | Non Saudi,720.799,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2021,trip_purpose|nationality,Business | Non Saudi,208.925,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2021,trip_purpose|nationality,Visiting Friends & Relatives | Non Saudi,4095.431000000001,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2021,trip_purpose|nationality,Other | Non Saudi,72.708,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2021,trip_purpose|nationality,Religious | Total,5733.080999999999,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2021,trip_purpose|nationality,Leisure | Total,25639.377000000004,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2021,trip_purpose|nationality,Business | Total,6736.206,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2021,trip_purpose|nationality,Visiting Friends & Relatives | Total,34037.433,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2021,trip_purpose|nationality,Other | Total,3580.146,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2022,trip_purpose|nationality,Leisure | Saudi,5053.384,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2022,trip_purpose|nationality,Business | Saudi,252.889,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2022,trip_purpose|nationality,Visiting Friends & Relatives | Saudi,3822.745,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2022,trip_purpose|nationality,Other | Saudi,334.65500000000003,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2022,trip_purpose|nationality,Leisure | Non Saudi,928.821,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2022,trip_purpose|nationality,Business | Non Saudi,366.449,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2022,trip_purpose|nationality,Visiting Friends & Relatives | Non Saudi,5960.808999999999,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2022,trip_purpose|nationality,Other | Non Saudi,162.667,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2022,trip_purpose|nationality,Religious | Total,14009.129000000004,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2022,trip_purpose|nationality,Leisure | Total,38311.311,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2022,trip_purpose|nationality,Business | Total,6790.976000000001,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2022,trip_purpose|nationality,Visiting Friends & Relatives | Total,46731.135999999984,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2022,trip_purpose|nationality,Other | Total,5514.226999999997,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2023,trip_purpose|nationality,Leisure | Saudi,2797.666,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2023,trip_purpose|nationality,Business | Saudi,127.447,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2023,trip_purpose|nationality,Visiting Friends & Relatives | Saudi,2233.372,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2023,trip_purpose|nationality,Other | Saudi,328.784,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2023,trip_purpose|nationality,Leisure | Non Saudi,537.91,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2023,trip_purpose|nationality,Business | Non Saudi,629.3969999999999,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2023,trip_purpose|nationality,Visiting Friends & Relatives | Non Saudi,2940.0730000000003,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2023,trip_purpose|nationality,Other | Non Saudi,312.02599999999995,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2023,trip_purpose|nationality,Religious | Total,21393.298999999995,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2023,trip_purpose|nationality,Leisure | Total,44592.044,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2023,trip_purpose|nationality,Business | Total,10815.835,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2023,trip_purpose|nationality,Visiting Friends & Relatives | Total,36407.362,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2023,trip_purpose|nationality,Other | Total,6042.497,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2024,trip_purpose|nationality,Religious | Total,23748.058000000005,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2024,trip_purpose|nationality,Leisure | Total,39802.158,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2024,trip_purpose|nationality,Business | Total,10908.447,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2024,trip_purpose|nationality,Visiting Friends & Relatives | Total,36046.473000000005,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2024,trip_purpose|nationality,Other | Total,5379.665999999999,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2025,trip_purpose|nationality,Religious | Total,27933.332,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2025,trip_purpose|nationality,Leisure | Total,37255.23400000001,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2025,trip_purpose|nationality,Business | Total,10784.989,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2025,trip_purpose|nationality,Visiting Friends & Relatives | Total,42028.742,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourists_by_purpose,2025,trip_purpose|nationality,Other | Total,4576.003,count,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2014,trip_purpose|tourist_type,Religious | Inbound,31372.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2015,trip_purpose|tourist_type,Religious | Inbound,47765.821025684,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2016,trip_purpose|tourist_type,Religious | Inbound,54090.5778610591,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2017,trip_purpose|tourist_type,Religious | Inbound,70909.1435143147,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2018,trip_purpose|tourist_type,Religious | Inbound,68837.79192249691,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2019,trip_purpose|tourist_type,Religious | Inbound,68077.0202295627,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2020,trip_purpose|tourist_type,Religious | Inbound,11101.6903757638,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2021,trip_purpose|tourist_type,Religious | Inbound,1783.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2022,trip_purpose|tourist_type,Religious | Inbound,37255.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2014,trip_purpose|tourist_type,Leisure | Inbound,2127.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2015,trip_purpose|tourist_type,Leisure | Inbound,4954.06816396099,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2016,trip_purpose|tourist_type,Leisure | Inbound,2880.57635571463,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2017,trip_purpose|tourist_type,Leisure | Inbound,1703.4581252074402,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2018,trip_purpose|tourist_type,Leisure | Inbound,1991.23594681827,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2019,trip_purpose|tourist_type,Leisure | Inbound,5048.877119575371,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2020,trip_purpose|tourist_type,Leisure | Inbound,1933.51081635815,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2021,trip_purpose|tourist_type,Leisure | Inbound,1267.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2022,trip_purpose|tourist_type,Leisure | Inbound,12622.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2014,trip_purpose|tourist_type,Business | Inbound,8947.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2015,trip_purpose|tourist_type,Business | Inbound,10090.8264364065,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2016,trip_purpose|tourist_type,Business | Inbound,26279.8276069441,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2017,trip_purpose|tourist_type,Business | Inbound,18382.1944831842,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2018,trip_purpose|tourist_type,Business | Inbound,16484.486698371,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2019,trip_purpose|tourist_type,Business | Inbound,20421.3166796031,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2020,trip_purpose|tourist_type,Business | Inbound,3392.36981588814,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2021,trip_purpose|tourist_type,Business | Inbound,5286.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2022,trip_purpose|tourist_type,Business | Inbound,14318.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2014,trip_purpose|tourist_type,Visiting Friends & Relatives | Inbound,4805.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2015,trip_purpose|tourist_type,Visiting Friends & Relatives | Inbound,10621.8862796244,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2016,trip_purpose|tourist_type,Visiting Friends & Relatives | Inbound,7064.63938245143,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2017,trip_purpose|tourist_type,Visiting Friends & Relatives | Inbound,5687.09747755823,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2018,trip_purpose|tourist_type,Visiting Friends & Relatives | Inbound,5245.89908412361,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2019,trip_purpose|tourist_type,Visiting Friends & Relatives | Inbound,7772.778656464359,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2020,trip_purpose|tourist_type,Visiting Friends & Relatives | Inbound,2475.0222141131603,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2021,trip_purpose|tourist_type,Visiting Friends & Relatives | Inbound,4561.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2022,trip_purpose|tourist_type,Visiting Friends & Relatives | Inbound,22869.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2014,trip_purpose|tourist_type,Other | Inbound,6037.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2015,trip_purpose|tourist_type,Other | Inbound,9067.18002690308,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2016,trip_purpose|tourist_type,Other | Inbound,3107.21343792878,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2017,trip_purpose|tourist_type,Other | Inbound,1096.5155139802198,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2018,trip_purpose|tourist_type,Other | Inbound,918.220109932818,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2019,trip_purpose|tourist_type,Other | Inbound,2033.87380845778,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2020,trip_purpose|tourist_type,Other | Inbound,1198.14777017827,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2021,trip_purpose|tourist_type,Other | Inbound,1818.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2022,trip_purpose|tourist_type,Other | Inbound,3797.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2014,trip_purpose|tourist_type,Religious | Domestic,10236.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2015,trip_purpose|tourist_type,Religious | Domestic,10156.9251745943,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2016,trip_purpose|tourist_type,Religious | Domestic,11716.4293718212,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2017,trip_purpose|tourist_type,Religious | Domestic,10820.9289462688,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2018,trip_purpose|tourist_type,Religious | Domestic,9959.87907080757,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2019,trip_purpose|tourist_type,Religious | Domestic,12358.6524779655,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2020,trip_purpose|tourist_type,Religious | Domestic,5461.31103915007,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2021,trip_purpose|tourist_type,Religious | Domestic,8790.08199538,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2022,trip_purpose|tourist_type,Religious | Domestic,0.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2014,trip_purpose|tourist_type,Leisure | Domestic,13391.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2015,trip_purpose|tourist_type,Leisure | Domestic,21183.4552402041,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2016,trip_purpose|tourist_type,Leisure | Domestic,24317.8387839418,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2017,trip_purpose|tourist_type,Leisure | Domestic,19007.7010495367,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2018,trip_purpose|tourist_type,Leisure | Domestic,19046.2555859555,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2019,trip_purpose|tourist_type,Leisure | Domestic,29153.2385074722,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2020,trip_purpose|tourist_type,Leisure | Domestic,23187.7005719722,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2021,trip_purpose|tourist_type,Leisure | Domestic,47075.65212902,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2022,trip_purpose|tourist_type,Leisure | Domestic,0.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2014,trip_purpose|tourist_type,Business | Domestic,3031.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2015,trip_purpose|tourist_type,Business | Domestic,3247.66676141741,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2016,trip_purpose|tourist_type,Business | Domestic,1885.84880066727,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2017,trip_purpose|tourist_type,Business | Domestic,1940.71011844969,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2018,trip_purpose|tourist_type,Business | Domestic,2247.70531019836,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2019,trip_purpose|tourist_type,Business | Domestic,2250.89039787808,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2020,trip_purpose|tourist_type,Business | Domestic,2147.2053258234,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2021,trip_purpose|tourist_type,Business | Domestic,3607.36000551,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2022,trip_purpose|tourist_type,Business | Domestic,0.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2014,trip_purpose|tourist_type,Visiting Friends & Relatives | Domestic,12122.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2015,trip_purpose|tourist_type,Visiting Friends & Relatives | Domestic,9771.68737712195,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2016,trip_purpose|tourist_type,Visiting Friends & Relatives | Domestic,14016.604783262,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2017,trip_purpose|tourist_type,Visiting Friends & Relatives | Domestic,12737.1314548396,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2018,trip_purpose|tourist_type,Visiting Friends & Relatives | Domestic,15084.3333579542,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2019,trip_purpose|tourist_type,Visiting Friends & Relatives | Domestic,15761.5085596912,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2020,trip_purpose|tourist_type,Visiting Friends & Relatives | Domestic,11067.7287770373,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2021,trip_purpose|tourist_type,Visiting Friends & Relatives | Domestic,19118.16933985,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2022,trip_purpose|tourist_type,Visiting Friends & Relatives | Domestic,0.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2014,trip_purpose|tourist_type,Other | Domestic,4302.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2015,trip_purpose|tourist_type,Other | Domestic,4059.35126537937,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2016,trip_purpose|tourist_type,Other | Domestic,3492.2698110602,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2017,trip_purpose|tourist_type,Other | Domestic,1593.77036759171,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2018,trip_purpose|tourist_type,Other | Domestic,1784.13221601258,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2019,trip_purpose|tourist_type,Other | Domestic,1681.59255041198,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2020,trip_purpose|tourist_type,Other | Domestic,1483.19354790932,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2021,trip_purpose|tourist_type,Other | Domestic,2310.53255248,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2022,trip_purpose|tourist_type,Other | Domestic,0.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2014,trip_purpose|tourist_type,Leisure | Outbound,32507.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2015,trip_purpose|tourist_type,Leisure | Outbound,42437.4661740671,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2016,trip_purpose|tourist_type,Leisure | Outbound,47317.39023116941,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2017,trip_purpose|tourist_type,Leisure | Outbound,39118.0305751329,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2018,trip_purpose|tourist_type,Leisure | Outbound,38759.0695927921,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2019,trip_purpose|tourist_type,Leisure | Outbound,40769.7937653903,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2020,trip_purpose|tourist_type,Leisure | Outbound,9391.588617587671,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2021,trip_purpose|tourist_type,Leisure | Outbound,18628.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2022,trip_purpose|tourist_type,Leisure | Outbound,19625.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2014,trip_purpose|tourist_type,Business | Outbound,3021.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2015,trip_purpose|tourist_type,Business | Outbound,7041.649113615341,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2016,trip_purpose|tourist_type,Business | Outbound,4989.00602222336,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2017,trip_purpose|tourist_type,Business | Outbound,2409.1343233947896,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2018,trip_purpose|tourist_type,Business | Outbound,2162.71860343745,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2019,trip_purpose|tourist_type,Business | Outbound,1472.82614729323,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2020,trip_purpose|tourist_type,Business | Outbound,259.927560380486,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2021,trip_purpose|tourist_type,Business | Outbound,1561.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2022,trip_purpose|tourist_type,Business | Outbound,2881.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2014,trip_purpose|tourist_type,Visiting Friends & Relatives | Outbound,10977.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2015,trip_purpose|tourist_type,Visiting Friends & Relatives | Outbound,21546.363343175803,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2016,trip_purpose|tourist_type,Visiting Friends & Relatives | Outbound,37292.9126475598,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2017,trip_purpose|tourist_type,Visiting Friends & Relatives | Outbound,32545.8410082758,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2018,trip_purpose|tourist_type,Visiting Friends & Relatives | Outbound,23269.0254605606,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2019,trip_purpose|tourist_type,Visiting Friends & Relatives | Outbound,23781.6137752221,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2020,trip_purpose|tourist_type,Visiting Friends & Relatives | Outbound,11976.4927162106,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2021,trip_purpose|tourist_type,Visiting Friends & Relatives | Outbound,32694.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2022,trip_purpose|tourist_type,Visiting Friends & Relatives | Outbound,28522.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2014,trip_purpose|tourist_type,Other | Outbound,31534.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2015,trip_purpose|tourist_type,Other | Outbound,13095.1288999156,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2016,trip_purpose|tourist_type,Other | Outbound,7694.328576742009,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2017,trip_purpose|tourist_type,Other | Outbound,3831.66243774003,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2018,trip_purpose|tourist_type,Other | Outbound,3639.94459443312,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2019,trip_purpose|tourist_type,Other | Outbound,2054.97235078331,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2020,trip_purpose|tourist_type,Other | Outbound,341.025328337192,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2021,trip_purpose|tourist_type,Other | Outbound,331.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+spending_by_purpose,2022,trip_purpose|tourist_type,Other | Outbound,1510.0,sar_million,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+net_promoter_score,2024-Q2,,,70.0,index,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+net_promoter_score,2024-Q3,,,68.0,index,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+net_promoter_score,2024-Q4,,,70.0,index,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+net_promoter_score,2025-Q1,,,76.0,index,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+net_promoter_score,2025-Q2,,,77.0,index,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+net_promoter_score,2025-Q3,,,71.0,index,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourism_satisfaction_index,2024-Q2,,,0.6399999856948853,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourism_satisfaction_index,2024-Q3,,,0.6299999952316284,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourism_satisfaction_index,2024-Q4,,,0.6000000238418579,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourism_satisfaction_index,2025-Q1,,,0.6499999761581421,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourism_satisfaction_index,2025-Q2,,,0.6100000143051147,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+tourism_satisfaction_index,2025-Q3,,,0.6100000143051147,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:gross_travel_propensity,2019,,,2.0766157012613182,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:gross_travel_propensity,2020,,,1.5249782245107857,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:gross_travel_propensity,2021,,,2.289809558098548,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:gross_travel_propensity,2022,,,3.150597091538564,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:gross_travel_propensity,2023,,,3.039994503709506,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:gross_travel_propensity,2024,,,3.119537748709075,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:inbound_tourism_expenditure_over_current_account_credits,2019,,,0.063950520402142,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:inbound_tourism_expenditure_over_current_account_credits,2020,,,0.0224859646255805,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:inbound_tourism_expenditure_over_current_account_credits,2021,,,0.0147062030965607,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:inbound_tourism_expenditure_over_current_account_credits,2022,,,0.0591268954394894,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:inbound_tourism_expenditure_over_current_account_credits,2023,,,0.0999144114579537,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:inbound_tourism_expenditure_over_current_account_credits,2024,,,0.1135368911907817,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:inbound_tourism_expenditure_over_exports_of_goods,2019,,,0.0758711200641146,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:inbound_tourism_expenditure_over_exports_of_goods,2020,,,0.0267185492875657,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:inbound_tourism_expenditure_over_exports_of_goods,2021,,,0.0167968726124634,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:inbound_tourism_expenditure_over_exports_of_goods,2022,,,0.0686872910117403,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:inbound_tourism_expenditure_over_exports_of_goods,2023,,,0.1276189452540474,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:inbound_tourism_expenditure_over_exports_of_goods,2024,,,0.1515427193068683,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:inbound_tourism_expenditure_over_exports_of_services,2019,,,0.7052367695153127,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:inbound_tourism_expenditure_over_exports_of_services,2020,,,0.4222503087610416,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:inbound_tourism_expenditure_over_exports_of_services,2021,,,0.363942669883044,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:inbound_tourism_expenditure_over_exports_of_services,2022,,,0.6965184659297237,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:inbound_tourism_expenditure_over_exports_of_services,2023,,,0.7489024297801457,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:inbound_tourism_expenditure_over_exports_of_services,2024,,,0.7379859472863616,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:inbound_tourism_expenditure_over_gdp,2019,,,0.023670430084205,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:inbound_tourism_expenditure_over_gdp,2020,,,0.0063265370545732,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:inbound_tourism_expenditure_over_gdp,2021,,,0.0053071405166454,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:inbound_tourism_expenditure_over_gdp,2022,,,0.0254788696386334,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:inbound_tourism_expenditure_over_gdp,2023,,,0.0335357452476297,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:inbound_tourism_expenditure_over_gdp,2024,,,0.036948214609506,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:inbound_tourism_expenditure_over_total_exports,2019,,,0.0685015531495072,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:inbound_tourism_expenditure_over_total_exports,2020,,,0.0251285038685251,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:inbound_tourism_expenditure_over_total_exports,2021,,,0.0160558544147997,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:inbound_tourism_expenditure_over_total_exports,2022,,,0.0625217023400226,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:inbound_tourism_expenditure_over_total_exports,2023,,,0.1090380005655962,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:inbound_tourism_expenditure_over_total_exports,2024,,,0.1257254560331913,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:outbound_tourism_expenditure_over_current_account_debits,2019,,,0.0663439768981036,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:outbound_tourism_expenditure_over_current_account_debits,2020,,,0.0454049246460113,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:outbound_tourism_expenditure_over_current_account_debits,2021,,,0.056914487146315,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:outbound_tourism_expenditure_over_current_account_debits,2022,,,0.0645393029659692,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:outbound_tourism_expenditure_over_current_account_debits,2023,,,0.0806961855246179,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:outbound_tourism_expenditure_over_current_account_debits,2024,,,0.0848868737668492,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:outbound_tourism_expenditure_over_gdp,2019,,,0.019574691122265,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:outbound_tourism_expenditure_over_gdp,2020,,,0.0127737008671601,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:outbound_tourism_expenditure_over_gdp,2021,,,0.0150198871996011,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:outbound_tourism_expenditure_over_gdp,2022,,,0.0168333383733925,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:outbound_tourism_expenditure_over_gdp,2023,,,0.0226073808116561,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:outbound_tourism_expenditure_over_gdp,2024,,,0.0252921565277719,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:outbound_tourism_expenditure_over_imports_of_goods,2019,,,0.118304155595006,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:outbound_tourism_expenditure_over_imports_of_goods,2020,,,0.0753121609577898,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:outbound_tourism_expenditure_over_imports_of_goods,2021,,,0.0950009000045151,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:outbound_tourism_expenditure_over_imports_of_goods,2022,,,0.1072329135776639,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:outbound_tourism_expenditure_over_imports_of_goods,2023,,,0.1450480192152101,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:outbound_tourism_expenditure_over_imports_of_goods,2024,,,0.1483956558318069,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:outbound_tourism_expenditure_over_imports_of_services,2019,,,0.1820201125879857,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:outbound_tourism_expenditure_over_imports_of_services,2020,,,0.1363240215564873,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:outbound_tourism_expenditure_over_imports_of_services,2021,,,0.1789239202323585,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:outbound_tourism_expenditure_over_imports_of_services,2022,,,0.1959175710272799,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:outbound_tourism_expenditure_over_imports_of_services,2023,,,0.2390945657524865,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:outbound_tourism_expenditure_over_imports_of_services,2024,,,0.253601722633176,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:outbound_tourism_expenditure_over_total_imports,2019,,,0.0717016172263134,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:outbound_tourism_expenditure_over_total_imports,2020,,,0.0485118212391814,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:outbound_tourism_expenditure_over_total_imports,2021,,,0.0620532795812783,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:outbound_tourism_expenditure_over_total_imports,2022,,,0.0693015945189471,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:outbound_tourism_expenditure_over_total_imports,2023,,,0.0902794809131492,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:outbound_tourism_expenditure_over_total_imports,2024,,,0.0936160183281004,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_balance_over_gdp,2019,,,0.00409573896194,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_balance_over_gdp,2020,,,-0.0064471638125868,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_balance_over_gdp,2021,,,-0.0097127466829557,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_balance_over_gdp,2022,,,0.0086455312652409,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_balance_over_gdp,2023,,,0.0109283644359736,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_balance_over_gdp,2024,,,0.0116560580817341,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_contribution_to_gfcf,2019,,,0.057857454873802,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_contribution_to_gfcf,2020,,,0.0299063146077301,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_contribution_to_gfcf,2021,,,0.0574379914455847,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_contribution_to_gfcf,2022,,,0.069451601137785,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_contribution_to_gfcf,2023,,,0.062946528509249,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_contribution_to_gfcf,2024,,,0.0586851512439224,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_contribution_to_government_consumption,2019,,,0.0234475409329957,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_contribution_to_government_consumption,2020,,,0.0057763024476073,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_contribution_to_government_consumption,2021,,,0.004531988438062,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_contribution_to_government_consumption,2022,,,0.0246559725736461,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_contribution_to_government_consumption,2023,,,0.0351512192173125,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_contribution_to_government_consumption,2024,,,0.0380467435992438,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_contribution_to_non-oil_gva,2019,,,0.0525222774571144,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_contribution_to_non-oil_gva,2020,,,0.0205756300249115,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_contribution_to_non-oil_gva,2021,,,0.0341435118255468,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_contribution_to_non-oil_gva,2022,,,0.056974561955878,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_contribution_to_non-oil_gva,2023,,,0.06275588922757,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_contribution_to_non-oil_gva,2024,,,0.0664833149031358,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_coverage,2019,,,1.209236454172263,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_coverage,2020,,,0.4952783159998766,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_coverage,2021,,,0.3533409037044133,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_coverage,2022,,,1.5135957629715542,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_coverage,2023,,,1.483398078132919,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_coverage,2024,,,1.4608566323292842,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_direct_contribution_to_gdp,2019,,,0.036308815125674,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_direct_contribution_to_gdp,2020,,,0.0161341671129006,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_direct_contribution_to_gdp,2021,,,0.0245288284444905,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_direct_contribution_to_gdp,2022,,,0.034595886164741,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_direct_contribution_to_gdp,2023,,,0.0442646146595375,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_direct_contribution_to_gdp,2024,,,0.0492184437370403,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_employment_share_(domestic_labor),2019,,,0.042652084706304,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_employment_share_(domestic_labor),2020,,,0.0512946535764982,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_employment_share_(domestic_labor),2021,,,0.0584854795290051,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_employment_share_(domestic_labor),2022,,,0.0596367156834114,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_employment_share_(domestic_labor),2023,,,0.0582505596851462,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_employment_share_(domestic_labor),2024,,,0.0546919552496651,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_employment_share_(non-domestic_labor),2019,,,0.0588801986256857,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_employment_share_(non-domestic_labor),2020,,,0.0707607512523098,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_employment_share_(non-domestic_labor),2021,,,0.0779572018428772,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_employment_share_(non-domestic_labor),2022,,,0.0788916129056546,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_employment_share_(non-domestic_labor),2023,,,0.0767313399039929,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_employment_share_(non-domestic_labor),2024,,,0.0708678165875084,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_employment_share_(private_sector),2019,,,0.0701783724207755,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_employment_share_(private_sector),2020,,,0.0851110534439131,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_employment_share_(private_sector),2021,,,0.0943756955651932,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_employment_share_(private_sector),2022,,,0.0934109780558387,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_employment_share_(private_sector),2023,,,0.0899175789208794,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_employment_share_(private_sector),2024,,,0.0816497950288401,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_intensity,2019,,,2.030469896650914,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_intensity,2020,,,1.502221739509933,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_intensity,2021,,,2.13330458686171,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_intensity,2022,,,3.142462520455249,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_intensity,2023,,,3.244363134845066,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_intensity,2024,,,3.282829541295423,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_openness,2019,,,0.04324512120647,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_openness,2020,,,0.0191002379217333,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_openness,2021,,,0.0203270277162465,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_openness,2022,,,0.042312208012026,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_openness,2023,,,0.0561431260592859,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_openness,2024,,,0.062240371137278,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_share_of_non-oil_exports,2019,,,0.2244683225586899,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_share_of_non-oil_exports,2020,,,0.0731141469632241,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_share_of_non-oil_exports,2021,,,0.0541531757337995,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_share_of_non-oil_exports,2022,,,0.2281897957338681,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_share_of_non-oil_exports,2023,,,0.3243517348902652,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
+complementary:tourism_share_of_non-oil_exports,2024,,,0.3231098779597941,ratio,datasaudi,,https://datasaudi.mep.gov.sa,2014-2025,,2026-09-13T06:37:49.421058+00:00,False
