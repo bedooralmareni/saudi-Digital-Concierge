@@ -129,21 +129,54 @@ The project uses publicly available Saudi tourism datasets and event data.
 
 > Only the Enjoy.sa events API is live/current; every other source is a static snapshot.
 
-## knowledge Base
+## Knowledge Base
 
-The data will be organized into logical entities rather than merged into a single dataset.
+The data is organized into logical entities rather than merged into a single dataset, and
+served through a **hybrid knowledge base** — a structured layer for exact constraints and a
+vector layer for semantic meaning, joined on `canonical_id` / `entity_id`.
 
 ```
-Saudi Tourism Knowledge Base
-│
-├── Places
-├── Reviews
-├── Restaurants
-├── Hotels
-├── Events
-├── Entertainment
-└── Tourism Statistics
+                     Knowledge Base
+                           │
+        ┌──────────────────┴──────────────────┐
+        ▼                                      ▼
+   Structured layer                       Vector layer
+   SQLite (src/database)                  embeddings (src/vector_store)
+   exact filters & the                    semantic search over
+   Verifier's hard checks                 reviews / descriptions
+        │                                      │
+        └──────────────────┬──────────────────┘
+                           ▼
+                  Hybrid retrieval
+             (metadata pre-filter → semantic rank)
 ```
+
+**Entities:** Places · Reviews · Restaurants (a view of Places) · Hotels · Events ·
+Entertainment · Tourism Statistics · Tourism Indicators.
+
+### Structured layer — `data/final/knowledge_base.sqlite` (`src/database/`)
+Typed SQLite over the cleaned, standardized and entity-resolved tables, with indexes and
+views (`v_hotels`, `v_places`, `v_entity_canonical`, `v_reviews_resolved`). Answers exact
+predicates — *"hotels in Riyadh under 500 SAR with guest rating ≥ 8"* — via a small query
+API (`src.database.kb`: `find_hotels`, `find_places`, `find_events`, …). `embed=False`
+statistics/indicators live here only. Build: `python -m src.database.build_sqlite`.
+
+### Vector layer — `data/final/vector_store/` (`src/vector_store/`)
+Multilingual embeddings (default `intfloat/multilingual-e5-base`; Arabic + English) of the
+**`embed=True`** KB documents (13,920: places, reviews, hotels, entertainment). Answers
+meaning-based queries — *"places suitable for someone into traditional Saudi culture"* —
+via `src.vector_store.search` (`semantic_search`, `hybrid_search`). Build:
+`python -m src.vector_store.build_index`.
+
+### How they combine
+- **Structured retrieval** → hard filters (budget, capacity, dates, city) the Verifier
+  checks deterministically.
+- **Semantic retrieval** → subjective/thematic matching over review & description text.
+- **Hybrid** → metadata pre-filter (structured) then semantic ranking; every result
+  resolves to a `canonical_id` and `source_url` for evidence grounding.
+
+> Both `.sqlite` and the vector index are **regenerable build artifacts** (git-ignored);
+> rebuild them from the processed/standardized CSVs with the two build commands above.
 ## Evaluation Procedure
 
 The evaluation follows the same process for both architectures.
