@@ -8,6 +8,11 @@ note rather than failing the whole run.
 """
 from __future__ import annotations
 
+# Allow running this file directly (IDE 'Run') as well as `python -m src.cleaning.<x>`.
+import sys as _sys, pathlib as _pathlib
+if __package__ in (None, ""):
+    _sys.path.insert(0, str(_pathlib.Path(__file__).resolve().parents[2]))
+
 from src.cleaning import (clean_places, clean_reviews, clean_hotels, clean_entertainment,
                           clean_tourism_statistics, clean_datasaudi, clean_events)
 from src.cleaning.common import save_processed

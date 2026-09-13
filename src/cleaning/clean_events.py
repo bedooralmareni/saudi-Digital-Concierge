@@ -16,6 +16,11 @@ import hashlib
 import pandas as pd
 import requests
 
+# Allow running this file directly (IDE 'Run') as well as `python -m src.cleaning.<x>`.
+import sys as _sys, pathlib as _pathlib
+if __package__ in (None, ""):
+    _sys.path.insert(0, str(_pathlib.Path(__file__).resolve().parents[2]))
+
 from src.cleaning.common import norm_text, report, save_processed, validate
 from src.cleaning.geo import map_city, normalize_ar
 
