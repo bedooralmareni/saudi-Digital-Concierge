@@ -3,9 +3,10 @@
 Cleaning produced one tidy table per entity. Standardization unifies them so they can be
 combined, compared and retrieved together:
 
-  1. A shared **core schema** across the recommendable point-entities (places, hotels,
-     events, entertainment): same column names, a comparable `rating_norm` (0-1), city/
-     region as the join key, coordinates, price, and provenance.
+  1. A **shared core schema** (common core fields where applicable) across the
+     recommendable point-entities (places, hotels, events, entertainment): the native
+     `rating` + its `rating_scale` AND a comparable `rating_norm` (0-1), city/region as
+     the join key, coordinates, price, and provenance.
      ->  data/processed/standardized/entities_core.csv
 
   2. A unified **knowledge-base documents** table across ALL entities (incl. reviews and
@@ -32,18 +33,29 @@ from src.cleaning.common import PROCESSED
 OUT = PROCESSED / "standardized"
 
 # Shared core schema for point entities (things the concierge can recommend/place).
+# Ratings are kept in THREE forms: native `rating` + its `rating_scale`, plus the
+# cross-source comparable `rating_norm` (0-1). Never keep only the normalized value.
 CORE_COLS = ["entity_id", "entity_type", "name", "category", "city", "region",
-             "latitude", "longitude", "rating_norm", "price_sar",
+             "latitude", "longitude", "rating", "rating_scale", "rating_norm", "price_sar",
              "source", "source_url", "data_period", "snapshot_date", "retrieved_at", "is_live"]
 
-# KB document schema (data_dictionary.md §12).
+# KB document schema (data_dictionary.md §12). `embed` marks whether the document is meant
+# for the vector store (True) or should stay structured-only (False) — see §6.
 DOC_COLS = ["document_id", "chunk_id", "entity_type", "entity_id", "text", "language",
-            "city", "region", "category", "latitude", "longitude", "rating_norm", "price_sar",
+            "embed", "city", "region", "category", "latitude", "longitude",
+            "rating", "rating_scale", "rating_norm", "price_sar",
             "source", "source_id", "source_url", "data_period", "snapshot_date",
             "retrieved_at", "is_live"]
 
 PROV = ["source", "source_id", "source_url", "data_period", "snapshot_date",
         "retrieved_at", "is_live"]
+
+# Controlled vocabulary for `language`.
+LANGUAGES = {"ar", "en", "mixed"}
+
+# Entity types whose documents are meant to be embedded into the vector store.
+# Structured statistics/indicators stay in the structured layer (embed=False).
+EMBED_TYPES = {"place", "review", "hotel", "event", "entertainment"}
 
 _ARABIC = re.compile(r"[؀-ۿ]")
 _LATIN = re.compile(r"[A-Za-z]")
@@ -71,6 +83,7 @@ def _places(df):
         "entity_id": df["place_id"], "entity_type": "place", "name": df["name"],
         "category": df["granular_category"], "city": df["city"], "region": df["region"],
         "latitude": df["latitude"], "longitude": df["longitude"],
+        "rating": pd.to_numeric(df["average_rating"], errors="coerce"), "rating_scale": 5,
         "rating_norm": pd.to_numeric(df["average_rating"], errors="coerce") / 5.0,
         "price_sar": np.nan, **_prov(df)})
     text = df.apply(lambda r: _join([
@@ -88,6 +101,7 @@ def _hotels(df):
         "entity_id": df["hotel_id"], "entity_type": "hotel", "name": df["name"],
         "category": "hotel", "city": df["city"], "region": df["region"],
         "latitude": df["latitude"], "longitude": df["longitude"],
+        "rating": pd.to_numeric(df["guest_rating"], errors="coerce"), "rating_scale": 10,
         "rating_norm": pd.to_numeric(df["guest_rating"], errors="coerce") / 10.0,
         "price_sar": pd.to_numeric(df["price_sar"], errors="coerce"), **_prov(df)})
     text = df.apply(lambda r: _join([
@@ -104,7 +118,8 @@ def _events(df):
     core = pd.DataFrame({
         "entity_id": df["event_id"], "entity_type": "event", "name": df["name"],
         "category": "event", "city": df["city"], "region": df["region"],
-        "latitude": np.nan, "longitude": np.nan, "rating_norm": np.nan,
+        "latitude": np.nan, "longitude": np.nan,
+        "rating": np.nan, "rating_scale": np.nan, "rating_norm": np.nan,
         "price_sar": np.nan, **_prov(df)})
 
     def who(r):
@@ -129,6 +144,7 @@ def _entertainment(df):
         "entity_id": df["entertainment_id"], "entity_type": "entertainment", "name": df["name"],
         "category": df["genre"], "city": df["city"], "region": df["region"],
         "latitude": np.nan, "longitude": np.nan,
+        "rating": pd.to_numeric(df["rating"], errors="coerce"), "rating_scale": 5,
         "rating_norm": pd.to_numeric(df["rating"], errors="coerce") / 5.0,
         "price_sar": np.nan, **_prov(df)})
     text = df.apply(lambda r: _join([
@@ -150,6 +166,7 @@ def _to_docs(core, text):
     docs["chunk_id"] = pd.NA
     docs["text"] = text.values
     docs["language"] = docs["text"].map(detect_language)
+    docs["embed"] = core["entity_type"].isin(EMBED_TYPES)
     return docs.reindex(columns=DOC_COLS)
 
 
@@ -186,6 +203,7 @@ def build():
             "latitude": np.nan, "longitude": np.nan, "rating_norm": np.nan, "price_sar": np.nan,
             **_prov(rv)})
         d["language"] = d["text"].map(detect_language)
+        d["embed"] = True  # reviews are semantic evidence -> embedded
         doc_frames.append(d.reindex(columns=DOC_COLS))
         print(f"  - reviews: {len(d)} rows")
 
@@ -205,6 +223,7 @@ def build():
             "latitude": np.nan, "longitude": np.nan, "rating_norm": np.nan, "price_sar": np.nan,
             **_prov(ts)})
         d["language"] = "en"
+        d["embed"] = False  # structured stats stay in the structured layer, not embedded
         doc_frames.append(d.reindex(columns=DOC_COLS))
         print(f"  - tourism_statistics: {len(d)} rows")
 
@@ -223,18 +242,39 @@ def build():
             "latitude": np.nan, "longitude": np.nan, "rating_norm": np.nan, "price_sar": np.nan,
             **_prov(ind)})
         d["language"] = "en"
+        d["embed"] = False  # structured indicators stay in the structured layer
         doc_frames.append(d.reindex(columns=DOC_COLS))
         print(f"  - tourism_indicators: {len(d)} rows")
 
     docs = pd.concat(doc_frames, ignore_index=True).reindex(columns=DOC_COLS)
+
+    # --- Validate linkage & controlled vocab (data_dictionary.md §12) ---
+    issues = []
+    if docs["document_id"].isna().any():
+        issues.append("document_id has nulls")
+    if docs["document_id"].duplicated().any():
+        issues.append(f"{int(docs['document_id'].duplicated().sum())} duplicate document_id")
+    if docs["entity_id"].isna().any():
+        issues.append("entity_id has nulls (broken doc->record linkage)")
+    if docs["source"].isna().any() or docs["source_url"].isna().all():
+        issues.append("provenance incomplete (source/source_url)")
+    bad_lang = set(docs["language"].dropna().unique()) - LANGUAGES
+    if bad_lang:
+        issues.append(f"language outside controlled vocab {sorted(LANGUAGES)}: {sorted(bad_lang)}")
+
     docs.to_csv(OUT / "kb_documents.csv", index=False)
 
     print(f"\nentities_core.csv : {len(core_all)} rows x {len(CORE_COLS)} cols")
     print(f"kb_documents.csv  : {len(docs)} rows x {len(DOC_COLS)} cols")
+    print("linkage/vocab check:", "OK" if not issues else "ISSUES")
+    for i in issues:
+        print("   -", i)
     print("by entity_type:")
     print(docs["entity_type"].value_counts().to_string())
-    print("by language:")
+    print("by language (controlled: ar/en/mixed):")
     print(docs["language"].value_counts().to_string())
+    print("embed flag (False = structured-only, kept out of the vector store):")
+    print(docs["embed"].value_counts().to_string())
     return core_all, docs
 
 
