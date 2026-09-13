@@ -1,0 +1,16 @@
+# Saudi Digital Concierge — Python dependencies
+
+# Core data pipeline (cleaning, standardization, entity resolution, structured KB)
+pandas>=2.0
+numpy>=1.24
+openpyxl>=3.1          # read the reviews .xlsx
+requests>=2.31         # Enjoy.sa events API
+
+# Vector store (semantic retrieval) — multilingual embeddings
+sentence-transformers>=3.0
+
+# Notebooks (exploration & audits)
+jupyter>=1.0
+
+# Testing
+pytest>=8.0
