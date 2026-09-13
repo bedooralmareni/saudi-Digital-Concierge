@@ -158,6 +158,10 @@ def map_city(raw: str) -> tuple[str | None, str | None]:
     if raw is None or str(raw).strip() == "":
         return None, None
     s = str(raw).strip()
+    # Drop address detail after ' · ' ("Riyadh Saudi Arabia · In Qasr Mall" -> "Riyadh Saudi Arabia")
+    s = re.split(r"·", s)[0].strip()
+    # Strip a trailing country ("Al Uqayr Saudi Arabia" -> "Al Uqayr")
+    s = re.sub(r"(?i)[,\-]?\s*(saudi arabia|ksa)\s*$", "", s).strip()
     # 'Ajyad, Makkah' / 'Al Olayya, Al Khobar' -> take the part after the last comma
     if "," in s:
         s = s.split(",")[-1].strip()
