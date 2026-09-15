@@ -271,7 +271,7 @@ The project follows the following development pipeline:
         ↓
 16. Thesis Results
 ```
-
+```
 RAW DATA
    ↓
 1. QUALITY ASSESSMENT
@@ -300,5 +300,4 @@ dates                reviews
 prices               descriptions
 ratings              preferences
 coordinates          contextual text
-
 ```
