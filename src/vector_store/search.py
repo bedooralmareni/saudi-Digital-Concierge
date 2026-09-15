@@ -68,7 +68,39 @@ def _rank(query, mask, top_k):
 
 
 COLS = ["score", "entity_type", "entity_id", "city", "region", "category",
-        "rating_norm", "price_sar", "source_url", "text"]
+        "rating_norm", "price_sar", "source", "source_url", "text"]
+
+# machine source id -> human-readable name (for display)
+SOURCE_NAMES = {
+    "reviews_zenodo": "Tourism Reviews",
+    "riyadh_places_kaggle": "Riyadh Places",
+    "booking_kaggle": "Booking.com Hotels",
+    "entertainment_kaggle": "Entertainment KSA",
+    "enjoy_sa": "Enjoy.sa Events",
+}
+
+
+def format_results(query, df, text_chars=90):
+    """Render a results DataFrame in the RETRIEVED DOCUMENTS format.
+
+    Distance = 1 - cosine similarity (vectors are L2-normalized, so smaller = closer).
+    """
+    lines = [f"QUERY:\n{query}\n", "RETRIEVED DOCUMENTS:\n"]
+    for i, (_, r) in enumerate(df.reset_index(drop=True).iterrows(), 1):
+        dist = 1.0 - float(r["score"])
+        text = " ".join(str(r["text"]).split())
+        if len(text) > text_chars:
+            text = text[:text_chars].rstrip() + "..."
+        lines += [
+            f"--- Result {i} ---",
+            f"Distance: {dist:.4f}",
+            f"Type: {r['entity_type']}",
+            f"City: {r['city'] if pd.notna(r['city']) else 'N/A'}",
+            f"Source: {SOURCE_NAMES.get(r['source'], r['source'])}",
+            f"Text: {text}",
+            "",
+        ]
+    return "\n".join(lines)
 
 
 def semantic_search(query, top_k=10):
@@ -87,10 +119,30 @@ def hybrid_search(query, *, entity_type=None, city=None, region=None,
 
 
 if __name__ == "__main__":
+    import argparse
+
+    ap = argparse.ArgumentParser(description="Semantic / hybrid search over the vector index.")
+    ap.add_argument("query", nargs="*", help="free-text query (Arabic or English)")
+    ap.add_argument("-k", "--top-k", type=int, default=3)
+    ap.add_argument("--city", default=None)
+    ap.add_argument("--type", dest="entity_type", default=None,
+                    help="place | review | hotel | entertainment")
+    args = ap.parse_args()
+
     info = _load()[0]
-    print("index:", info)
-    print("\n[semantic] 'traditional Saudi culture and heritage':")
-    print(semantic_search("traditional Saudi culture and heritage", top_k=5).to_string(index=False))
-    print("\n[hybrid] places in Riyadh, semantic 'family friendly outing':")
-    print(hybrid_search("family friendly outing", entity_type="place", city="Riyadh",
-                        top_k=5).to_string(index=False))
+    if info["model"] == "stub":
+        print("WARNING: index built with the STUB embedder (token-hash, not semantic).")
+        print("         Rebuild with a real model for cross-lingual results:")
+        print("         python -m src.vector_store.build_index\n")
+
+    if args.query:
+        q = " ".join(args.query)
+        df = (hybrid_search(q, city=args.city, entity_type=args.entity_type, top_k=args.top_k)
+              if (args.city or args.entity_type)
+              else semantic_search(q, top_k=args.top_k))
+        print(format_results(q, df))
+    else:
+        for q in ["family-friendly activities in Riyadh",
+                  "traditional Saudi culture and heritage"]:
+            print(format_results(q, semantic_search(q, top_k=3)))
+            print("=" * 60)
