@@ -11,3 +11,12 @@ data/final/*.sqlite
 # Regenerable vector index build artifact
 data/final/vector_store/
 *.npy
+
+# Node (only used to generate the proposal .pptx)
+node_modules/
+package.json
+package-lock.json
+
+# Render artifacts
+*.pdf
+slide-*.jpg

@@ -59,6 +59,47 @@ hybrid_search("family-friendly outing", entity_type="place", city="Riyadh",
 Every result carries `entity_id`, `source_url`, and the metadata needed to resolve back to
 the structured record (`canonical_id` via `entity_crosswalk`) — the evidence trace.
 
+## Test it — example queries
+
+Build the real index once, then query it (Arabic **or** English — the model is multilingual,
+so an English query retrieves Arabic documents and vice-versa):
+
+```bash
+pip install sentence-transformers
+python -m src.vector_store.build_index                       # real multilingual model
+python -m src.vector_store.search "family-friendly activities in Riyadh"
+python -m src.vector_store.search "مكان هادئ للعائلات" -k 5   # Arabic query
+python -m src.vector_store.search "rooftop cafe with a view" --city Riyadh --type place
+```
+
+Output format (`Distance = 1 − cosine similarity`, so smaller = closer):
+
+```
+QUERY:
+family-friendly activities in Riyadh
+
+RETRIEVED DOCUMENTS:
+
+--- Result 1 ---
+Distance: 0.2145
+Type: review
+City: Riyadh
+Source: Tourism Reviews
+Text: تجربة رائعة للعائلات والأطفال...
+
+--- Result 2 ---
+Distance: 0.2381
+Type: entertainment
+City: Riyadh
+Source: Entertainment KSA
+Text: مكان مناسب للعائلات...
+```
+
+> Cross-lingual retrieval (English query → Arabic result) **requires the real model**.
+> The `stub` embedder is token-overlap only: same-language, keyword matches, useful for
+> wiring tests but not semantics. `src.vector_store.search` prints a warning when the
+> loaded index was built with the stub.
+
 ## Role in the hybrid KB
 
 ```
