@@ -145,4 +145,8 @@ if __name__ == "__main__":
         for q in ["family-friendly activities in Riyadh",
                   "traditional Saudi culture and heritage"]:
             print(format_results(q, semantic_search(q, top_k=3)))
+<<<<<<< HEAD
             print("=" * 60)
+=======
+            print("=" * 60)
+>>>>>>> 7a739f217ade8ad56d586bf9354e80d224fefa1a
