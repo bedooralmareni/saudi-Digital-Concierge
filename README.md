@@ -272,3 +272,33 @@ The project follows the following development pipeline:
 16. Thesis Results
 ```
 
+RAW DATA
+   ↓
+1. QUALITY ASSESSMENT
+"What problems are here?"
+   ↓
+2. CLEANING
+"Fix the problems."
+   ↓
+3. STANDARDIZATION
+"Make all datasets use compatible structures."
+   ↓
+4. ENTITY RESOLUTION
+"Which records refer to the same real-world thing?"
+   ↓
+5. KNOWLEDGE BASE
+"Store it so the AI can retrieve it."
+   ↓
+ ┌──────────────────────┐
+ │                      │
+Structured          Semantic
+SQLite              Vector Store
+ │                      │
+Exact facts          Meaning/evidence
+ │                      │
+dates                reviews
+prices               descriptions
+ratings              preferences
+coordinates          contextual text
+
+```
