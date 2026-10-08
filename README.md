@@ -274,19 +274,19 @@ The project follows the following development pipeline:
 ```
 RAW DATA
    ↓
-1. QUALITY ASSESSMENT
+QUALITY ASSESSMENT
 "What problems are here?"
    ↓
-2. CLEANING
+ CLEANING
 "Fix the problems."
    ↓
-3. STANDARDIZATION
+ STANDARDIZATION
 "Make all datasets use compatible structures."
    ↓
-4. ENTITY RESOLUTION
+ ENTITY RESOLUTION
 "Which records refer to the same real-world thing?"
    ↓
-5. KNOWLEDGE BASE
+ KNOWLEDGE BASE
 "Store it so the AI can retrieve it."
    ↓
  ┌──────────────────────┐
