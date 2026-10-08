@@ -31,6 +31,10 @@ def _load():
     info = json.loads((STORE / "index_info.json").read_text())
     vectors = np.load(STORE / "vectors.npy")
     meta = pd.read_csv(STORE / "vector_meta.csv")
+    if "canonical_id" not in meta.columns:
+        raise ValueError(
+            "Vector index lacks canonical_id. Rebuild with "
+            "python -m src.vector_store.build_index")
     embedder = get_embedder(info["model"])
     return info, vectors, meta, embedder
 
@@ -67,7 +71,7 @@ def _rank(query, mask, top_k):
     return out
 
 
-COLS = ["score", "entity_type", "entity_id", "city", "region", "category",
+COLS = ["score", "entity_type", "entity_id", "canonical_id", "city", "region", "category",
         "rating_norm", "price_sar", "source", "source_url", "text"]
 
 # machine source id -> human-readable name (for display)
@@ -145,8 +149,4 @@ if __name__ == "__main__":
         for q in ["family-friendly activities in Riyadh",
                   "traditional Saudi culture and heritage"]:
             print(format_results(q, semantic_search(q, top_k=3)))
-<<<<<<< HEAD
             print("=" * 60)
-=======
-            print("=" * 60)
->>>>>>> 7a739f217ade8ad56d586bf9354e80d224fefa1a

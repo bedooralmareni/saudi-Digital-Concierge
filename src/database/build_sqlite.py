@@ -15,7 +15,10 @@ Run:  python -m src.database.build_sqlite
 """
 from __future__ import annotations
 
+import contextlib
+import os
 import sqlite3
+import tempfile
 
 import sys as _sys, pathlib as _pathlib
 if __package__ in (None, ""):
@@ -102,11 +105,37 @@ VIEWS = {
 
 
 def build():
+    required = set().union(*(_view_deps(name) for name in VIEWS))
+    missing = sorted(t for t in required if t not in TABLES or not TABLES[t][0].exists())
+    if missing:
+        raise FileNotFoundError(f"Missing required KB tables: {', '.join(missing)}")
     DB_PATH.parent.mkdir(parents=True, exist_ok=True)
-    if DB_PATH.exists():
-        DB_PATH.unlink()  # rebuild from scratch for reproducibility
-    con = sqlite3.connect(DB_PATH)
+    fd, filename = tempfile.mkstemp(prefix="kb-", suffix=".sqlite", dir=DB_PATH.parent)
+    os.close(fd)
+    temporary = _pathlib.Path(filename)
+    try:
+        with contextlib.closing(sqlite3.connect(temporary)) as con:
+            _populate(con)
+            _validate_database(con)
+        os.replace(temporary, DB_PATH)
+    finally:
+        temporary.unlink(missing_ok=True)
+    print(f"\nsaved -> {DB_PATH}")
 
+def _validate_database(con):
+    checks = con.execute("PRAGMA integrity_check").fetchall()
+    if checks != [("ok",)]:
+        raise RuntimeError(f"Database integrity check failed: {checks}")
+    actual = {row[0] for row in con.execute(
+        "SELECT name FROM sqlite_master WHERE type='view'")}
+    missing = set(VIEWS) - actual
+    if missing:
+        raise RuntimeError(f"Missing required KB views: {sorted(missing)}")
+    # SQLite permits invalid view definitions; executing each checks its columns/joins.
+    for name in VIEWS:
+        con.execute(f'SELECT * FROM "{name}" LIMIT 1').fetchall()
+
+def _populate(con):
     loaded = {}
     for table, (path, pk) in TABLES.items():
         if not path.exists():
@@ -143,9 +172,6 @@ def build():
 
     con.commit()
     _report(con, loaded, n_idx, n_view)
-    con.close()
-    print(f"\nsaved -> {DB_PATH}")
-
 
 def _view_deps(view):
     return {
@@ -155,17 +181,13 @@ def _view_deps(view):
         "v_reviews_resolved": {"reviews", "review_place_links"},
     }[view]
 
-
 def _report(con, loaded, n_idx, n_view):
     print(f"\ntables: {len(loaded)} | indexes: {n_idx} | views: {n_view}")
     # smoke-test the two thesis example queries
     print("\nsmoke test — structured filter:")
     q1 = ("SELECT COUNT(*) FROM hotels "
           "WHERE city='Riyadh' AND price_sar < 500 AND guest_rating >= 8")
-    try:
-        print(f"  hotels in Riyadh < 500 SAR & guest_rating>=8: {con.execute(q1).fetchone()[0]}")
-    except sqlite3.Error as e:
-        print("  q1 error:", e)
+    print(f"  hotels in Riyadh < 500 SAR & guest_rating>=8: {con.execute(q1).fetchone()[0]}")
     q2 = ("SELECT COUNT(*) FROM places "
           "WHERE city='Riyadh' AND is_restaurant=1 AND average_rating >= 4.5")
     print(f"  Riyadh restaurants rated>=4.5: {con.execute(q2).fetchone()[0]}")

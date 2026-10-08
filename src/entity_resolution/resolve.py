@@ -71,7 +71,6 @@ def split_name(name):
     ar_str = " ".join(sorted(t for t in ar.split() if t))
     return en_str, ar_str
 
-
 def name_sim(a, b):
     """Max of English- and Arabic-part similarity (0-1); 0 if no shared script."""
     sims = []
@@ -80,7 +79,6 @@ def name_sim(a, b):
     if a[1] and b[1]:
         sims.append(SequenceMatcher(None, a[1], b[1]).ratio())
     return max(sims) if sims else 0.0
-
 
 def haversine_m(lat1, lon1, lat2, lon2):
     if any(v is None or (isinstance(v, float) and math.isnan(v)) for v in (lat1, lon1, lat2, lon2)):
@@ -107,7 +105,6 @@ class UF:
         ra, rb = self.find(a), self.find(b)
         if ra != rb:
             self.p[max(ra, rb)] = min(ra, rb)
-
 
 def _load_nodes():
     """Unified list of point entities from places, entertainment, hotels."""
@@ -139,7 +136,6 @@ def _load_nodes():
         nd["lon"] = float(nd["lon"]) if pd.notna(nd["lon"]) else None
     return nodes
 
-
 def _candidate_pairs(nodes):
     """Blocking: group by city + (name-prefix | coordinate cell); yield in-block pairs."""
     buckets = {}
@@ -168,7 +164,6 @@ def _candidate_pairs(nodes):
                     seen.add(pair)
                     yield pair
 
-
 def _should_merge(x, y):
     """Hard-merge decision. Conservative: coordinates MUST corroborate.
 
@@ -190,7 +185,6 @@ def _should_merge(x, y):
         return True, f"name={ns:.2f},dist={dist:.0f}m"
     return False, ""
 
-
 def _is_candidate(x, y):
     """A strong name match across sources that we DON'T auto-merge (needs coords/review)."""
     if x["city"] != y["city"] or not x["city"]:
@@ -204,11 +198,9 @@ def _is_candidate(x, y):
     ns = name_sim(x["norm"], y["norm"])
     return ns if ns >= 0.90 else None
 
-
 def _region_of(members, nodes):
     regs = [nodes[i]["region"] for i in members if nodes[i]["region"] in REGION_CODE]
     return max(set(regs), key=regs.count) if regs else None
-
 
 def resolve():
     OUT.mkdir(parents=True, exist_ok=True)
@@ -300,6 +292,26 @@ def resolve():
     return cross, canon
 
 
+def select_review_match(name, city, candidates):
+    """Return (canonical_id or None, best score) for canonical/name candidates."""
+    if not isinstance(city, str) or not city.strip():
+        return None, None
+    target = split_name(name)
+    scores = {}
+    for cid, normalized_name in candidates:
+        score = name_sim(target, normalized_name)
+        scores[cid] = max(scores.get(cid, 0.0), score)
+    ranked = sorted(scores.items(), key=lambda item: item[1], reverse=True)
+    if not ranked:
+        return None, None
+    best_cid, best = ranked[0]
+    runner_up = ranked[1][1] if len(ranked) > 1 else 0.0
+    margin = best - runner_up
+    enough_margin = margin >= 0.05 or math.isclose(
+        margin, 0.05, rel_tol=0.0, abs_tol=1e-12)
+    linked = best >= 0.85 and enough_margin
+    return (best_cid if linked else None), best
+
 def _link_reviews(nodes, uf, root_to_cid):
     """Best-effort link reviews -> canonical place/attraction by name + city (nullable)."""
     rv = pd.read_csv(PROCESSED / "reviews" / "reviews_clean.csv")
@@ -311,17 +323,14 @@ def _link_reviews(nodes, uf, root_to_cid):
 
     out = []
     for _, r in rv.iterrows():
-        target = split_name(r["place_name_raw"])
-        best_cid, best = None, 0.0
-        for i in by_city.get(r.get("city"), []):
-            s = name_sim(target, nodes[i]["norm"])
-            if s > best:
-                best, best_cid = s, root_to_cid[uf.find(i)]
-        linked = best >= 0.85
+        best_cid, best = select_review_match(
+            r["place_name_raw"], r.get("city"),
+            ((root_to_cid[uf.find(i)], nodes[i]["norm"])
+             for i in by_city.get(r.get("city"), [])))
         out.append({"review_id": r["review_id"], "place_name_raw": r["place_name_raw"],
                     "city": r.get("city"),
-                    "canonical_id": best_cid if linked else None,
-                    "name_sim": round(best, 3) if best_cid else None})
+                    "canonical_id": best_cid,
+                    "name_sim": round(best, 3) if best is not None else None})
     links = pd.DataFrame(out)
     links.to_csv(OUT / "review_place_links.csv", index=False)
     print(f"reviews linked to a canonical place: {int(links['canonical_id'].notna().sum())} / {len(links)}")

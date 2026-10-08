@@ -29,18 +29,39 @@ from src.cleaning.common import PROCESSED, ROOT
 from src.vector_store.embedder import get_embedder
 
 DOCS = PROCESSED / "standardized" / "kb_documents.csv"
+STD = PROCESSED / "standardized"
 OUT = ROOT / "data" / "final" / "vector_store"
 
-META_COLS = ["document_id", "chunk_id", "entity_type", "entity_id", "language",
+META_COLS = ["document_id", "chunk_id", "entity_type", "entity_id", "canonical_id", "language",
              "city", "region", "category", "latitude", "longitude",
              "rating_norm", "price_sar", "source", "source_id", "source_url",
              "snapshot_date", "is_live", "text"]
 
 
+def enrich_documents(docs, crosswalk, review_links):
+    """Attach canonical IDs without changing document order or count."""
+    points = crosswalk[["source", "source_entity_id", "canonical_id"]].rename(
+        columns={"source_entity_id": "entity_id", "canonical_id": "_point_canonical"})
+    reviews = review_links[["review_id", "canonical_id"]].rename(
+        columns={"review_id": "entity_id", "canonical_id": "_review_canonical"})
+    out = docs.drop(columns=["canonical_id"], errors="ignore").merge(
+        points, on=["source", "entity_id"], how="left", sort=False,
+        validate="many_to_one")
+    out = out.merge(reviews, on="entity_id", how="left", sort=False,
+                    validate="many_to_one")
+    out["canonical_id"] = out["_point_canonical"].astype("string").where(
+        out["entity_type"].isin(["place", "hotel", "entertainment"]))
+    is_review = out["entity_type"].eq("review")
+    out.loc[is_review, "canonical_id"] = out.loc[is_review, "_review_canonical"].astype("string")
+    return out.drop(columns=["_point_canonical", "_review_canonical"])
+
 def build(model_name=None):
     OUT.mkdir(parents=True, exist_ok=True)
     docs = pd.read_csv(DOCS)
     docs = docs[docs["embed"] == True].reset_index(drop=True)  # noqa: E712
+    docs = enrich_documents(
+        docs, pd.read_csv(STD / "entity_crosswalk.csv"),
+        pd.read_csv(STD / "review_place_links.csv"))
     print(f"documents to embed (embed=True): {len(docs)}")
 
     embedder = get_embedder(model_name)
