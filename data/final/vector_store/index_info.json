@@ -1,0 +1,7 @@
+{
+  "model": "intfloat/multilingual-e5-base",
+  "dim": 768,
+  "count": 13920,
+  "normalized": true,
+  "metric": "cosine"
+}
