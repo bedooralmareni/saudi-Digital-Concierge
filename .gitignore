@@ -2,6 +2,12 @@ __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
 .pytest_cache/
+.venv/
+.m4-backups/
+baseline_results/
+openai_baseline_results.json
+openai_baseline_results-*.json
+.env
 
 # Regenerable structured KB build artifact
 *.sqlite

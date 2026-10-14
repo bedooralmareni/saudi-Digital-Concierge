@@ -1,4 +1,4 @@
-# Saudi Digital Concierge — Python dependencies
+# Saudi Digital Concierge — shared dependencies for the KB, baseline and notebooks
 
 # Core data pipeline (cleaning, standardization, entity resolution, structured KB)
 pandas>=2.0
@@ -8,6 +8,20 @@ requests>=2.31         # Enjoy.sa events API
 
 # Vector store (semantic retrieval) — multilingual embeddings
 sentence-transformers>=3.0
+
+# API single-agent notebook (CPU embedding search and hosted answer generation)
+openai>=1.50.0
+faiss-cpu>=1.8
+
+# Colab single-model baseline (Qwen3-8B, 4-bit GPU inference)
+torch>=2.2
+transformers>=4.51,<5
+accelerate>=0.26
+bitsandbytes>=0.43
+
+# json, pathlib, sqlite3, subprocess, sys, os, re, time, uuid, shutil,
+# datetime and contextlib are part of Python; do not install them with pip.
+# google.colab is provided by the Colab runtime.
 
 # Notebooks (exploration & audits)
 jupyter>=1.0
