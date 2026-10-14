@@ -52,4 +52,12 @@ All configurations will use the same knowledge base, equivalent tools, scenarios
 
 ### 5.Iteration: When do evals run? How do we catch things getting worse?
 
-We will run evaluations after each major system update, including changes to prompts, tools, retrieval, or architecture. During development, we will use *60 development scenarios* to identify errors and improve performance, then *20 validation scenarios* to compare versions and detect regressions. We will track constraint satisfaction, recommendation relevance, itinerary completeness, consistency, tool errors, execution time, and API cost. If performance drops, we will review failed scenarios and traces, fix the issue, and rerun evaluations. After finalizing the configuration, we will test all four systems on the same *20 held-out final scenarios*, with three runs per configuration under controlled settings.
+We will run evaluations after major updates to prompts, tools, retrieval methods, or agent architecture.
+
+- *Development (60):* Identify errors and improve the systems.
+- *Validation (20):* Compare versions and detect performance regressions.
+- *Final Test (20):* Evaluate all four configurations using three runs per scenario.
+
+We will detect regressions by monitoring evaluation scores, tool errors, execution time, and cost. If performance decreases, we will analyze failed scenarios and execution traces before making improvements.
+
+The final test set will remain separate from development to ensure a fair evaluation.
