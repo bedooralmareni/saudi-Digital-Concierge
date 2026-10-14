@@ -5,17 +5,28 @@ Saudi Digital Concierge is a research project investigating whether a multi-agen
 
 ### 1. Success: Which matters most: accuracy, speed, or user experience?
 
-Accuracy and constraint satisfaction are our highest priorities because the system must recommend suitable hotels, attractions, and events based on user requirements. User experience comes second, followed by response speed.
+Our priority is *accuracy and constraint satisfaction*, followed by recommendation relevance and user experience. The system should provide reliable recommendations that match user budgets, dates, and preferences.
+
+Speed and cost are secondary, but we will monitor them to ensure efficient performance.
 
 ### 2.Task suite: Which typical tasks and edge cases? How many are enough?
 
-Our task suite includes four typical tasks: hotel recommendations, attraction discovery, event recommendations, and complete itinerary planning.
+We will evaluate *100 scenarios: 70 typical tasks and 30 edge cases*.
 
-Edge cases include limited budgets, conflicting constraints, missing information, and requests with multiple complex requirements.
+- *Typical Tasks:* Hotel recommendations, attraction discovery, event recommendations, and itinerary planning.
+- *Edge Cases:* Limited budgets, conflicting constraints, missing information, and multiple complex requirements.
 
-We will evaluate *60 diverse scenarios: 40 typical tasks and 20 edge cases*, covering both normal and challenging situations to assess the system's performance and robustness.
+The scenarios will cover different Saudi cities and both Arabic and English requests.
+
+| Dataset | Scenarios | Purpose |
+|---|---:|---|
+| Development | 60 | Testing and improvement |
+| Validation | 20 | Performance monitoring and model selection |
+| Final Test | 20 | Unbiased final evaluation |
 
 ### 3.Metrics: Rule-based checks or LLM judges? Process or outcome?
+
+We will use *both rule-based checks and LLM judges* to evaluate outcomes and execution processes.
 
 | Metric | Evaluation method | Process or outcome |
 |---|---|---|
@@ -30,7 +41,14 @@ We will evaluate *60 diverse scenarios: 40 typical tasks and 20 edge cases*, cov
 
 ### 4.Baselines: Compare to what? A plain model call, a single agent, the last version?
 
-We will use *Single-Agent systems as our baselines* and *Multi-Agent systems as our experimental treatments*.
+We will use *Single-Agent systems as baselines* and *Multi-Agent systems as treatments*, using two LLMs: Qwen and OpenAI.
+
+| Model | Baseline | Treatment |
+|---|---|---|
+| Qwen | Qwen Single-Agent | Qwen Multi-Agent |
+| OpenAI | OpenAI Single-Agent | OpenAI Multi-Agent |
+
+All configurations will use the same knowledge base, equivalent tools, scenarios, and evaluation metrics to ensure a fair comparison.
 
 ### 5.Iteration: When do evals run? How do we catch things getting worse?
 
