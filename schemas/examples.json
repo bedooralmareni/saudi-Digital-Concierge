@@ -1,0 +1,57 @@
+{
+  "request": {
+    "schema_version": "1.0",
+    "scenario_id": "SDC-007",
+    "raw_request": "رشّح لي خيارَي إقامة مختلفين في الرياض، بحيث يسع كل خيار شخصين على الأقل وسعره المسجل لا يتجاوز 300 ريال. تقييم النزلاء لا يقل عن 8/10. اذكر الأسماء والسعر والسعة والحقول التي تحقق الشروط.",
+    "language": "ar",
+    "intent": "recommendations",
+    "city": "Riyadh",
+    "dates": {"start": null, "end": null, "date_meaning": "none"},
+    "travelers": 2,
+    "hotel_budget": {"amount_sar": 300, "operator": "lte"},
+    "trip_budget_sar": null,
+    "minimum_ratings": {"hotel_guest_out_of_10": 8, "restaurant_out_of_5": null, "activity_out_of_5": null, "hotel_stars": null},
+    "requirements": {
+      "hotel_count": 2, "restaurant_count": 0, "activity_count": 0, "event_count": 0,
+      "breakfast_included": null, "free_cancellation": null, "family_event": null,
+      "preferences": [], "exclusions": [], "requested_facts": []
+    },
+    "interpretation_status": "ready",
+    "clarifying_questions": []
+  },
+  "response": {
+    "schema_version": "1.0",
+    "scenario_id": "SDC-007",
+    "language": "ar",
+    "response_type": "recommendations",
+    "status": "complete",
+    "message": "وجدت خيارين في الرياض يحققان السعر والسعة والتقييم المسجلين. الأسعار من لقطة قديمة، وليست أسعار حجز حالية.",
+    "recommendations": [
+      {
+        "entity_type": "hotel", "record_id": "hotels_00108", "name": "Suite Inn Hotel Riyadh", "city": "Riyadh",
+        "recorded_hotel_price_sar": 182, "hotel_price_snapshot_date": "2020-04-24", "event_start_date": null, "event_end_date": null,
+        "reason": "يسع شخصين، وسعره المسجل 182 ريال وتقييم النزلاء 8.4/10."
+      },
+      {
+        "entity_type": "hotel", "record_id": "hotels_00113", "name": "ضيافة الفيحاء Dayafat Alfayha'a", "city": "Riyadh",
+        "recorded_hotel_price_sar": 200, "hotel_price_snapshot_date": "2020-04-24", "event_start_date": null, "event_end_date": null,
+        "reason": "يسع شخصين، وسعره المسجل 200 ريال وتقييم النزلاء 8.9/10."
+      }
+    ],
+    "days": [],
+    "constraint_results": [
+      {"constraint": "المدينة: الرياض", "result": "met", "evidence_ids": ["hotels_00108", "hotels_00113"]},
+      {"constraint": "السعر المسجل حتى 300 ريال", "result": "met", "evidence_ids": ["hotels_00108", "hotels_00113"]},
+      {"constraint": "السعة لشخصين", "result": "met", "evidence_ids": ["hotels_00108", "hotels_00113"]},
+      {"constraint": "تقييم النزلاء 8/10 فأعلى", "result": "met", "evidence_ids": ["hotels_00108", "hotels_00113"]}
+    ],
+    "costs": {
+      "recorded_hotel_price_sar": 182,
+      "hotel_price_snapshot_date": "2020-04-24",
+      "verified_trip_total_sar": null,
+      "unknown_cost_categories": []
+    },
+    "clarifying_questions": [],
+    "limitations": ["سعر الفندق من لقطة 24 أبريل 2020؛ توفر الغرف والسعر الحالي غير مؤكدين."]
+  }
+}

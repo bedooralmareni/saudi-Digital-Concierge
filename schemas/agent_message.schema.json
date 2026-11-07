@@ -1,0 +1,45 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {"type":"string","enum":["1.0"]},
+    "case_id": {"type":"string"},
+    "run_id": {"type":"integer"},
+    "message_id": {"type":"string"},
+    "parent_message_id": {"type":["string","null"]},
+    "sender": {"type":"string","enum":["supervisor","hotel","attraction","event"]},
+    "recipient": {"type":"string","enum":["supervisor","hotel","attraction","event"]},
+    "kind": {"type":"string","enum":["task","result"]},
+    "component": {"type":"string","enum":["hotel","restaurant","activity","event"]},
+    "constraints": {"type":"array","items":{
+      "type":"object","additionalProperties":false,
+      "properties":{
+        "field":{"type":"string"},
+        "operator":{"type":"string","enum":["eq","lt","lte","gte","in","overlap","starts_in"]},
+        "value":{"type":"string"}
+      },"required":["field","operator","value"]
+    }},
+    "outcome": {"type":"string","enum":["PENDING","MATCH","NO_MATCH","UNKNOWN","NEEDS_CLARIFICATION","TOOL_ERROR","NOT_APPLICABLE"]},
+    "record_ids": {"type":"array","items":{"type":"string"}},
+    "records": {"type":"array","items":{
+      "type":"object","additionalProperties":false,
+      "properties":{
+        "entity_type":{"type":"string","enum":["hotel","restaurant","activity","event"]},
+        "record_id":{"type":"string"},
+        "name":{"type":"string"},
+        "city":{"type":["string","null"]},
+        "recorded_price_sar":{"type":["number","null"]},
+        "guest_rating":{"type":["number","null"]},
+        "rating_out_of_5":{"type":["number","null"]},
+        "capacity":{"type":["integer","null"]},
+        "event_start":{"type":["string","null"]},
+        "event_end":{"type":["string","null"]},
+        "source_snapshot_date":{"type":["string","null"]}
+      },
+      "required":["entity_type","record_id","name","city","recorded_price_sar","guest_rating","rating_out_of_5","capacity","event_start","event_end","source_snapshot_date"]
+    }},
+    "error_code":{"type":["string","null"]},
+    "note":{"type":"string"}
+  },
+  "required":["schema_version","case_id","run_id","message_id","parent_message_id","sender","recipient","kind","component","constraints","outcome","record_ids","records","error_code","note"]
+}

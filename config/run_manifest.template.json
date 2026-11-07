@@ -1,0 +1,43 @@
+{
+  "protocol_version": "1.0",
+  "status": "draft_requires_pilot",
+  "database_sha256": "cdbd4c20632e57c87d2ffb3ef97f603bfd1150cbb0ee38a297e2ce736f08c986",
+  "case_set_version": "1.0",
+  "request_schema_version": "1.0",
+  "response_schema_version": "1.0",
+  "run_ids": [17, 29, 43],
+  "same_cases_and_run_ids_for_architectures": true,
+  "qwen": {
+    "candidate_model_id": "Qwen/Qwen3-8B",
+    "resolved_commit_sha": null,
+    "hardware": "T4 GPU",
+    "quantization": "NF4 4-bit, double quantization, float16 compute",
+    "generation": {"do_sample": true, "temperature": 0.7, "top_p": 1.0, "max_new_tokens": 1200},
+    "transformers_version": null,
+    "torch_version": null
+  },
+  "openai": {
+    "candidate_model_id": "gpt-6-luna",
+    "resolved_response_model": null,
+    "sampling_parameters_accepted": null,
+    "generation": {"temperature": 0.7, "top_p": 1.0, "reasoning_effort": "none"},
+    "sdk_version": null,
+    "current_price_reference": null
+  },
+  "limits": {
+    "model_turns_per_case": 10,
+    "answer_repair_attempts": 2,
+    "tool_error_retries_per_action": 1,
+    "successful_search_actions_per_case": 30,
+    "wall_seconds_per_case": 180,
+    "openai_soft_usd_per_case": 0.05,
+    "openai_experiment_stop_usd": 5.0
+  },
+  "freeze_gate": {
+    "code_commit_sha": null,
+    "prompt_hash": null,
+    "scorer_commit_sha": null,
+    "validation_run_log": null,
+    "frozen_at_utc": null
+  }
+}

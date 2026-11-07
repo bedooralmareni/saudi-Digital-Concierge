@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "cases": 100,
+  "components_reexecuted": 118,
+  "evidence_rows_compared": 4904,
+  "split_counts": {
+    "Development": {
+      "Typical": 42,
+      "Edge": 18
+    },
+    "Validation": {
+      "Typical": 14,
+      "Edge": 6
+    },
+    "Final Test": {
+      "Typical": 14,
+      "Edge": 6
+    }
+  },
+  "language_counts": {
+    "EN": 50,
+    "AR": 50
+  },
+  "database_sha256": "cdbd4c20632e57c87d2ffb3ef97f603bfd1150cbb0ee38a297e2ce736f08c986",
+  "checks": [
+    "source fingerprint",
+    "exact split/type/language quotas",
+    "prompts match gold without answer fields",
+    "all SQL results and supporting fields",
+    "matching candidates and impossible queries",
+    "NULL evidence and absent schema fields",
+    "name-city/event-edition distinctness",
+    "linked-group isolation",
+    "unique prompt text and full query signatures"
+  ],
+  "limitations": [
+    "No model was run. This is benchmark validation, not response scoring.",
+    "No formal semantic paraphrase detector was used. Template and entity overlap are not eliminated.",
+    "Operational name-city deduplication may collapse branches with the same name.",
+    "Synthetic snapshot-grounded tasks do not establish live booking or itinerary feasibility."
+  ]
+}

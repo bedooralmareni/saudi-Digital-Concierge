@@ -1,0 +1,61 @@
+﻿scenario_id,language,prompt
+SDC-001,EN,"Find one venue classified as Science museum in Al Khobar rated at least 3.5/5. State name, genre and rating."
+SDC-002,EN,"Find one venue classified as Movie theater in Dammam rated at least 4/5. State name, genre and rating."
+SDC-003,AR,أبحث عن مكان واحد من نوع مركز ترفيه في المدينة المنورة، بتقييم 3.5/5 فأعلى. اذكر الاسم والنوع والتقييم.
+SDC-004,AR,أبحث عن مكان واحد من نوع مدينة ملاهٍ في بريدة، بتقييم 3.5/5 فأعلى. اذكر الاسم والنوع والتقييم.
+SDC-005,EN,"Find one venue classified as Movie theater in Tabuk rated at least 3.5/5. State name, genre and rating."
+SDC-006,AR,أبحث عن مكان واحد من نوع سينما في جازان، بتقييم 3.5/5 فأعلى. اذكر الاسم والنوع والتقييم.
+SDC-007,AR,رشّح لي خيارَي إقامة مختلفين في الرياض، بحيث يسع كل خيار شخصين على الأقل وسعره المسجل لا يتجاوز 300 ريال. تقييم النزلاء لا يقل عن 8/10. اذكر الأسماء والسعر والسعة والحقول التي تحقق الشروط.
+SDC-008,EN,"Find 2 distinct accommodation options in Jeddah, each accommodating at least 2 people with a recorded price of at most SAR 450. Require a guest rating of at least 8/10. Require at least 4 stars. Give names, prices, capacities and the fields supporting the constraints."
+SDC-009,AR,رشّح لي خيارَي إقامة مختلفين في الدمام، بحيث يسع كل خيار شخصين على الأقل وسعره المسجل لا يتجاوز 300 ريال. تقييم النزلاء لا يقل عن 7/10. أحتاج إلغاءً مجانيًا موثقًا في البيانات. اذكر الأسماء والسعر والسعة والحقول التي تحقق الشروط.
+SDC-010,AR,رشّح لي خيار إقامة واحدًا في المدينة المنورة، بحيث يسع كل خيار 4 أشخاص على الأقل وسعره المسجل لا يتجاوز 600 ريال. اذكر الأسماء والسعر والسعة والحقول التي تحقق الشروط.
+SDC-011,AR,رشّح لي خيارَي إقامة مختلفين في الطائف، بحيث يسع كل خيار شخصين على الأقل وسعره المسجل لا يتجاوز 400 ريال. تقييم النزلاء لا يقل عن 8/10. اذكر الأسماء والسعر والسعة والحقول التي تحقق الشروط.
+SDC-012,EN,"Find 2 distinct accommodation options in Tabuk, each accommodating at least 2 people with a recorded price of at most SAR 350. Require a guest rating of at least 8/10. Give names, prices, capacities and the fields supporting the constraints."
+SDC-013,AR,رشّح لي خيارَي إقامة مختلفين في جازان، بحيث يسع كل خيار شخصين على الأقل وسعره المسجل لا يتجاوز 400 ريال. تقييم النزلاء لا يقل عن 8/10. أحتاج إلغاءً مجانيًا موثقًا في البيانات. اذكر الأسماء والسعر والسعة والحقول التي تحقق الشروط.
+SDC-014,EN,"Find 2 distinct accommodation options in Riyadh, each accommodating at least 2 people with a recorded price of at most SAR 700. Require at least 4 stars. Breakfast must be explicitly recorded as included. Give names, prices, capacities and the fields supporting the constraints."
+SDC-015,EN,"Find one accommodation option in Jeddah, each accommodating at least 4 people with a recorded price of at most SAR 500. Free cancellation must be explicitly recorded. Give names, prices, capacities and the fields supporting the constraints."
+SDC-016,EN,"Find one accommodation option in Abha, each accommodating at least 2 people with a recorded price of at most SAR 500. Require a guest rating of at least 8/10. Breakfast must be explicitly recorded as included. Give names, prices, capacities and the fields supporting the constraints."
+SDC-017,AR,رشّح لي خيار إقامة واحدًا في بريدة، بحيث يسع كل خيار شخصين على الأقل وسعره المسجل لا يتجاوز 900 ريال. تقييم النزلاء لا يقل عن 8/10. التصنيف 4 نجوم فأعلى. اذكر الأسماء والسعر والسعة والحقول التي تحقق الشروط.
+SDC-018,EN,"Find one accommodation option in Jazan, each accommodating at least 3 people with a recorded price of at most SAR 650. Give names, prices, capacities and the fields supporting the constraints."
+SDC-019,AR,جهّز لي اقتراح زيارة في الخبر يجمع خيار إقامة لشخصين بسعر مسجل لا يتجاوز 300 ريال، وأضف مكانًا واحدًا من نوع متحف علوم بتقييم 3.5/5 فأعلى. اذكر سبب مطابقة كل اختيار لشروطي.
+SDC-020,EN,"Build a visit suggestion for Dammam: one accommodation option for two people with recorded price at most SAR 250, plus one venue classified as Movie theater and rated at least 4/5. Explain how each choice meets my constraints."
+SDC-021,EN,"Build a visit suggestion for Madinah: one accommodation option for two people with recorded price at most SAR 300, plus one venue classified as Amusement center and rated at least 3.5/5. Explain how each choice meets my constraints."
+SDC-022,EN,"Build a visit suggestion for Buraydah: one accommodation option for two people with recorded price at most SAR 300, plus one venue classified as Theme park and rated at least 3.5/5. Explain how each choice meets my constraints."
+SDC-023,AR,جهّز لي اقتراح زيارة في تبوك يجمع خيار إقامة لشخصين بسعر مسجل لا يتجاوز 300 ريال، وأضف مكانًا واحدًا من نوع سينما بتقييم 3.5/5 فأعلى. اذكر سبب مطابقة كل اختيار لشروطي.
+SDC-024,AR,جهّز لي اقتراح زيارة في جازان يجمع خيار إقامة لشخصين بسعر مسجل لا يتجاوز 350 ريال، وأضف مكانًا واحدًا من نوع سينما بتقييم 3.5/5 فأعلى. اذكر سبب مطابقة كل اختيار لشروطي.
+SDC-025,EN,"Create a retrospective visit suggestion for Riyadh in 2023-01: one accommodation option for two people with a recorded price no higher than SAR 400, and one event starting in that month. State the recorded accommodation price and event dates, distinguishing the old hotel snapshot from the event date."
+SDC-026,EN,"Create a retrospective visit suggestion for Jeddah in 2023-06: one accommodation option for two people with a recorded price no higher than SAR 500, and one event starting in that month. State the recorded accommodation price and event dates, distinguishing the old hotel snapshot from the event date."
+SDC-027,AR,كوّن اقتراح زيارة تاريخية إلى الخبر خلال 2018-04: خيار إقامة واحد لشخصين بسعر مسجل حتى 450 ريال، وفعالية واحدة يبدأ تاريخها في ذلك الشهر. وضّح سعر الإقامة المسجل وتواريخ الفعالية، وميّز بين بيانات الفندق القديمة وموعد الفعالية.
+SDC-028,EN,"Create a retrospective visit suggestion for Abha in 2022-08: one accommodation option for two people with a recorded price no higher than SAR 500, and one event starting in that month. State the recorded accommodation price and event dates, distinguishing the old hotel snapshot from the event date."
+SDC-029,AR,كوّن اقتراح زيارة تاريخية إلى تبوك خلال 2018-09: خيار إقامة واحد لشخصين بسعر مسجل حتى 450 ريال، وفعالية واحدة يبدأ تاريخها في ذلك الشهر. وضّح سعر الإقامة المسجل وتواريخ الفعالية، وميّز بين بيانات الفندق القديمة وموعد الفعالية.
+SDC-030,AR,كوّن اقتراح زيارة تاريخية إلى جازان خلال 2018-09: خيار إقامة واحد لشخصين بسعر مسجل حتى 450 ريال، وفعالية واحدة يبدأ تاريخها في ذلك الشهر. وضّح سعر الإقامة المسجل وتواريخ الفعالية، وميّز بين بيانات الفندق القديمة وموعد الفعالية.
+SDC-031,AR,رشّح 2 أماكن مختلفة لتناول الطعام في الرياض مصنفة ضمن فئة سعودي، بتقييم لا يقل عن 4.0/5 وعدد تقييماتها لا يقل عن 20. اذكر الاسم والتصنيف والتقييم.
+SDC-032,AR,رشّح 3 أماكن مختلفة لتناول الطعام في الرياض مصنفة ضمن فئة هندي، بتقييم لا يقل عن 4.2/5 وعدد تقييماتها لا يقل عن 10. اذكر الاسم والتصنيف والتقييم.
+SDC-033,EN,"Recommend 2 distinct food venues in Riyadh tagged Healthy, rated at least 4.2/5. Give each name, category and rating."
+SDC-034,AR,رشّح 3 أماكن مختلفة لتناول الطعام في الرياض مصنفة ضمن فئة آسيوي، بتقييم لا يقل عن 4.0/5. اذكر الاسم والتصنيف والتقييم.
+SDC-035,EN,"Recommend 3 distinct food venues in Riyadh tagged Desserts, rated at least 4.5/5 with at least 20 ratings. Give each name, category and rating."
+SDC-036,EN,"Recommend 2 distinct food venues in Riyadh tagged Coffee, rated at least 4.6/5. Give each name, category and rating."
+SDC-037,EN,"For a retrospective visit plan, list 2 distinct events in Riyadh whose start date falls in 2022-11. Give each name, start date and end date."
+SDC-038,AR,لأراجع خيارات زيارة سابقة، اذكر فعاليتين مختلفتين في جدة يبدأ تاريخهما خلال 2023-06 ومسموح فيها للعائلات بحسب البيانات. اذكر اسم كل فعالية وتاريخ بدايتها ونهايتها.
+SDC-039,EN,"For a retrospective visit plan, list 2 distinct events in Al Khobar whose start date falls in 2019-03. Give each name, start date and end date."
+SDC-040,AR,لأراجع خيارات زيارة سابقة، اذكر فعاليتين مختلفتين في أبها يبدأ تاريخهما خلال 2022-09. اذكر اسم كل فعالية وتاريخ بدايتها ونهايتها.
+SDC-041,AR,لأراجع خيارات زيارة سابقة، اذكر فعاليتين مختلفتين في تبوك يبدأ تاريخهما خلال 2019-09. اذكر اسم كل فعالية وتاريخ بدايتها ونهايتها.
+SDC-042,EN,"For a retrospective visit plan, list 2 distinct events in Jazan whose start date falls in 2019-09 with family admission explicitly allowed in the data. Give each name, start date and end date."
+SDC-043,AR,أحتاج خيار إقامة في أبها يسع 2 أشخاص بسعر مسجل لا يتجاوز 30 ريال. التزم بالسقف المالي.
+SDC-044,EN,I need accommodation in Tabuk for 2 people with recorded price at most SAR 40. The budget is a hard limit.
+SDC-045,EN,Recommend three restaurants in Jeddah using only the database.
+SDC-046,AR,رشّح ثلاثة مطاعم في المدينة المنورة من قاعدة البيانات فقط.
+SDC-047,EN,Find a recorded Riyadh event whose start date falls in January 2035.
+SDC-048,EN,"For Corp Inn Deira. (hotels_00007), is breakfast included? Use the database."
+SDC-049,EN,"For Frontel Al Harithia Hotel (hotels_00027), is free cancellation included? Use the database."
+SDC-050,AR,بالنسبة إلى Golden Tulip Dammam Corniche Hotel (hotels_00101)، ما نوع السرير؟ اعتمد على القاعدة.
+SDC-051,AR,هل تسمح فعالية عرض شون ذا شيب (events_00fa59acb090) بدخول العائلات بحسب القاعدة؟
+SDC-052,EN,Can you confirm that Alharfoosh (places_00024) is rated at least 4/5?
+SDC-053,AR,في أي مدينة يقع Red Sand Dunes (entertainment_00203) بحسب سجل الترفيه؟
+SDC-054,EN,Confirm that Suite Inn Hotel Riyadh is bookable on 20 November 2026 for SAR 182.
+SDC-055,EN,Recommend accommodation for two people with recorded price at most SAR 300.
+SDC-056,AR,أريد فندقًا في جدة سعره المسجل أقل من 200 ريال وفي الوقت نفسه أكثر من 500 ريال.
+SDC-057,AR,أريد ثلاثة معالم سياحية مختلفة في جدة من جدول الترفيه، بتقييم 4/5 فأعلى. لا تكرر المكان باسم أو سجل آخر.
+SDC-058,AR,جهّز اقتراحًا في جدة: فندق لشخصين بسعر مسجل حتى 300 ريال، ومطعمان من القاعدة.
+SDC-059,AR,أحتاج خيار إقامة لشخصين في الدمام حتى 350 ريال بالسعر المسجل، وفعالية يبدأ تاريخها في يناير 2035.
+SDC-060,EN,Use 6 November 2026 as the question date. Is كومبات أرينا (events_43617e5bd7c2) still running according to its dates?

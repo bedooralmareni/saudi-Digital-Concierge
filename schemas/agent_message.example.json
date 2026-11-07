@@ -1,0 +1,26 @@
+{
+  "schema_version":"1.0",
+  "case_id":"SDC-007",
+  "run_id":17,
+  "message_id":"SDC-007-17-hotel-result-1",
+  "parent_message_id":"SDC-007-17-hotel-task-1",
+  "sender":"hotel",
+  "recipient":"supervisor",
+  "kind":"result",
+  "component":"hotel",
+  "constraints":[
+    {"field":"city","operator":"eq","value":"Riyadh"},
+    {"field":"price_sar","operator":"lte","value":"300"},
+    {"field":"max_persons","operator":"gte","value":"2"},
+    {"field":"guest_rating","operator":"gte","value":"8"}
+  ],
+  "outcome":"MATCH",
+  "record_ids":["hotels_00108"],
+  "records":[{
+    "entity_type":"hotel","record_id":"hotels_00108","name":"Suite Inn Hotel Riyadh","city":"Riyadh",
+    "recorded_price_sar":182,"guest_rating":8.4,"rating_out_of_5":null,"capacity":2,
+    "event_start":null,"event_end":null,"source_snapshot_date":"2020-04-24"
+  }],
+  "error_code":null,
+  "note":"One recorded matching option; hotel price is historical."
+}

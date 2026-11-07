@@ -1,0 +1,33 @@
+{
+  "snapshot": {
+    "file": "knowledge_base.sqlite",
+    "sha256": "cdbd4c20632e57c87d2ffb3ef97f603bfd1150cbb0ee38a297e2ce736f08c986",
+    "created_on": "2026-11-06",
+    "split_seed": 683,
+    "version": "1.0",
+    "hotel_snapshot_date": "2020-04-24",
+    "event_snapshot_date": "2026-09-13"
+  },
+  "system_context": {
+    "AR": "استخدم قاعدة البيانات المرفقة فقط. الأسعار وتفاصيل الفنادق قيم تاريخية مسجلة وليست عروض حجز حالية. تواريخ الفعاليات كما هي في السجلات. لا تفترض أن المعلومة الناقصة تعني عدم توفر الخاصية. اذكر معرّف السجل مع كل خيار. أجب بلغة الطلب، وميّز بوضوح بين الخيارات المطابقة والقيود غير القابلة للتحقق.",
+    "EN": "Use only the supplied database. Hotel prices and attributes are historical recorded values, not current booking offers. Use event dates as recorded. Missing values do not mean a feature is absent. Include a record ID with each option. Answer in the request language and distinguish compliant options from constraints that cannot be verified."
+  },
+  "counts": {
+    "Development": {
+      "Typical": 42,
+      "Edge": 18
+    },
+    "Validation": {
+      "Typical": 14,
+      "Edge": 6
+    },
+    "Final Test": {
+      "Typical": 14,
+      "Edge": 6
+    }
+  },
+  "language_counts": {
+    "EN": 50,
+    "AR": 50
+  }
+}

@@ -1,0 +1,21 @@
+﻿scenario_id,language,prompt
+SDC-081,EN,"Find 2 distinct venues classified as Park in Riyadh rated at least 4/5. State name, genre and rating."
+SDC-082,AR,أبحث عن مكان واحد من نوع مسرح فنون أدائية في الطائف، بتقييم 3.5/5 فأعلى. اذكر الاسم والنوع والتقييم.
+SDC-083,EN,"Find 2 distinct accommodation options in Al Khobar, each accommodating at least 2 people with a recorded price of at most SAR 350. Require a guest rating of at least 7.5/10. Free cancellation must be explicitly recorded. Give names, prices, capacities and the fields supporting the constraints."
+SDC-084,AR,رشّح لي خيار إقامة واحدًا في بريدة، بحيث يسع كل خيار 3 أشخاص على الأقل وسعره المسجل لا يتجاوز 500 ريال. أحتاج إلغاءً مجانيًا موثقًا في البيانات. اذكر الأسماء والسعر والسعة والحقول التي تحقق الشروط.
+SDC-085,EN,"Find 2 distinct accommodation options in Madinah, each accommodating at least 2 people with a recorded price of at most SAR 350. Require a guest rating of at least 7/10. Free cancellation must be explicitly recorded. Give names, prices, capacities and the fields supporting the constraints."
+SDC-086,EN,"Find one accommodation option in Tabuk, each accommodating at least 2 people with a recorded price of at most SAR 650. Breakfast must be explicitly recorded as included. Give names, prices, capacities and the fields supporting the constraints."
+SDC-087,AR,جهّز لي اقتراح زيارة في الرياض يجمع خيار إقامة لشخصين بسعر مسجل لا يتجاوز 250 ريال، وأضف مكانين مختلفين من نوع حديقة بتقييم 4/5 فأعلى. اذكر سبب مطابقة كل اختيار لشروطي.
+SDC-088,AR,جهّز لي اقتراح زيارة في الطائف يجمع خيار إقامة لشخصين بسعر مسجل لا يتجاوز 350 ريال، وأضف مكانًا واحدًا من نوع مسرح فنون أدائية بتقييم 3.5/5 فأعلى. اذكر سبب مطابقة كل اختيار لشروطي.
+SDC-089,EN,"Create a retrospective visit suggestion for Taif in 2022-02: one accommodation option for two people with a recorded price no higher than SAR 500, and one event starting in that month. State the recorded accommodation price and event dates, distinguishing the old hotel snapshot from the event date."
+SDC-090,EN,"Create a retrospective visit suggestion for Buraydah in 2023-08: one accommodation option for two people with a recorded price no higher than SAR 400, and one event starting in that month. State the recorded accommodation price and event dates, distinguishing the old hotel snapshot from the event date."
+SDC-091,AR,رشّح 2 أماكن مختلفة لتناول الطعام في الرياض مصنفة ضمن فئة فطور، بتقييم لا يقل عن 4.0/5. اذكر الاسم والتصنيف والتقييم.
+SDC-092,AR,رشّح 2 أماكن مختلفة لتناول الطعام في الرياض مصنفة ضمن فئة مشويات، بتقييم لا يقل عن 4.3/5. اذكر الاسم والتصنيف والتقييم.
+SDC-093,EN,"For a retrospective visit plan, list 2 distinct events in Taif whose start date falls in 2019-08. Give each name, start date and end date."
+SDC-094,AR,لأراجع خيارات زيارة سابقة، اذكر فعاليتين مختلفتين في بريدة يبدأ تاريخهما خلال 2023-08 ومسموح فيها للعائلات بحسب البيانات. اذكر اسم كل فعالية وتاريخ بدايتها ونهايتها.
+SDC-095,EN,I need accommodation in Riyadh for 2 people with recorded price at most SAR 10. The budget is a hard limit.
+SDC-096,EN,Find a Dammam hotel for two with guest rating at least 9.9/10 and recorded price at most SAR 1000.
+SDC-097,EN,Find an Escape room center in Abha in the database.
+SDC-098,AR,بالنسبة إلى Il Villaggio Luxury Villas (hotels_00134)، ما عدد النجوم؟ اعتمد على القاعدة.
+SDC-099,AR,خطط زيارة في الرياض من 20 يونيو 2026 إلى 18 يونيو 2026، مع فندق وفعالية.
+SDC-100,AR,أريد زيارة في الرياض: فندق لشخصين بسعر مسجل حتى 10 ريالات وحديقة بتقييم 4.5/5 فأعلى.

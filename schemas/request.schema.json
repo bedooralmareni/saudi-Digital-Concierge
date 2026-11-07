@@ -1,0 +1,275 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "enum": [
+        "1.0"
+      ],
+      "description": "Contract version."
+    },
+    "scenario_id": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Evaluation case ID; null for ordinary user requests."
+    },
+    "raw_request": {
+      "type": "string",
+      "description": "Unmodified original user text."
+    },
+    "language": {
+      "type": "string",
+      "enum": [
+        "ar",
+        "en"
+      ],
+      "description": "Language of original user request."
+    },
+    "intent": {
+      "type": "string",
+      "enum": [
+        "recommendations",
+        "itinerary",
+        "information"
+      ],
+      "description": "Requested answer shape; do not create a day-by-day plan for a hotel-only request."
+    },
+    "city": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "City as resolved from user text; null if missing. Keep database spelling in retrieval filters."
+    },
+    "dates": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "start": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "ISO 8601 calendar date YYYY-MM-DD; null when absent or unresolved."
+        },
+        "end": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "ISO 8601 calendar date YYYY-MM-DD; null when absent or unresolved."
+        },
+        "date_meaning": {
+          "type": "string",
+          "enum": [
+            "none",
+            "visit_inclusive",
+            "hotel_checkout",
+            "event_start_month"
+          ],
+          "description": "How to interpret start/end; never assume a hotel checkout from an inclusive event range."
+        }
+      },
+      "required": [
+        "start",
+        "end",
+        "date_meaning"
+      ]
+    },
+    "travelers": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "description": "People needing accommodation, when specified."
+    },
+    "hotel_budget": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "amount_sar": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "Maximum or exclusive bound on the recorded hotel price; null if not provided."
+        },
+        "operator": {
+          "type": "string",
+          "enum": [
+            "none",
+            "lt",
+            "lte"
+          ],
+          "description": "lt for under/below, lte for at most/up to. Do not silently change it."
+        }
+      },
+      "required": [
+        "amount_sar",
+        "operator"
+      ]
+    },
+    "trip_budget_sar": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "Total trip budget when given; cannot be verified from hotel prices alone."
+    },
+    "minimum_ratings": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "hotel_guest_out_of_10": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "Hotel guest rating threshold on a 10-point scale."
+        },
+        "restaurant_out_of_5": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "Restaurant average rating threshold on a 5-point scale."
+        },
+        "activity_out_of_5": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "Entertainment rating threshold on a 5-point scale."
+        },
+        "hotel_stars": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "Hotel star classification; separate from guest rating."
+        }
+      },
+      "required": [
+        "hotel_guest_out_of_10",
+        "restaurant_out_of_5",
+        "activity_out_of_5",
+        "hotel_stars"
+      ]
+    },
+    "requirements": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "hotel_count": {
+          "type": "integer",
+          "description": "Requested number of hotels; zero when not requested."
+        },
+        "restaurant_count": {
+          "type": "integer",
+          "description": "Requested number of dining venues; zero when not requested."
+        },
+        "activity_count": {
+          "type": "integer",
+          "description": "Requested number of entertainment or attraction venues; zero when not requested."
+        },
+        "event_count": {
+          "type": "integer",
+          "description": "Requested number of events; zero when not requested."
+        },
+        "breakfast_included": {
+          "type": [
+            "boolean",
+            "null"
+          ],
+          "description": "True if explicitly required; null when unspecified; false if explicitly excluded."
+        },
+        "free_cancellation": {
+          "type": [
+            "boolean",
+            "null"
+          ],
+          "description": "True if explicitly required; null when unspecified; false if explicitly excluded."
+        },
+        "family_event": {
+          "type": [
+            "boolean",
+            "null"
+          ],
+          "description": "True if family admission explicitly required; null if unspecified."
+        },
+        "preferences": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "description": "Preference"
+          },
+          "description": "Requested categories/themes, including user phrasing."
+        },
+        "exclusions": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "description": "Exclusion"
+          },
+          "description": "Places or categories to exclude."
+        },
+        "requested_facts": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "description": "Requested field"
+          },
+          "description": "Other explicit user questions such as opening hours or live availability."
+        }
+      },
+      "required": [
+        "hotel_count",
+        "restaurant_count",
+        "activity_count",
+        "event_count",
+        "breakfast_included",
+        "free_cancellation",
+        "family_event",
+        "preferences",
+        "exclusions",
+        "requested_facts"
+      ]
+    },
+    "interpretation_status": {
+      "type": "string",
+      "enum": [
+        "ready",
+        "needs_clarification",
+        "conflicting"
+      ],
+      "description": "Parsing status, independent of database retrieval."
+    },
+    "clarifying_questions": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "description": "Question"
+      },
+      "description": "Questions needed before definitive recommendations; empty if ready."
+    }
+  },
+  "required": [
+    "schema_version",
+    "scenario_id",
+    "raw_request",
+    "language",
+    "intent",
+    "city",
+    "dates",
+    "travelers",
+    "hotel_budget",
+    "trip_budget_sar",
+    "minimum_ratings",
+    "requirements",
+    "interpretation_status",
+    "clarifying_questions"
+  ]
+}

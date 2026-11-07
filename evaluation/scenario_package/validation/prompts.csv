@@ -1,0 +1,21 @@
+﻿scenario_id,language,prompt
+SDC-061,EN,"Find one venue classified as Escape room center in Jeddah rated at least 4/5. State name, genre and rating."
+SDC-062,AR,أبحث عن مكان واحد من نوع مسرح عروض في أبها، بتقييم 3.5/5 فأعلى. اذكر الاسم والنوع والتقييم.
+SDC-063,EN,"Find one accommodation option in Abha, each accommodating at least 3 people with a recorded price of at most SAR 600. Give names, prices, capacities and the fields supporting the constraints."
+SDC-064,AR,رشّح لي خيارَي إقامة مختلفين في الخبر، بحيث يسع كل خيار شخصين على الأقل وسعره المسجل لا يتجاوز 600 ريال. تقييم النزلاء لا يقل عن 8/10. التصنيف 4 نجوم فأعلى. اذكر الأسماء والسعر والسعة والحقول التي تحقق الشروط.
+SDC-065,AR,رشّح لي خيار إقامة واحدًا في الدمام، بحيث يسع كل خيار 3 أشخاص على الأقل وسعره المسجل لا يتجاوز 650 ريال. اذكر الأسماء والسعر والسعة والحقول التي تحقق الشروط.
+SDC-066,AR,رشّح لي خيار إقامة واحدًا في الطائف، بحيث يسع كل خيار 4 أشخاص على الأقل وسعره المسجل لا يتجاوز 800 ريال. أحتاج إلغاءً مجانيًا موثقًا في البيانات. اذكر الأسماء والسعر والسعة والحقول التي تحقق الشروط.
+SDC-067,EN,"Build a visit suggestion for Jeddah: one accommodation option for two people with recorded price at most SAR 350, plus one venue classified as Escape room center and rated at least 4/5. Explain how each choice meets my constraints."
+SDC-068,EN,"Build a visit suggestion for Abha: one accommodation option for two people with recorded price at most SAR 400, plus one venue classified as Stage and rated at least 3.5/5. Explain how each choice meets my constraints."
+SDC-069,AR,كوّن اقتراح زيارة تاريخية إلى الدمام خلال 2019-09: خيار إقامة واحد لشخصين بسعر مسجل حتى 350 ريال، وفعالية واحدة يبدأ تاريخها في ذلك الشهر. وضّح سعر الإقامة المسجل وتواريخ الفعالية، وميّز بين بيانات الفندق القديمة وموعد الفعالية.
+SDC-070,AR,كوّن اقتراح زيارة تاريخية إلى المدينة المنورة خلال 2019-09: خيار إقامة واحد لشخصين بسعر مسجل حتى 450 ريال، وفعالية واحدة يبدأ تاريخها في ذلك الشهر. وضّح سعر الإقامة المسجل وتواريخ الفعالية، وميّز بين بيانات الفندق القديمة وموعد الفعالية.
+SDC-071,EN,"Recommend 2 distinct food venues in Riyadh tagged Italian, rated at least 4.4/5. Give each name, category and rating."
+SDC-072,EN,"Recommend 2 distinct food venues in Riyadh tagged Seafood, rated at least 4.0/5 with at least 10 ratings. Give each name, category and rating."
+SDC-073,AR,لأراجع خيارات زيارة سابقة، اذكر فعاليتين مختلفتين في الدمام يبدأ تاريخهما خلال 2019-06 ومسموح فيها للعائلات بحسب البيانات. اذكر اسم كل فعالية وتاريخ بدايتها ونهايتها.
+SDC-074,EN,"For a retrospective visit plan, list 2 distinct events in Madinah whose start date falls in 2018-04 with family admission explicitly allowed in the data. Give each name, start date and end date."
+SDC-075,AR,أحتاج خيار إقامة في جدة يسع 2 أشخاص بسعر مسجل لا يتجاوز 20 ريال. التزم بالسقف المالي.
+SDC-076,AR,أريد إقامة في الطائف مع إفطار مشمول ومؤكد في البيانات.
+SDC-077,EN,"For Centro Corniche Al Khobar by Rotana (hotels_00166), what is the guest rating? Use the database."
+SDC-078,EN,Recommend two Riyadh restaurants guaranteed by the database to be open at 02:00.
+SDC-079,EN,I want Riyadh events on Friday.
+SDC-080,AR,رشّح مطعمًا هنديًا في الرياض بتقييم 4.5/5 فأعلى، وأكد أن تكلفة وجبة فيه لا تتجاوز 30 ريال.
