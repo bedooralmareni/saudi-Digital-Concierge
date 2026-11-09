@@ -1,0 +1,26 @@
+{
+  "pricing_version": "2026-11-09-standard-30m",
+  "source_url": "https://developers.openai.com/api/docs/models/gpt-6-luna",
+  "source_checked_date": "2026-11-09",
+  "service_tier": "standard",
+  "region": "default_non_regional",
+  "cache_write_ttl": "30m",
+  "note": "Estimated token costs, not invoice charges. Does not include applicable regional, fast-mode, tax, or additional tool fees; only use if the actual run used Standard processing and 30m prompt cache writes.",
+  "models": {
+    "gpt-6-luna": {
+      "short": {
+        "input_per_million": 0.1,
+        "cached_input_per_million": 0.01,
+        "cache_write_per_million": 0.125,
+        "output_per_million": 0.5
+      },
+      "long": {
+        "input_per_million": 0.2,
+        "cached_input_per_million": 0.02,
+        "cache_write_per_million": 0.25,
+        "output_per_million": 0.75
+      },
+      "long_context_threshold_prompt_tokens": 272000
+    }
+  }
+}
