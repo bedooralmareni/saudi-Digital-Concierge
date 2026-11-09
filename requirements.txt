@@ -13,6 +13,9 @@ sentence-transformers>=3.0
 openai>=1.50.0
 faiss-cpu>=1.8
 
+# M5 evaluation harness (scoring runs against the golden set)
+jsonschema>=4.0        # response/tool schema validation in evaluation/score_runs.py
+
 # Colab single-model baseline (Qwen3-8B, 4-bit GPU inference)
 torch>=2.2
 transformers>=4.51,<5

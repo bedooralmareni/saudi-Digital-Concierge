@@ -1,0 +1,16 @@
+﻿model,system,metric,runs_scored,runs_expected,mean,sample_variance,sample_sd
+gpt-6-luna,openai_single_agent,e2e_structured,3,3,0.7666666666666667,0.0008333333333333348,0.028867513459481315
+gpt-6-luna,openai_single_agent,cc_structured,3,3,0.7666666666666667,0.0008333333333333348,0.028867513459481315
+gpt-6-luna,openai_single_agent,tool_syntax_validity,3,3,1.0,0.0,0.0
+gpt-6-luna,openai_single_agent,hcs,3,3,0.7708333333333334,0.0013020833333333333,0.03608439182435161
+gpt-6-luna,openai_single_agent,schema_validity,3,3,1,0,0.0
+gpt-6-luna,openai_single_agent,structured_consistency_pass,3,3,1,0,0.0
+gpt-6-luna,openai_single_agent,entity_grounding,3,3,1.0,0.0,0.0
+gpt-6-luna,openai_single_agent,structured_ucr,3,3,0.0,0.0,0.0
+gpt-6-luna,openai_single_agent,tool_error_rate,3,3,0.0,0.0,0.0
+gpt-6-luna,openai_single_agent,e2e,0,3,,,
+gpt-6-luna,openai_single_agent,cc,0,3,,,
+gpt-6-luna,openai_single_agent,tv,0,3,,,
+gpt-6-luna,openai_single_agent,ucr,0,3,,,
+gpt-6-luna,openai_single_agent,seconds,3,3,13.35051455,2.3239628264602588,1.5244549276578363
+gpt-6-luna,openai_single_agent,cost_usd,3,3,0.004782484333333333,1.241290671479521e-06,0.001114132250444049
