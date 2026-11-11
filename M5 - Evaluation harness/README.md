@@ -133,10 +133,11 @@ M5 - Evaluation harness/
 Canonical code and data referenced above live in the repository root
 (`evaluation/`, `schemas/`, `data/final/`), not duplicated here.
 
-## Known consolidation note
+## Note on the two baselines
 
-The two baselines currently live in two places: the OpenAI stack under `evaluation/`, and
-the Qwen v8 stack as a bundle on `main`. They use different scorers with partly different
-metric names (`cc_structured` vs `component_completion`). This does not affect M5 (each is a
-standalone baseline), but before the M6 comparison, each model family's single + multi-agent
-runs must use **one** scorer, split and seed set.
+Each model family has its own harness and scorer — OpenAI under `evaluation/`, Qwen v8 as its
+own bundle — and that is by design. The two baselines are independent and are never compared
+to each other; the only controlled comparison (M6) is **within** a model family, where the
+single-agent baseline and its multi-agent treatment share the same model, scorer, split and
+seeds. So the metric-name differences between families (e.g. `cc_structured` vs
+`component_completion`) are expected and do not affect M5.
