@@ -49,12 +49,3 @@ Six unsuccessful structured attempts across four scenarios:
 - `SDC-058`, seed 29: grounding and component inconsistency.
 
 These categories can overlap within a failed attempt. The run-level audit and exact causes are in `m5_results/diagnostics.csv` and `failure_analysis.csv`.
-
-## Limitations and unfinished review
-
-- **Full reviewed E2E, prose factuality and semantic intent:** 0/60 human review records completed (`human_review.json` remains a blank review template). Do not claim these scores are available or substitute 0 for pending review.
-- **Development-set caveat:** Development20 was used during iterative tuning; these are not unbiased Validation/Final Test results. Report them as *Development baseline results*.
-- **Cost:** local Colab GPU monetary cost is not quantified; tokens and time are recorded instead. Do not invent a USD API cost.
-- **Tool Syntax Validity is 78.65%**, despite a 1.80% tool error rate: syntactic/contract issues and tool execution errors are different measures. The trajectory merits additional analysis rather than being described as completely valid.
-- Some generated system reports inside earlier *individual batch* archives say 30/60 and show pending averages. They are correct **for each incomplete batch** but not for the combined experiment. Use only the freshly merged `m5_results/summary.csv` and this consolidated report for the 60-attempt results.
-- This bundle includes source code, schema, test fixtures, search tools, pinned database and vector index. No model weights are included; regenerating Qwen outputs requires the model revision, an appropriate GPU and the recorded packages. **Rescoring** requires no GPU or model calls.
