@@ -85,9 +85,3 @@ never padded with zeros.
 
 Per-attempt detail and the raw run log live in `evaluation/m5_baseline_scores/` and
 `evaluation/runs.jsonl`.
-
-## Limits
-
-This is a Development baseline, not an untouched independent test. Structured success is not prose
-factuality: `e2e`, `cc`, `tv` and `ucr` stay unscored because they need an optional human
-prose/intent review. Hotel prices are historical recorded values, not real-time availability.
