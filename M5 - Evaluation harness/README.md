@@ -122,7 +122,8 @@ The committed result tables are mirrored here in `baseline_scores/qwen_single_ag
 M5 - Evaluation harness/
 ├── README.md                              # this file — the M5 hand-in index
 ├── notebooks/
-│   └── OpenAI_Single_Agent_Frozen20.ipynb # runner that produced the OpenAI runs (with outputs/results)
+│   ├── OpenAI_Single_Agent_Frozen20.ipynb          # OpenAI runner (with outputs/results)
+│   └── Qwen3_8B_M5_v8_Development20_Batch_1_of_2.ipynb  # Qwen v8 runner, batch 1/2 (with outputs)
 └── baseline_scores/
     ├── openai_single_agent/
     │   ├── summary.csv                     # mean / variance / SD across 3 seeds
@@ -133,9 +134,9 @@ M5 - Evaluation harness/
         └── M5_Evaluation_Report_Qwen_v8.md # full Qwen v8 write-up (C5.1–C5.4 + error analysis)
 ```
 
-> The Qwen v8 runner notebook can be added next to the OpenAI one under `notebooks/` when
-> available; the Qwen baseline's scorer, tests and raw attempts are the bundle on `main`
-> under `Qwen3_8B_M5_v8_Merged_Submission/`.
+> The Qwen v8 baseline was run in two local batches (30 + 30 attempts); `notebooks/` holds
+> batch 1/2. The Qwen scorer, offline tests, both batches' raw attempts and the merged
+> 60-attempt results are the bundle on `main` under `Qwen3_8B_M5_v8_Merged_Submission/`.
 
 Canonical code and data referenced above live in the repository root
 (`evaluation/`, `schemas/`, `data/final/`), not duplicated here.
