@@ -93,8 +93,9 @@ python score_runs.py --project .. --frozen reviews/frozen20.json \
 
 Reads the recorded `evaluation/runs.jsonl` (60 attempts = 20 cases × 3 seeds) and writes
 `summary.csv` / `run_scores.csv` / `scores.csv`. The committed copies are in
-`baseline_scores/openai_single_agent/`. Runner notebook that produced the runs:
-`evaluation/runners/OpenAI_Single_Agent_Frozen20.ipynb`.
+`baseline_scores/openai_single_agent/`. The runner notebook that produced the runs —
+committed **with its execution outputs** as run evidence — is
+`notebooks/OpenAI_Single_Agent_Frozen20.ipynb`.
 
 ### 3. Qwen baseline score with variance (C5.2 / C5.4)
 
@@ -120,6 +121,8 @@ The committed result tables are mirrored here in `baseline_scores/qwen_single_ag
 ```
 M5 - Evaluation harness/
 ├── README.md                              # this file — the M5 hand-in index
+├── notebooks/
+│   └── OpenAI_Single_Agent_Frozen20.ipynb # runner that produced the OpenAI runs (with outputs/results)
 └── baseline_scores/
     ├── openai_single_agent/
     │   ├── summary.csv                     # mean / variance / SD across 3 seeds
@@ -129,6 +132,10 @@ M5 - Evaluation harness/
         ├── run_scores.csv
         └── M5_Evaluation_Report_Qwen_v8.md # full Qwen v8 write-up (C5.1–C5.4 + error analysis)
 ```
+
+> The Qwen v8 runner notebook can be added next to the OpenAI one under `notebooks/` when
+> available; the Qwen baseline's scorer, tests and raw attempts are the bundle on `main`
+> under `Qwen3_8B_M5_v8_Merged_Submission/`.
 
 Canonical code and data referenced above live in the repository root
 (`evaluation/`, `schemas/`, `data/final/`), not duplicated here.
