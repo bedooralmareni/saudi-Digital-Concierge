@@ -1,8 +1,0 @@
-﻿category,attempts,rate_of_attempts
-structured_inconsistency,6,0.1
-component_failure,5,0.08333333333333333
-grounding_inconsistent,4,0.06666666666666667
-wrong_status,4,0.06666666666666667
-invalid_output_contract,1,0.016666666666666666
-response_shape,1,0.016666666666666666
-schema_invalid,1,0.016666666666666666
