@@ -1,0 +1,3475 @@
+[
+  {
+    "attempt_id": "35bf741e-a31d-47b3-aa03-92ddad286388",
+    "run_id": 17,
+    "scenario_id": "SDC-001",
+    "language": "EN",
+    "scenario_type": "Typical",
+    "domain": "Entertainment",
+    "execution_status": "completed",
+    "schema_validity": 1,
+    "e2e_structured": 1,
+    "component_completion": 1.0,
+    "retrieval_evidence_coverage": 1.0,
+    "tool_syntax_validity": 1.0,
+    "tool_error_rate": 0.0,
+    "redundant_call_rate": 0.0,
+    "structured_unsupported_rate": 0.0,
+    "structured_claims": 5,
+    "unsupported_claims": 0,
+    "valid_tool_calls": 1,
+    "error_tool_calls": 0,
+    "redundant_tool_calls": 0,
+    "e2e_reviewed": null,
+    "review_complete": false,
+    "seconds": 131.23789538099982,
+    "generation_seconds": 131.04500553299977,
+    "tool_calls": 1,
+    "model_calls": 4,
+    "total_tokens": 18411,
+    "elapsed_seconds_is_partial": false,
+    "retrieval_transition": "duplicate_search_blocked",
+    "protocol_warnings": [
+      "duplicate_search_blocked"
+    ],
+    "components": [
+      {
+        "component": "activity",
+        "mode": "recommend",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      }
+    ],
+    "actions": [
+      {
+        "call_id": "1-1",
+        "syntax_valid": true,
+        "repeated": false
+      }
+    ],
+    "schema_errors": [],
+    "failures": [],
+    "missing_facts": {},
+    "incorrect_facts": {}
+  },
+  {
+    "attempt_id": "648910bf-ab2e-49b2-993b-e435c7c76a01",
+    "run_id": 17,
+    "scenario_id": "SDC-003",
+    "language": "AR",
+    "scenario_type": "Typical",
+    "domain": "Entertainment",
+    "execution_status": "completed",
+    "schema_validity": 1,
+    "e2e_structured": 1,
+    "component_completion": 1.0,
+    "retrieval_evidence_coverage": 1.0,
+    "tool_syntax_validity": 1.0,
+    "tool_error_rate": 0.0,
+    "redundant_call_rate": 0.0,
+    "structured_unsupported_rate": 0.0,
+    "structured_claims": 5,
+    "unsupported_claims": 0,
+    "valid_tool_calls": 1,
+    "error_tool_calls": 0,
+    "redundant_tool_calls": 0,
+    "e2e_reviewed": null,
+    "review_complete": false,
+    "seconds": 145.6132061860003,
+    "generation_seconds": 145.43847732399945,
+    "tool_calls": 1,
+    "model_calls": 4,
+    "total_tokens": 18796,
+    "elapsed_seconds_is_partial": false,
+    "retrieval_transition": "duplicate_search_blocked",
+    "protocol_warnings": [
+      "duplicate_search_blocked"
+    ],
+    "components": [
+      {
+        "component": "activity",
+        "mode": "recommend",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      }
+    ],
+    "actions": [
+      {
+        "call_id": "1-1",
+        "syntax_valid": true,
+        "repeated": false
+      }
+    ],
+    "schema_errors": [],
+    "failures": [],
+    "missing_facts": {},
+    "incorrect_facts": {}
+  },
+  {
+    "attempt_id": "ff97d9f6-99c7-4f1a-b9f8-2893b8fa04e5",
+    "run_id": 17,
+    "scenario_id": "SDC-007",
+    "language": "AR",
+    "scenario_type": "Typical",
+    "domain": "Hotels",
+    "execution_status": "completed",
+    "schema_validity": 1,
+    "e2e_structured": 1,
+    "component_completion": 1.0,
+    "retrieval_evidence_coverage": 1.0,
+    "tool_syntax_validity": 1.0,
+    "tool_error_rate": 0.0,
+    "redundant_call_rate": 0.0,
+    "structured_unsupported_rate": 0.0,
+    "structured_claims": 20,
+    "unsupported_claims": 0,
+    "valid_tool_calls": 1,
+    "error_tool_calls": 0,
+    "redundant_tool_calls": 0,
+    "e2e_reviewed": null,
+    "review_complete": false,
+    "seconds": 137.95321783999998,
+    "generation_seconds": 137.8186236180004,
+    "tool_calls": 1,
+    "model_calls": 3,
+    "total_tokens": 13299,
+    "elapsed_seconds_is_partial": false,
+    "retrieval_transition": "no_tool_fallback",
+    "protocol_warnings": [
+      "no_tool_fallback"
+    ],
+    "components": [
+      {
+        "component": "hotel",
+        "mode": "recommend",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      }
+    ],
+    "actions": [
+      {
+        "call_id": "1-1",
+        "syntax_valid": true,
+        "repeated": false
+      }
+    ],
+    "schema_errors": [],
+    "failures": [],
+    "missing_facts": {},
+    "incorrect_facts": {}
+  },
+  {
+    "attempt_id": "77a013bc-67b6-4177-a6de-e3af8dc68a68",
+    "run_id": 17,
+    "scenario_id": "SDC-008",
+    "language": "EN",
+    "scenario_type": "Typical",
+    "domain": "Hotels",
+    "execution_status": "completed",
+    "schema_validity": 1,
+    "e2e_structured": 1,
+    "component_completion": 1.0,
+    "retrieval_evidence_coverage": 1.0,
+    "tool_syntax_validity": 1.0,
+    "tool_error_rate": 0.0,
+    "redundant_call_rate": 0.0,
+    "structured_unsupported_rate": 0.0,
+    "structured_claims": 20,
+    "unsupported_claims": 0,
+    "valid_tool_calls": 1,
+    "error_tool_calls": 0,
+    "redundant_tool_calls": 0,
+    "e2e_reviewed": null,
+    "review_complete": false,
+    "seconds": 141.88375794700005,
+    "generation_seconds": 141.75205092299984,
+    "tool_calls": 1,
+    "model_calls": 3,
+    "total_tokens": 13183,
+    "elapsed_seconds_is_partial": false,
+    "retrieval_transition": "duplicate_search_blocked",
+    "protocol_warnings": [
+      "duplicate_search_blocked"
+    ],
+    "components": [
+      {
+        "component": "hotel",
+        "mode": "recommend",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      }
+    ],
+    "actions": [
+      {
+        "call_id": "1-1",
+        "syntax_valid": true,
+        "repeated": false
+      }
+    ],
+    "schema_errors": [],
+    "failures": [],
+    "missing_facts": {},
+    "incorrect_facts": {}
+  },
+  {
+    "attempt_id": "c3d13bf7-b66c-42fa-885b-4c47c487653c",
+    "run_id": 17,
+    "scenario_id": "SDC-009",
+    "language": "AR",
+    "scenario_type": "Typical",
+    "domain": "Hotels",
+    "execution_status": "completed",
+    "schema_validity": 1,
+    "e2e_structured": 1,
+    "component_completion": 1.0,
+    "retrieval_evidence_coverage": 1.0,
+    "tool_syntax_validity": 1.0,
+    "tool_error_rate": 0.0,
+    "redundant_call_rate": 0.0,
+    "structured_unsupported_rate": 0.0,
+    "structured_claims": 20,
+    "unsupported_claims": 0,
+    "valid_tool_calls": 1,
+    "error_tool_calls": 0,
+    "redundant_tool_calls": 0,
+    "e2e_reviewed": null,
+    "review_complete": false,
+    "seconds": 124.95173493199991,
+    "generation_seconds": 124.79679187299962,
+    "tool_calls": 1,
+    "model_calls": 3,
+    "total_tokens": 13207,
+    "elapsed_seconds_is_partial": false,
+    "retrieval_transition": "ready_marker",
+    "protocol_warnings": [],
+    "components": [
+      {
+        "component": "hotel",
+        "mode": "recommend",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      }
+    ],
+    "actions": [
+      {
+        "call_id": "1-1",
+        "syntax_valid": true,
+        "repeated": false
+      }
+    ],
+    "schema_errors": [],
+    "failures": [],
+    "missing_facts": {},
+    "incorrect_facts": {}
+  },
+  {
+    "attempt_id": "7e017e9d-7a68-473f-848e-95cacdbed164",
+    "run_id": 17,
+    "scenario_id": "SDC-014",
+    "language": "EN",
+    "scenario_type": "Typical",
+    "domain": "Hotels",
+    "execution_status": "completed",
+    "schema_validity": 1,
+    "e2e_structured": 1,
+    "component_completion": 1.0,
+    "retrieval_evidence_coverage": 1.0,
+    "tool_syntax_validity": 1.0,
+    "tool_error_rate": 0.0,
+    "redundant_call_rate": 0.0,
+    "structured_unsupported_rate": 0.0,
+    "structured_claims": 22,
+    "unsupported_claims": 0,
+    "valid_tool_calls": 1,
+    "error_tool_calls": 0,
+    "redundant_tool_calls": 0,
+    "e2e_reviewed": null,
+    "review_complete": false,
+    "seconds": 133.02884026400034,
+    "generation_seconds": 132.89519498499976,
+    "tool_calls": 1,
+    "model_calls": 3,
+    "total_tokens": 13029,
+    "elapsed_seconds_is_partial": false,
+    "retrieval_transition": "ready_marker",
+    "protocol_warnings": [],
+    "components": [
+      {
+        "component": "hotel",
+        "mode": "recommend",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      }
+    ],
+    "actions": [
+      {
+        "call_id": "1-1",
+        "syntax_valid": true,
+        "repeated": false
+      }
+    ],
+    "schema_errors": [],
+    "failures": [],
+    "missing_facts": {},
+    "incorrect_facts": {}
+  },
+  {
+    "attempt_id": "5bbce147-eb0d-4cb2-9a87-7b3d471e7f40",
+    "run_id": 17,
+    "scenario_id": "SDC-019",
+    "language": "AR",
+    "scenario_type": "Typical",
+    "domain": "Hotel + activity",
+    "execution_status": "completed",
+    "schema_validity": 1,
+    "e2e_structured": 1,
+    "component_completion": 1.0,
+    "retrieval_evidence_coverage": 1.0,
+    "tool_syntax_validity": 0.5,
+    "tool_error_rate": 0.0,
+    "redundant_call_rate": 0.0,
+    "structured_unsupported_rate": 0.0,
+    "structured_claims": 16,
+    "unsupported_claims": 0,
+    "valid_tool_calls": 1,
+    "error_tool_calls": 0,
+    "redundant_tool_calls": 0,
+    "e2e_reviewed": null,
+    "review_complete": false,
+    "seconds": 229.0369710469995,
+    "generation_seconds": 228.84256432999928,
+    "tool_calls": 2,
+    "model_calls": 4,
+    "total_tokens": 21231,
+    "elapsed_seconds_is_partial": false,
+    "retrieval_transition": "ready_marker",
+    "protocol_warnings": [
+      "tool_arg_alias:search_places.limit->top_k"
+    ],
+    "components": [
+      {
+        "component": "hotel",
+        "mode": "recommend",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      },
+      {
+        "component": "activity",
+        "mode": "recommend",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      }
+    ],
+    "actions": [
+      {
+        "call_id": "1-1",
+        "syntax_valid": true,
+        "repeated": false
+      },
+      {
+        "call_id": "1-2",
+        "syntax_valid": false,
+        "repeated": false
+      }
+    ],
+    "schema_errors": [],
+    "failures": [],
+    "missing_facts": {},
+    "incorrect_facts": {}
+  },
+  {
+    "attempt_id": "e1927eda-3812-4f57-ad9e-ee092d38f631",
+    "run_id": 17,
+    "scenario_id": "SDC-020",
+    "language": "EN",
+    "scenario_type": "Typical",
+    "domain": "Hotel + activity",
+    "execution_status": "completed",
+    "schema_validity": 1,
+    "e2e_structured": 1,
+    "component_completion": 1.0,
+    "retrieval_evidence_coverage": 1.0,
+    "tool_syntax_validity": 0.5,
+    "tool_error_rate": 0.0,
+    "redundant_call_rate": 0.0,
+    "structured_unsupported_rate": 0.0,
+    "structured_claims": 16,
+    "unsupported_claims": 0,
+    "valid_tool_calls": 1,
+    "error_tool_calls": 0,
+    "redundant_tool_calls": 0,
+    "e2e_reviewed": null,
+    "review_complete": false,
+    "seconds": 209.7899416909995,
+    "generation_seconds": 209.58977359799974,
+    "tool_calls": 2,
+    "model_calls": 4,
+    "total_tokens": 19700,
+    "elapsed_seconds_is_partial": false,
+    "retrieval_transition": "ready_marker",
+    "protocol_warnings": [
+      "tool_arg_alias:search_places.limit->top_k"
+    ],
+    "components": [
+      {
+        "component": "hotel",
+        "mode": "recommend",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      },
+      {
+        "component": "activity",
+        "mode": "recommend",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      }
+    ],
+    "actions": [
+      {
+        "call_id": "1-1",
+        "syntax_valid": true,
+        "repeated": false
+      },
+      {
+        "call_id": "1-2",
+        "syntax_valid": false,
+        "repeated": false
+      }
+    ],
+    "schema_errors": [],
+    "failures": [],
+    "missing_facts": {},
+    "incorrect_facts": {}
+  },
+  {
+    "attempt_id": "1838ea96-b4d5-4d87-a705-84939ce08c50",
+    "run_id": 17,
+    "scenario_id": "SDC-025",
+    "language": "EN",
+    "scenario_type": "Typical",
+    "domain": "Hotel + event",
+    "execution_status": "completed",
+    "schema_validity": 1,
+    "e2e_structured": 1,
+    "component_completion": 1.0,
+    "retrieval_evidence_coverage": 1.0,
+    "tool_syntax_validity": 1.0,
+    "tool_error_rate": 0.0,
+    "redundant_call_rate": 0.0,
+    "structured_unsupported_rate": 0.0,
+    "structured_claims": 17,
+    "unsupported_claims": 0,
+    "valid_tool_calls": 2,
+    "error_tool_calls": 0,
+    "redundant_tool_calls": 0,
+    "e2e_reviewed": null,
+    "review_complete": false,
+    "seconds": 213.7984887800003,
+    "generation_seconds": 213.55712225000116,
+    "tool_calls": 2,
+    "model_calls": 4,
+    "total_tokens": 19912,
+    "elapsed_seconds_is_partial": false,
+    "retrieval_transition": "ready_marker",
+    "protocol_warnings": [],
+    "components": [
+      {
+        "component": "hotel",
+        "mode": "recommend",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      },
+      {
+        "component": "event",
+        "mode": "recommend",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      }
+    ],
+    "actions": [
+      {
+        "call_id": "1-1",
+        "syntax_valid": true,
+        "repeated": false
+      },
+      {
+        "call_id": "1-2",
+        "syntax_valid": true,
+        "repeated": false
+      }
+    ],
+    "schema_errors": [],
+    "failures": [],
+    "missing_facts": {},
+    "incorrect_facts": {}
+  },
+  {
+    "attempt_id": "3ea35a27-a14c-4607-a67d-aba08374b7e6",
+    "run_id": 17,
+    "scenario_id": "SDC-027",
+    "language": "AR",
+    "scenario_type": "Typical",
+    "domain": "Hotel + event",
+    "execution_status": "completed",
+    "schema_validity": 1,
+    "e2e_structured": 1,
+    "component_completion": 1.0,
+    "retrieval_evidence_coverage": 1.0,
+    "tool_syntax_validity": 1.0,
+    "tool_error_rate": 0.0,
+    "redundant_call_rate": 0.0,
+    "structured_unsupported_rate": 0.0,
+    "structured_claims": 17,
+    "unsupported_claims": 0,
+    "valid_tool_calls": 2,
+    "error_tool_calls": 0,
+    "redundant_tool_calls": 0,
+    "e2e_reviewed": null,
+    "review_complete": false,
+    "seconds": 230.98564618399996,
+    "generation_seconds": 230.76959029200043,
+    "tool_calls": 2,
+    "model_calls": 4,
+    "total_tokens": 20393,
+    "elapsed_seconds_is_partial": false,
+    "retrieval_transition": "ready_marker",
+    "protocol_warnings": [],
+    "components": [
+      {
+        "component": "hotel",
+        "mode": "recommend",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      },
+      {
+        "component": "event",
+        "mode": "recommend",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      }
+    ],
+    "actions": [
+      {
+        "call_id": "1-1",
+        "syntax_valid": true,
+        "repeated": false
+      },
+      {
+        "call_id": "1-2",
+        "syntax_valid": true,
+        "repeated": false
+      }
+    ],
+    "schema_errors": [],
+    "failures": [],
+    "missing_facts": {},
+    "incorrect_facts": {}
+  },
+  {
+    "attempt_id": "d05eea34-e9c8-4642-acac-efb70000d8d8",
+    "run_id": 17,
+    "scenario_id": "SDC-031",
+    "language": "AR",
+    "scenario_type": "Typical",
+    "domain": "Restaurants",
+    "execution_status": "completed",
+    "schema_validity": 1,
+    "e2e_structured": 1,
+    "component_completion": 1.0,
+    "retrieval_evidence_coverage": 1.0,
+    "tool_syntax_validity": 1.0,
+    "tool_error_rate": 0.0,
+    "redundant_call_rate": 0.0,
+    "structured_unsupported_rate": 0.0,
+    "structured_claims": 12,
+    "unsupported_claims": 0,
+    "valid_tool_calls": 1,
+    "error_tool_calls": 0,
+    "redundant_tool_calls": 0,
+    "e2e_reviewed": null,
+    "review_complete": false,
+    "seconds": 220.55738116199996,
+    "generation_seconds": 220.338603347,
+    "tool_calls": 1,
+    "model_calls": 4,
+    "total_tokens": 19955,
+    "elapsed_seconds_is_partial": false,
+    "retrieval_transition": "no_tool_fallback",
+    "protocol_warnings": [
+      "no_tool_fallback"
+    ],
+    "components": [
+      {
+        "component": "restaurant",
+        "mode": "recommend",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      }
+    ],
+    "actions": [
+      {
+        "call_id": "1-1",
+        "syntax_valid": true,
+        "repeated": false
+      }
+    ],
+    "schema_errors": [],
+    "failures": [],
+    "missing_facts": {},
+    "incorrect_facts": {}
+  },
+  {
+    "attempt_id": "b7b148b0-3f3f-4fad-8f0b-349193ef0ad0",
+    "run_id": 17,
+    "scenario_id": "SDC-035",
+    "language": "EN",
+    "scenario_type": "Typical",
+    "domain": "Restaurants",
+    "execution_status": "completed",
+    "schema_validity": 1,
+    "e2e_structured": 1,
+    "component_completion": 1.0,
+    "retrieval_evidence_coverage": 1.0,
+    "tool_syntax_validity": 1.0,
+    "tool_error_rate": 0.0,
+    "redundant_call_rate": 0.0,
+    "structured_unsupported_rate": 0.0,
+    "structured_claims": 18,
+    "unsupported_claims": 0,
+    "valid_tool_calls": 1,
+    "error_tool_calls": 0,
+    "redundant_tool_calls": 0,
+    "e2e_reviewed": null,
+    "review_complete": false,
+    "seconds": 260.05580281100015,
+    "generation_seconds": 259.843384068,
+    "tool_calls": 1,
+    "model_calls": 4,
+    "total_tokens": 20398,
+    "elapsed_seconds_is_partial": false,
+    "retrieval_transition": "duplicate_search_blocked",
+    "protocol_warnings": [
+      "duplicate_search_blocked"
+    ],
+    "components": [
+      {
+        "component": "restaurant",
+        "mode": "recommend",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      }
+    ],
+    "actions": [
+      {
+        "call_id": "1-1",
+        "syntax_valid": true,
+        "repeated": false
+      }
+    ],
+    "schema_errors": [],
+    "failures": [],
+    "missing_facts": {},
+    "incorrect_facts": {}
+  },
+  {
+    "attempt_id": "2b3ff8a6-b55b-43db-b039-f54f7f4a5ffb",
+    "run_id": 17,
+    "scenario_id": "SDC-037",
+    "language": "EN",
+    "scenario_type": "Typical",
+    "domain": "Events",
+    "execution_status": "completed",
+    "schema_validity": 1,
+    "e2e_structured": 1,
+    "component_completion": 1.0,
+    "retrieval_evidence_coverage": 1.0,
+    "tool_syntax_validity": 1.0,
+    "tool_error_rate": 0.0,
+    "redundant_call_rate": 0.0,
+    "structured_unsupported_rate": 0.0,
+    "structured_claims": 12,
+    "unsupported_claims": 0,
+    "valid_tool_calls": 1,
+    "error_tool_calls": 0,
+    "redundant_tool_calls": 0,
+    "e2e_reviewed": null,
+    "review_complete": false,
+    "seconds": 212.60133928999994,
+    "generation_seconds": 212.40760855400003,
+    "tool_calls": 1,
+    "model_calls": 4,
+    "total_tokens": 19839,
+    "elapsed_seconds_is_partial": false,
+    "retrieval_transition": "duplicate_search_blocked",
+    "protocol_warnings": [
+      "duplicate_search_blocked"
+    ],
+    "components": [
+      {
+        "component": "event",
+        "mode": "recommend",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      }
+    ],
+    "actions": [
+      {
+        "call_id": "1-1",
+        "syntax_valid": true,
+        "repeated": false
+      }
+    ],
+    "schema_errors": [],
+    "failures": [],
+    "missing_facts": {},
+    "incorrect_facts": {}
+  },
+  {
+    "attempt_id": "3f711a92-bf26-41a1-9b43-03ea48a54178",
+    "run_id": 17,
+    "scenario_id": "SDC-038",
+    "language": "AR",
+    "scenario_type": "Typical",
+    "domain": "Events",
+    "execution_status": "completed",
+    "schema_validity": 1,
+    "e2e_structured": 1,
+    "component_completion": 1.0,
+    "retrieval_evidence_coverage": 1.0,
+    "tool_syntax_validity": 1.0,
+    "tool_error_rate": 0.0,
+    "redundant_call_rate": 0.0,
+    "structured_unsupported_rate": 0.0,
+    "structured_claims": 12,
+    "unsupported_claims": 0,
+    "valid_tool_calls": 1,
+    "error_tool_calls": 0,
+    "redundant_tool_calls": 0,
+    "e2e_reviewed": null,
+    "review_complete": false,
+    "seconds": 198.83684607600003,
+    "generation_seconds": 198.64338263199988,
+    "tool_calls": 1,
+    "model_calls": 4,
+    "total_tokens": 19813,
+    "elapsed_seconds_is_partial": false,
+    "retrieval_transition": "ready_marker",
+    "protocol_warnings": [],
+    "components": [
+      {
+        "component": "event",
+        "mode": "recommend",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      }
+    ],
+    "actions": [
+      {
+        "call_id": "1-1",
+        "syntax_valid": true,
+        "repeated": false
+      }
+    ],
+    "schema_errors": [],
+    "failures": [],
+    "missing_facts": {},
+    "incorrect_facts": {}
+  },
+  {
+    "attempt_id": "0368334f-7936-4595-8133-0ecb4895e645",
+    "run_id": 17,
+    "scenario_id": "SDC-043",
+    "language": "AR",
+    "scenario_type": "Edge",
+    "domain": "Hotels",
+    "execution_status": "grounding_inconsistent",
+    "schema_validity": 1,
+    "e2e_structured": 0,
+    "component_completion": 0.0,
+    "retrieval_evidence_coverage": 1.0,
+    "tool_syntax_validity": 1.0,
+    "tool_error_rate": 0.0,
+    "redundant_call_rate": 0.0,
+    "structured_unsupported_rate": null,
+    "structured_claims": 0,
+    "unsupported_claims": 0,
+    "valid_tool_calls": 1,
+    "error_tool_calls": 0,
+    "redundant_tool_calls": 0,
+    "e2e_reviewed": null,
+    "review_complete": false,
+    "seconds": 132.65470359799997,
+    "generation_seconds": 132.39494266299994,
+    "tool_calls": 1,
+    "model_calls": 5,
+    "total_tokens": 24090,
+    "elapsed_seconds_is_partial": false,
+    "retrieval_transition": "ready_marker",
+    "protocol_warnings": [],
+    "components": [
+      {
+        "component": "hotel",
+        "mode": "no_match",
+        "passed": false,
+        "retrieval_evidence_pass": true
+      }
+    ],
+    "actions": [
+      {
+        "call_id": "1-1",
+        "syntax_valid": true,
+        "repeated": false
+      }
+    ],
+    "schema_errors": [],
+    "failures": [
+      "component_failure",
+      "grounding_inconsistent",
+      "structured_inconsistency",
+      "wrong_status"
+    ],
+    "missing_facts": {},
+    "incorrect_facts": {}
+  },
+  {
+    "attempt_id": "2b6a2607-91b1-4814-a809-d295ea8d02bd",
+    "run_id": 17,
+    "scenario_id": "SDC-045",
+    "language": "EN",
+    "scenario_type": "Edge",
+    "domain": "Restaurants",
+    "execution_status": "completed",
+    "schema_validity": 1,
+    "e2e_structured": 0,
+    "component_completion": 1.0,
+    "retrieval_evidence_coverage": 1.0,
+    "tool_syntax_validity": 1.0,
+    "tool_error_rate": 0.0,
+    "redundant_call_rate": 0.0,
+    "structured_unsupported_rate": null,
+    "structured_claims": 0,
+    "unsupported_claims": 0,
+    "valid_tool_calls": 8,
+    "error_tool_calls": 0,
+    "redundant_tool_calls": 0,
+    "e2e_reviewed": null,
+    "review_complete": false,
+    "seconds": 121.97716637899998,
+    "generation_seconds": 121.47812016600051,
+    "tool_calls": 8,
+    "model_calls": 10,
+    "total_tokens": 38860,
+    "elapsed_seconds_is_partial": false,
+    "retrieval_transition": "budget_exhausted",
+    "protocol_warnings": [],
+    "components": [
+      {
+        "component": "restaurant",
+        "mode": "no_match",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      }
+    ],
+    "actions": [
+      {
+        "call_id": "1-1",
+        "syntax_valid": true,
+        "repeated": false
+      },
+      {
+        "call_id": "2-1",
+        "syntax_valid": true,
+        "repeated": false
+      },
+      {
+        "call_id": "3-1",
+        "syntax_valid": true,
+        "repeated": false
+      },
+      {
+        "call_id": "4-1",
+        "syntax_valid": true,
+        "repeated": false
+      },
+      {
+        "call_id": "5-1",
+        "syntax_valid": true,
+        "repeated": false
+      },
+      {
+        "call_id": "6-1",
+        "syntax_valid": true,
+        "repeated": false
+      },
+      {
+        "call_id": "7-1",
+        "syntax_valid": true,
+        "repeated": false
+      },
+      {
+        "call_id": "8-1",
+        "syntax_valid": true,
+        "repeated": false
+      }
+    ],
+    "schema_errors": [],
+    "failures": [
+      "structured_inconsistency"
+    ],
+    "missing_facts": {},
+    "incorrect_facts": {}
+  },
+  {
+    "attempt_id": "63a74096-7f3f-4d18-af3d-acb622aae3a0",
+    "run_id": 17,
+    "scenario_id": "SDC-048",
+    "language": "EN",
+    "scenario_type": "Edge",
+    "domain": "Missing hotel data",
+    "execution_status": "completed",
+    "schema_validity": 1,
+    "e2e_structured": 1,
+    "component_completion": 1.0,
+    "retrieval_evidence_coverage": 1.0,
+    "tool_syntax_validity": 1.0,
+    "tool_error_rate": 0.0,
+    "redundant_call_rate": 0.0,
+    "structured_unsupported_rate": null,
+    "structured_claims": 0,
+    "unsupported_claims": 0,
+    "valid_tool_calls": 1,
+    "error_tool_calls": 0,
+    "redundant_tool_calls": 0,
+    "e2e_reviewed": null,
+    "review_complete": false,
+    "seconds": 45.796069179999904,
+    "generation_seconds": 45.65983461400015,
+    "tool_calls": 1,
+    "model_calls": 3,
+    "total_tokens": 11944,
+    "elapsed_seconds_is_partial": false,
+    "retrieval_transition": "ready_marker",
+    "protocol_warnings": [],
+    "components": [
+      {
+        "component": "hotel",
+        "mode": "unknown",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      }
+    ],
+    "actions": [
+      {
+        "call_id": "1-1",
+        "syntax_valid": true,
+        "repeated": false
+      }
+    ],
+    "schema_errors": [],
+    "failures": [],
+    "missing_facts": {},
+    "incorrect_facts": {}
+  },
+  {
+    "attempt_id": "2c634188-2bd0-473c-bc70-9423f666b695",
+    "run_id": 17,
+    "scenario_id": "SDC-055",
+    "language": "EN",
+    "scenario_type": "Edge",
+    "domain": "Clarification",
+    "execution_status": "completed",
+    "schema_validity": 1,
+    "e2e_structured": 1,
+    "component_completion": 1.0,
+    "retrieval_evidence_coverage": 1.0,
+    "tool_syntax_validity": null,
+    "tool_error_rate": null,
+    "redundant_call_rate": null,
+    "structured_unsupported_rate": null,
+    "structured_claims": 0,
+    "unsupported_claims": 0,
+    "valid_tool_calls": 0,
+    "error_tool_calls": 0,
+    "redundant_tool_calls": 0,
+    "e2e_reviewed": null,
+    "review_complete": false,
+    "seconds": 25.630873445999896,
+    "generation_seconds": 25.56327398700023,
+    "tool_calls": 0,
+    "model_calls": 1,
+    "total_tokens": 5167,
+    "elapsed_seconds_is_partial": false,
+    "retrieval_transition": "preflight_missing_city",
+    "protocol_warnings": [],
+    "components": [
+      {
+        "component": "request_logic",
+        "mode": "clarify",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      }
+    ],
+    "actions": [],
+    "schema_errors": [],
+    "failures": [],
+    "missing_facts": {},
+    "incorrect_facts": {}
+  },
+  {
+    "attempt_id": "a591780c-26ca-4b49-a3aa-dbd7464c93f4",
+    "run_id": 17,
+    "scenario_id": "SDC-056",
+    "language": "AR",
+    "scenario_type": "Edge",
+    "domain": "Conflicting constraints",
+    "execution_status": "completed",
+    "schema_validity": 1,
+    "e2e_structured": 1,
+    "component_completion": 1.0,
+    "retrieval_evidence_coverage": 1.0,
+    "tool_syntax_validity": null,
+    "tool_error_rate": null,
+    "redundant_call_rate": null,
+    "structured_unsupported_rate": null,
+    "structured_claims": 0,
+    "unsupported_claims": 0,
+    "valid_tool_calls": 0,
+    "error_tool_calls": 0,
+    "redundant_tool_calls": 0,
+    "e2e_reviewed": null,
+    "review_complete": false,
+    "seconds": 76.24028970500012,
+    "generation_seconds": 76.12923615599948,
+    "tool_calls": 0,
+    "model_calls": 2,
+    "total_tokens": 11103,
+    "elapsed_seconds_is_partial": false,
+    "retrieval_transition": "preflight_conflicting_budget",
+    "protocol_warnings": [],
+    "components": [
+      {
+        "component": "request_logic",
+        "mode": "clarify",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      }
+    ],
+    "actions": [],
+    "schema_errors": [],
+    "failures": [],
+    "missing_facts": {},
+    "incorrect_facts": {}
+  },
+  {
+    "attempt_id": "4d2346c6-1aa3-4ce3-8dc5-1a90244549e3",
+    "run_id": 17,
+    "scenario_id": "SDC-058",
+    "language": "AR",
+    "scenario_type": "Edge",
+    "domain": "Partial hotel + restaurant",
+    "execution_status": "completed",
+    "schema_validity": 1,
+    "e2e_structured": 1,
+    "component_completion": 1.0,
+    "retrieval_evidence_coverage": 1.0,
+    "tool_syntax_validity": 0.5,
+    "tool_error_rate": 0.0,
+    "redundant_call_rate": 0.0,
+    "structured_unsupported_rate": 0.0,
+    "structured_claims": 11,
+    "unsupported_claims": 0,
+    "valid_tool_calls": 1,
+    "error_tool_calls": 0,
+    "redundant_tool_calls": 0,
+    "e2e_reviewed": null,
+    "review_complete": false,
+    "seconds": 526.777509221,
+    "generation_seconds": 526.4718237849997,
+    "tool_calls": 2,
+    "model_calls": 5,
+    "total_tokens": 32218,
+    "elapsed_seconds_is_partial": false,
+    "retrieval_transition": "ready_marker",
+    "protocol_warnings": [
+      "tool_arg_alias:search_places.limit->top_k"
+    ],
+    "components": [
+      {
+        "component": "hotel",
+        "mode": "recommend",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      },
+      {
+        "component": "restaurant",
+        "mode": "no_match",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      }
+    ],
+    "actions": [
+      {
+        "call_id": "1-1",
+        "syntax_valid": true,
+        "repeated": false
+      },
+      {
+        "call_id": "1-2",
+        "syntax_valid": false,
+        "repeated": false
+      }
+    ],
+    "schema_errors": [],
+    "failures": [],
+    "missing_facts": {},
+    "incorrect_facts": {}
+  },
+  {
+    "attempt_id": "6adc9abb-4fb7-450e-b4ae-af06df716080",
+    "run_id": 29,
+    "scenario_id": "SDC-001",
+    "language": "EN",
+    "scenario_type": "Typical",
+    "domain": "Entertainment",
+    "execution_status": "completed",
+    "schema_validity": 1,
+    "e2e_structured": 1,
+    "component_completion": 1.0,
+    "retrieval_evidence_coverage": 1.0,
+    "tool_syntax_validity": 1.0,
+    "tool_error_rate": 0.0,
+    "redundant_call_rate": 0.0,
+    "structured_unsupported_rate": 0.0,
+    "structured_claims": 5,
+    "unsupported_claims": 0,
+    "valid_tool_calls": 1,
+    "error_tool_calls": 0,
+    "redundant_tool_calls": 0,
+    "e2e_reviewed": null,
+    "review_complete": false,
+    "seconds": 136.912075792,
+    "generation_seconds": 136.74226060099863,
+    "tool_calls": 1,
+    "model_calls": 4,
+    "total_tokens": 18411,
+    "elapsed_seconds_is_partial": false,
+    "retrieval_transition": "duplicate_search_blocked",
+    "protocol_warnings": [
+      "duplicate_search_blocked"
+    ],
+    "components": [
+      {
+        "component": "activity",
+        "mode": "recommend",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      }
+    ],
+    "actions": [
+      {
+        "call_id": "1-1",
+        "syntax_valid": true,
+        "repeated": false
+      }
+    ],
+    "schema_errors": [],
+    "failures": [],
+    "missing_facts": {},
+    "incorrect_facts": {}
+  },
+  {
+    "attempt_id": "3f8dd7b5-ab39-442f-8515-86ae8b76f48f",
+    "run_id": 29,
+    "scenario_id": "SDC-003",
+    "language": "AR",
+    "scenario_type": "Typical",
+    "domain": "Entertainment",
+    "execution_status": "completed",
+    "schema_validity": 1,
+    "e2e_structured": 1,
+    "component_completion": 1.0,
+    "retrieval_evidence_coverage": 1.0,
+    "tool_syntax_validity": 1.0,
+    "tool_error_rate": 0.0,
+    "redundant_call_rate": 0.0,
+    "structured_unsupported_rate": 0.0,
+    "structured_claims": 5,
+    "unsupported_claims": 0,
+    "valid_tool_calls": 1,
+    "error_tool_calls": 0,
+    "redundant_tool_calls": 0,
+    "e2e_reviewed": null,
+    "review_complete": false,
+    "seconds": 146.2999659699999,
+    "generation_seconds": 146.10563642999932,
+    "tool_calls": 1,
+    "model_calls": 4,
+    "total_tokens": 18796,
+    "elapsed_seconds_is_partial": false,
+    "retrieval_transition": "duplicate_search_blocked",
+    "protocol_warnings": [
+      "duplicate_search_blocked"
+    ],
+    "components": [
+      {
+        "component": "activity",
+        "mode": "recommend",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      }
+    ],
+    "actions": [
+      {
+        "call_id": "1-1",
+        "syntax_valid": true,
+        "repeated": false
+      }
+    ],
+    "schema_errors": [],
+    "failures": [],
+    "missing_facts": {},
+    "incorrect_facts": {}
+  },
+  {
+    "attempt_id": "e8d600a1-7ce2-40f9-8693-db1b680e4b83",
+    "run_id": 29,
+    "scenario_id": "SDC-007",
+    "language": "AR",
+    "scenario_type": "Typical",
+    "domain": "Hotels",
+    "execution_status": "completed",
+    "schema_validity": 1,
+    "e2e_structured": 1,
+    "component_completion": 1.0,
+    "retrieval_evidence_coverage": 1.0,
+    "tool_syntax_validity": 1.0,
+    "tool_error_rate": 0.0,
+    "redundant_call_rate": 0.0,
+    "structured_unsupported_rate": 0.0,
+    "structured_claims": 20,
+    "unsupported_claims": 0,
+    "valid_tool_calls": 1,
+    "error_tool_calls": 0,
+    "redundant_tool_calls": 0,
+    "e2e_reviewed": null,
+    "review_complete": false,
+    "seconds": 142.556508398,
+    "generation_seconds": 142.41214697899977,
+    "tool_calls": 1,
+    "model_calls": 3,
+    "total_tokens": 13332,
+    "elapsed_seconds_is_partial": false,
+    "retrieval_transition": "no_tool_fallback",
+    "protocol_warnings": [
+      "no_tool_fallback"
+    ],
+    "components": [
+      {
+        "component": "hotel",
+        "mode": "recommend",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      }
+    ],
+    "actions": [
+      {
+        "call_id": "1-1",
+        "syntax_valid": true,
+        "repeated": false
+      }
+    ],
+    "schema_errors": [],
+    "failures": [],
+    "missing_facts": {},
+    "incorrect_facts": {}
+  },
+  {
+    "attempt_id": "facfe18f-7c7c-4baa-a1c4-28fc22acbbc8",
+    "run_id": 29,
+    "scenario_id": "SDC-008",
+    "language": "EN",
+    "scenario_type": "Typical",
+    "domain": "Hotels",
+    "execution_status": "completed",
+    "schema_validity": 1,
+    "e2e_structured": 1,
+    "component_completion": 1.0,
+    "retrieval_evidence_coverage": 1.0,
+    "tool_syntax_validity": 1.0,
+    "tool_error_rate": 0.0,
+    "redundant_call_rate": 0.0,
+    "structured_unsupported_rate": 0.0,
+    "structured_claims": 20,
+    "unsupported_claims": 0,
+    "valid_tool_calls": 1,
+    "error_tool_calls": 0,
+    "redundant_tool_calls": 0,
+    "e2e_reviewed": null,
+    "review_complete": false,
+    "seconds": 142.1611728779999,
+    "generation_seconds": 142.0193194759995,
+    "tool_calls": 1,
+    "model_calls": 3,
+    "total_tokens": 13185,
+    "elapsed_seconds_is_partial": false,
+    "retrieval_transition": "duplicate_search_blocked",
+    "protocol_warnings": [
+      "duplicate_search_blocked"
+    ],
+    "components": [
+      {
+        "component": "hotel",
+        "mode": "recommend",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      }
+    ],
+    "actions": [
+      {
+        "call_id": "1-1",
+        "syntax_valid": true,
+        "repeated": false
+      }
+    ],
+    "schema_errors": [],
+    "failures": [],
+    "missing_facts": {},
+    "incorrect_facts": {}
+  },
+  {
+    "attempt_id": "e4e5ef46-0627-462d-8f19-1422cec2cbfc",
+    "run_id": 29,
+    "scenario_id": "SDC-009",
+    "language": "AR",
+    "scenario_type": "Typical",
+    "domain": "Hotels",
+    "execution_status": "completed",
+    "schema_validity": 1,
+    "e2e_structured": 1,
+    "component_completion": 1.0,
+    "retrieval_evidence_coverage": 1.0,
+    "tool_syntax_validity": 1.0,
+    "tool_error_rate": 0.0,
+    "redundant_call_rate": 0.0,
+    "structured_unsupported_rate": 0.0,
+    "structured_claims": 20,
+    "unsupported_claims": 0,
+    "valid_tool_calls": 1,
+    "error_tool_calls": 0,
+    "redundant_tool_calls": 0,
+    "e2e_reviewed": null,
+    "review_complete": false,
+    "seconds": 125.08848275899982,
+    "generation_seconds": 124.95581319100074,
+    "tool_calls": 1,
+    "model_calls": 3,
+    "total_tokens": 13207,
+    "elapsed_seconds_is_partial": false,
+    "retrieval_transition": "ready_marker",
+    "protocol_warnings": [],
+    "components": [
+      {
+        "component": "hotel",
+        "mode": "recommend",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      }
+    ],
+    "actions": [
+      {
+        "call_id": "1-1",
+        "syntax_valid": true,
+        "repeated": false
+      }
+    ],
+    "schema_errors": [],
+    "failures": [],
+    "missing_facts": {},
+    "incorrect_facts": {}
+  },
+  {
+    "attempt_id": "b6b6b202-ecb1-4b40-a16d-c447150b997f",
+    "run_id": 29,
+    "scenario_id": "SDC-014",
+    "language": "EN",
+    "scenario_type": "Typical",
+    "domain": "Hotels",
+    "execution_status": "completed",
+    "schema_validity": 1,
+    "e2e_structured": 1,
+    "component_completion": 1.0,
+    "retrieval_evidence_coverage": 1.0,
+    "tool_syntax_validity": 1.0,
+    "tool_error_rate": 0.0,
+    "redundant_call_rate": 0.0,
+    "structured_unsupported_rate": 0.0,
+    "structured_claims": 22,
+    "unsupported_claims": 0,
+    "valid_tool_calls": 1,
+    "error_tool_calls": 0,
+    "redundant_tool_calls": 0,
+    "e2e_reviewed": null,
+    "review_complete": false,
+    "seconds": 133.27775599100005,
+    "generation_seconds": 133.13155385000118,
+    "tool_calls": 1,
+    "model_calls": 3,
+    "total_tokens": 13029,
+    "elapsed_seconds_is_partial": false,
+    "retrieval_transition": "ready_marker",
+    "protocol_warnings": [],
+    "components": [
+      {
+        "component": "hotel",
+        "mode": "recommend",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      }
+    ],
+    "actions": [
+      {
+        "call_id": "1-1",
+        "syntax_valid": true,
+        "repeated": false
+      }
+    ],
+    "schema_errors": [],
+    "failures": [],
+    "missing_facts": {},
+    "incorrect_facts": {}
+  },
+  {
+    "attempt_id": "03cc189c-6cfa-4a16-907d-59155b29371c",
+    "run_id": 29,
+    "scenario_id": "SDC-019",
+    "language": "AR",
+    "scenario_type": "Typical",
+    "domain": "Hotel + activity",
+    "execution_status": "completed",
+    "schema_validity": 1,
+    "e2e_structured": 1,
+    "component_completion": 1.0,
+    "retrieval_evidence_coverage": 1.0,
+    "tool_syntax_validity": 0.5,
+    "tool_error_rate": 0.0,
+    "redundant_call_rate": 0.0,
+    "structured_unsupported_rate": 0.0,
+    "structured_claims": 16,
+    "unsupported_claims": 0,
+    "valid_tool_calls": 1,
+    "error_tool_calls": 0,
+    "redundant_tool_calls": 0,
+    "e2e_reviewed": null,
+    "review_complete": false,
+    "seconds": 229.01386783599992,
+    "generation_seconds": 228.80727376600134,
+    "tool_calls": 2,
+    "model_calls": 4,
+    "total_tokens": 21231,
+    "elapsed_seconds_is_partial": false,
+    "retrieval_transition": "ready_marker",
+    "protocol_warnings": [
+      "tool_arg_alias:search_places.limit->top_k"
+    ],
+    "components": [
+      {
+        "component": "hotel",
+        "mode": "recommend",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      },
+      {
+        "component": "activity",
+        "mode": "recommend",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      }
+    ],
+    "actions": [
+      {
+        "call_id": "1-1",
+        "syntax_valid": true,
+        "repeated": false
+      },
+      {
+        "call_id": "1-2",
+        "syntax_valid": false,
+        "repeated": false
+      }
+    ],
+    "schema_errors": [],
+    "failures": [],
+    "missing_facts": {},
+    "incorrect_facts": {}
+  },
+  {
+    "attempt_id": "ddad01eb-52b5-49bc-8690-a1140d1c959f",
+    "run_id": 29,
+    "scenario_id": "SDC-020",
+    "language": "EN",
+    "scenario_type": "Typical",
+    "domain": "Hotel + activity",
+    "execution_status": "completed",
+    "schema_validity": 1,
+    "e2e_structured": 1,
+    "component_completion": 1.0,
+    "retrieval_evidence_coverage": 1.0,
+    "tool_syntax_validity": 0.3333333333333333,
+    "tool_error_rate": 0.3333333333333333,
+    "redundant_call_rate": 0.0,
+    "structured_unsupported_rate": 0.0,
+    "structured_claims": 16,
+    "unsupported_claims": 0,
+    "valid_tool_calls": 1,
+    "error_tool_calls": 1,
+    "redundant_tool_calls": 0,
+    "e2e_reviewed": null,
+    "review_complete": false,
+    "seconds": 117.49212824999995,
+    "generation_seconds": 117.27478932099984,
+    "tool_calls": 3,
+    "model_calls": 4,
+    "total_tokens": 16476,
+    "elapsed_seconds_is_partial": false,
+    "retrieval_transition": "ready_marker",
+    "protocol_warnings": [
+      "tool_arg_alias:search_places.limit->top_k",
+      "tool_arg_alias:search_places.limit->top_k"
+    ],
+    "components": [
+      {
+        "component": "hotel",
+        "mode": "recommend",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      },
+      {
+        "component": "activity",
+        "mode": "recommend",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      }
+    ],
+    "actions": [
+      {
+        "call_id": "1-1",
+        "syntax_valid": true,
+        "repeated": false
+      },
+      {
+        "call_id": "1-2",
+        "syntax_valid": false,
+        "repeated": false
+      },
+      {
+        "call_id": "2-1",
+        "syntax_valid": false,
+        "repeated": false
+      }
+    ],
+    "schema_errors": [],
+    "failures": [],
+    "missing_facts": {},
+    "incorrect_facts": {}
+  },
+  {
+    "attempt_id": "2cdf433a-8da6-4431-9399-973dea0f4be4",
+    "run_id": 29,
+    "scenario_id": "SDC-025",
+    "language": "EN",
+    "scenario_type": "Typical",
+    "domain": "Hotel + event",
+    "execution_status": "completed",
+    "schema_validity": 1,
+    "e2e_structured": 1,
+    "component_completion": 1.0,
+    "retrieval_evidence_coverage": 1.0,
+    "tool_syntax_validity": 1.0,
+    "tool_error_rate": 0.0,
+    "redundant_call_rate": 0.0,
+    "structured_unsupported_rate": 0.0,
+    "structured_claims": 17,
+    "unsupported_claims": 0,
+    "valid_tool_calls": 2,
+    "error_tool_calls": 0,
+    "redundant_tool_calls": 0,
+    "e2e_reviewed": null,
+    "review_complete": false,
+    "seconds": 216.08510943500005,
+    "generation_seconds": 215.81128044900015,
+    "tool_calls": 2,
+    "model_calls": 5,
+    "total_tokens": 23308,
+    "elapsed_seconds_is_partial": false,
+    "retrieval_transition": "ready_marker",
+    "protocol_warnings": [],
+    "components": [
+      {
+        "component": "hotel",
+        "mode": "recommend",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      },
+      {
+        "component": "event",
+        "mode": "recommend",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      }
+    ],
+    "actions": [
+      {
+        "call_id": "1-1",
+        "syntax_valid": true,
+        "repeated": false
+      },
+      {
+        "call_id": "2-1",
+        "syntax_valid": true,
+        "repeated": false
+      }
+    ],
+    "schema_errors": [],
+    "failures": [],
+    "missing_facts": {},
+    "incorrect_facts": {}
+  },
+  {
+    "attempt_id": "0c4e7b35-b7bc-4664-b044-1d80c320b549",
+    "run_id": 29,
+    "scenario_id": "SDC-027",
+    "language": "AR",
+    "scenario_type": "Typical",
+    "domain": "Hotel + event",
+    "execution_status": "completed",
+    "schema_validity": 1,
+    "e2e_structured": 1,
+    "component_completion": 1.0,
+    "retrieval_evidence_coverage": 1.0,
+    "tool_syntax_validity": 1.0,
+    "tool_error_rate": 0.0,
+    "redundant_call_rate": 0.0,
+    "structured_unsupported_rate": 0.0,
+    "structured_claims": 17,
+    "unsupported_claims": 0,
+    "valid_tool_calls": 2,
+    "error_tool_calls": 0,
+    "redundant_tool_calls": 0,
+    "e2e_reviewed": null,
+    "review_complete": false,
+    "seconds": 220.8071415329996,
+    "generation_seconds": 220.60667304699928,
+    "tool_calls": 2,
+    "model_calls": 4,
+    "total_tokens": 20290,
+    "elapsed_seconds_is_partial": false,
+    "retrieval_transition": "ready_marker",
+    "protocol_warnings": [],
+    "components": [
+      {
+        "component": "hotel",
+        "mode": "recommend",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      },
+      {
+        "component": "event",
+        "mode": "recommend",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      }
+    ],
+    "actions": [
+      {
+        "call_id": "1-1",
+        "syntax_valid": true,
+        "repeated": false
+      },
+      {
+        "call_id": "1-2",
+        "syntax_valid": true,
+        "repeated": false
+      }
+    ],
+    "schema_errors": [],
+    "failures": [],
+    "missing_facts": {},
+    "incorrect_facts": {}
+  },
+  {
+    "attempt_id": "e80d11ed-457d-423b-b86c-56e508f16044",
+    "run_id": 29,
+    "scenario_id": "SDC-031",
+    "language": "AR",
+    "scenario_type": "Typical",
+    "domain": "Restaurants",
+    "execution_status": "completed",
+    "schema_validity": 1,
+    "e2e_structured": 1,
+    "component_completion": 1.0,
+    "retrieval_evidence_coverage": 1.0,
+    "tool_syntax_validity": 1.0,
+    "tool_error_rate": 0.0,
+    "redundant_call_rate": 0.0,
+    "structured_unsupported_rate": 0.0,
+    "structured_claims": 12,
+    "unsupported_claims": 0,
+    "valid_tool_calls": 1,
+    "error_tool_calls": 0,
+    "redundant_tool_calls": 0,
+    "e2e_reviewed": null,
+    "review_complete": false,
+    "seconds": 225.05118967199996,
+    "generation_seconds": 224.8285237469995,
+    "tool_calls": 1,
+    "model_calls": 4,
+    "total_tokens": 19967,
+    "elapsed_seconds_is_partial": false,
+    "retrieval_transition": "answer_draft_discarded",
+    "protocol_warnings": [
+      "answer_draft_discarded"
+    ],
+    "components": [
+      {
+        "component": "restaurant",
+        "mode": "recommend",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      }
+    ],
+    "actions": [
+      {
+        "call_id": "1-1",
+        "syntax_valid": true,
+        "repeated": false
+      }
+    ],
+    "schema_errors": [],
+    "failures": [],
+    "missing_facts": {},
+    "incorrect_facts": {}
+  },
+  {
+    "attempt_id": "43fd35f1-5545-4cc5-afef-5b592d190bc0",
+    "run_id": 29,
+    "scenario_id": "SDC-035",
+    "language": "EN",
+    "scenario_type": "Typical",
+    "domain": "Restaurants",
+    "execution_status": "schema_invalid",
+    "schema_validity": 0,
+    "e2e_structured": 0,
+    "component_completion": 0.0,
+    "retrieval_evidence_coverage": 1.0,
+    "tool_syntax_validity": 1.0,
+    "tool_error_rate": 0.0,
+    "redundant_call_rate": 0.0,
+    "structured_unsupported_rate": null,
+    "structured_claims": 0,
+    "unsupported_claims": 0,
+    "valid_tool_calls": 1,
+    "error_tool_calls": 0,
+    "redundant_tool_calls": 0,
+    "e2e_reviewed": null,
+    "review_complete": false,
+    "seconds": 401.6663757880001,
+    "generation_seconds": 401.3732788520001,
+    "tool_calls": 1,
+    "model_calls": 5,
+    "total_tokens": 28687,
+    "elapsed_seconds_is_partial": false,
+    "retrieval_transition": "duplicate_search_blocked",
+    "protocol_warnings": [
+      "duplicate_search_blocked"
+    ],
+    "components": [
+      {
+        "component": "restaurant",
+        "mode": "recommend",
+        "passed": false,
+        "retrieval_evidence_pass": true
+      }
+    ],
+    "actions": [
+      {
+        "call_id": "1-1",
+        "syntax_valid": true,
+        "repeated": false
+      }
+    ],
+    "schema_errors": [
+      "recommendations/0/facts: 'star_rating' is a required property",
+      "recommendations/0/facts: 'rating' is a required property",
+      "recommendations/1/facts: 'star_rating' is a required property",
+      "recommendations/1/facts: 'rating' is a required property",
+      "recommendations/2/facts: 'star_rating' is a required property",
+      "recommendations/2/facts: 'rating' is a required property"
+    ],
+    "failures": [
+      "component_failure",
+      "invalid_output_contract",
+      "response_shape",
+      "schema_invalid",
+      "structured_inconsistency",
+      "wrong_status"
+    ],
+    "missing_facts": {},
+    "incorrect_facts": {}
+  },
+  {
+    "attempt_id": "2e0ff35c-9aa2-432e-88b9-7f1e028fd54e",
+    "run_id": 29,
+    "scenario_id": "SDC-037",
+    "language": "EN",
+    "scenario_type": "Typical",
+    "domain": "Events",
+    "execution_status": "completed",
+    "schema_validity": 1,
+    "e2e_structured": 1,
+    "component_completion": 1.0,
+    "retrieval_evidence_coverage": 1.0,
+    "tool_syntax_validity": 1.0,
+    "tool_error_rate": 0.0,
+    "redundant_call_rate": 0.0,
+    "structured_unsupported_rate": 0.0,
+    "structured_claims": 12,
+    "unsupported_claims": 0,
+    "valid_tool_calls": 1,
+    "error_tool_calls": 0,
+    "redundant_tool_calls": 0,
+    "e2e_reviewed": null,
+    "review_complete": false,
+    "seconds": 212.65843107,
+    "generation_seconds": 212.4579519390004,
+    "tool_calls": 1,
+    "model_calls": 4,
+    "total_tokens": 19839,
+    "elapsed_seconds_is_partial": false,
+    "retrieval_transition": "duplicate_search_blocked",
+    "protocol_warnings": [
+      "duplicate_search_blocked"
+    ],
+    "components": [
+      {
+        "component": "event",
+        "mode": "recommend",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      }
+    ],
+    "actions": [
+      {
+        "call_id": "1-1",
+        "syntax_valid": true,
+        "repeated": false
+      }
+    ],
+    "schema_errors": [],
+    "failures": [],
+    "missing_facts": {},
+    "incorrect_facts": {}
+  },
+  {
+    "attempt_id": "4ec0429b-818a-44e6-b76f-df8f44583ff9",
+    "run_id": 29,
+    "scenario_id": "SDC-038",
+    "language": "AR",
+    "scenario_type": "Typical",
+    "domain": "Events",
+    "execution_status": "completed",
+    "schema_validity": 1,
+    "e2e_structured": 1,
+    "component_completion": 1.0,
+    "retrieval_evidence_coverage": 1.0,
+    "tool_syntax_validity": 1.0,
+    "tool_error_rate": 0.0,
+    "redundant_call_rate": 0.0,
+    "structured_unsupported_rate": 0.0,
+    "structured_claims": 12,
+    "unsupported_claims": 0,
+    "valid_tool_calls": 1,
+    "error_tool_calls": 0,
+    "redundant_tool_calls": 0,
+    "e2e_reviewed": null,
+    "review_complete": false,
+    "seconds": 193.7195936539997,
+    "generation_seconds": 193.50255838899966,
+    "tool_calls": 1,
+    "model_calls": 4,
+    "total_tokens": 19886,
+    "elapsed_seconds_is_partial": false,
+    "retrieval_transition": "duplicate_search_blocked",
+    "protocol_warnings": [
+      "duplicate_search_blocked"
+    ],
+    "components": [
+      {
+        "component": "event",
+        "mode": "recommend",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      }
+    ],
+    "actions": [
+      {
+        "call_id": "1-1",
+        "syntax_valid": true,
+        "repeated": false
+      }
+    ],
+    "schema_errors": [],
+    "failures": [],
+    "missing_facts": {},
+    "incorrect_facts": {}
+  },
+  {
+    "attempt_id": "99eb4b44-d3b6-4dbe-876d-65b2a83118ee",
+    "run_id": 29,
+    "scenario_id": "SDC-043",
+    "language": "AR",
+    "scenario_type": "Edge",
+    "domain": "Hotels",
+    "execution_status": "grounding_inconsistent",
+    "schema_validity": 1,
+    "e2e_structured": 0,
+    "component_completion": 0.0,
+    "retrieval_evidence_coverage": 1.0,
+    "tool_syntax_validity": 1.0,
+    "tool_error_rate": 0.0,
+    "redundant_call_rate": 0.0,
+    "structured_unsupported_rate": null,
+    "structured_claims": 0,
+    "unsupported_claims": 0,
+    "valid_tool_calls": 1,
+    "error_tool_calls": 0,
+    "redundant_tool_calls": 0,
+    "e2e_reviewed": null,
+    "review_complete": false,
+    "seconds": 132.50862236000012,
+    "generation_seconds": 132.25554246900037,
+    "tool_calls": 1,
+    "model_calls": 5,
+    "total_tokens": 24080,
+    "elapsed_seconds_is_partial": false,
+    "retrieval_transition": "ready_marker",
+    "protocol_warnings": [],
+    "components": [
+      {
+        "component": "hotel",
+        "mode": "no_match",
+        "passed": false,
+        "retrieval_evidence_pass": true
+      }
+    ],
+    "actions": [
+      {
+        "call_id": "1-1",
+        "syntax_valid": true,
+        "repeated": false
+      }
+    ],
+    "schema_errors": [],
+    "failures": [
+      "component_failure",
+      "grounding_inconsistent",
+      "structured_inconsistency",
+      "wrong_status"
+    ],
+    "missing_facts": {},
+    "incorrect_facts": {}
+  },
+  {
+    "attempt_id": "96276a20-8874-4067-b79e-4877457ed97e",
+    "run_id": 29,
+    "scenario_id": "SDC-045",
+    "language": "EN",
+    "scenario_type": "Edge",
+    "domain": "Restaurants",
+    "execution_status": "completed",
+    "schema_validity": 1,
+    "e2e_structured": 1,
+    "component_completion": 1.0,
+    "retrieval_evidence_coverage": 1.0,
+    "tool_syntax_validity": 1.0,
+    "tool_error_rate": 0.0,
+    "redundant_call_rate": 0.0,
+    "structured_unsupported_rate": null,
+    "structured_claims": 0,
+    "unsupported_claims": 0,
+    "valid_tool_calls": 8,
+    "error_tool_calls": 0,
+    "redundant_tool_calls": 0,
+    "e2e_reviewed": null,
+    "review_complete": false,
+    "seconds": 153.55739801399977,
+    "generation_seconds": 152.98144514499973,
+    "tool_calls": 8,
+    "model_calls": 11,
+    "total_tokens": 45116,
+    "elapsed_seconds_is_partial": false,
+    "retrieval_transition": "budget_exhausted",
+    "protocol_warnings": [],
+    "components": [
+      {
+        "component": "restaurant",
+        "mode": "no_match",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      }
+    ],
+    "actions": [
+      {
+        "call_id": "1-1",
+        "syntax_valid": true,
+        "repeated": false
+      },
+      {
+        "call_id": "2-1",
+        "syntax_valid": true,
+        "repeated": false
+      },
+      {
+        "call_id": "3-1",
+        "syntax_valid": true,
+        "repeated": false
+      },
+      {
+        "call_id": "4-1",
+        "syntax_valid": true,
+        "repeated": false
+      },
+      {
+        "call_id": "5-1",
+        "syntax_valid": true,
+        "repeated": false
+      },
+      {
+        "call_id": "6-1",
+        "syntax_valid": true,
+        "repeated": false
+      },
+      {
+        "call_id": "7-1",
+        "syntax_valid": true,
+        "repeated": false
+      },
+      {
+        "call_id": "8-1",
+        "syntax_valid": true,
+        "repeated": false
+      }
+    ],
+    "schema_errors": [],
+    "failures": [],
+    "missing_facts": {},
+    "incorrect_facts": {}
+  },
+  {
+    "attempt_id": "b13b669e-226d-4701-bba2-ddb00ac524b3",
+    "run_id": 29,
+    "scenario_id": "SDC-048",
+    "language": "EN",
+    "scenario_type": "Edge",
+    "domain": "Missing hotel data",
+    "execution_status": "completed",
+    "schema_validity": 1,
+    "e2e_structured": 1,
+    "component_completion": 1.0,
+    "retrieval_evidence_coverage": 1.0,
+    "tool_syntax_validity": 1.0,
+    "tool_error_rate": 0.0,
+    "redundant_call_rate": 0.0,
+    "structured_unsupported_rate": null,
+    "structured_claims": 0,
+    "unsupported_claims": 0,
+    "valid_tool_calls": 1,
+    "error_tool_calls": 0,
+    "redundant_tool_calls": 0,
+    "e2e_reviewed": null,
+    "review_complete": false,
+    "seconds": 50.97668261099989,
+    "generation_seconds": 50.81899355299993,
+    "tool_calls": 1,
+    "model_calls": 3,
+    "total_tokens": 11994,
+    "elapsed_seconds_is_partial": false,
+    "retrieval_transition": "no_tool_fallback",
+    "protocol_warnings": [
+      "no_tool_fallback"
+    ],
+    "components": [
+      {
+        "component": "hotel",
+        "mode": "unknown",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      }
+    ],
+    "actions": [
+      {
+        "call_id": "1-1",
+        "syntax_valid": true,
+        "repeated": false
+      }
+    ],
+    "schema_errors": [],
+    "failures": [],
+    "missing_facts": {},
+    "incorrect_facts": {}
+  },
+  {
+    "attempt_id": "17bdb73f-6dd1-472c-a139-4b66569c571a",
+    "run_id": 29,
+    "scenario_id": "SDC-055",
+    "language": "EN",
+    "scenario_type": "Edge",
+    "domain": "Clarification",
+    "execution_status": "completed",
+    "schema_validity": 1,
+    "e2e_structured": 1,
+    "component_completion": 1.0,
+    "retrieval_evidence_coverage": 1.0,
+    "tool_syntax_validity": null,
+    "tool_error_rate": null,
+    "redundant_call_rate": null,
+    "structured_unsupported_rate": null,
+    "structured_claims": 0,
+    "unsupported_claims": 0,
+    "valid_tool_calls": 0,
+    "error_tool_calls": 0,
+    "redundant_tool_calls": 0,
+    "e2e_reviewed": null,
+    "review_complete": false,
+    "seconds": 25.869216677000168,
+    "generation_seconds": 25.78335679599968,
+    "tool_calls": 0,
+    "model_calls": 1,
+    "total_tokens": 5168,
+    "elapsed_seconds_is_partial": false,
+    "retrieval_transition": "preflight_missing_city",
+    "protocol_warnings": [],
+    "components": [
+      {
+        "component": "request_logic",
+        "mode": "clarify",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      }
+    ],
+    "actions": [],
+    "schema_errors": [],
+    "failures": [],
+    "missing_facts": {},
+    "incorrect_facts": {}
+  },
+  {
+    "attempt_id": "3ba393b5-ebc4-4f6c-88d2-7cf215c1dfcd",
+    "run_id": 29,
+    "scenario_id": "SDC-056",
+    "language": "AR",
+    "scenario_type": "Edge",
+    "domain": "Conflicting constraints",
+    "execution_status": "completed",
+    "schema_validity": 1,
+    "e2e_structured": 1,
+    "component_completion": 1.0,
+    "retrieval_evidence_coverage": 1.0,
+    "tool_syntax_validity": null,
+    "tool_error_rate": null,
+    "redundant_call_rate": null,
+    "structured_unsupported_rate": null,
+    "structured_claims": 0,
+    "unsupported_claims": 0,
+    "valid_tool_calls": 0,
+    "error_tool_calls": 0,
+    "redundant_tool_calls": 0,
+    "e2e_reviewed": null,
+    "review_complete": false,
+    "seconds": 78.56383119600014,
+    "generation_seconds": 78.45258780599943,
+    "tool_calls": 0,
+    "model_calls": 2,
+    "total_tokens": 11131,
+    "elapsed_seconds_is_partial": false,
+    "retrieval_transition": "preflight_conflicting_budget",
+    "protocol_warnings": [],
+    "components": [
+      {
+        "component": "request_logic",
+        "mode": "clarify",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      }
+    ],
+    "actions": [],
+    "schema_errors": [],
+    "failures": [],
+    "missing_facts": {},
+    "incorrect_facts": {}
+  },
+  {
+    "attempt_id": "d6116e98-4b72-482b-af85-d64b6a5ddb2e",
+    "run_id": 29,
+    "scenario_id": "SDC-058",
+    "language": "AR",
+    "scenario_type": "Edge",
+    "domain": "Partial hotel + restaurant",
+    "execution_status": "grounding_inconsistent",
+    "schema_validity": 1,
+    "e2e_structured": 0,
+    "component_completion": 0.0,
+    "retrieval_evidence_coverage": 1.0,
+    "tool_syntax_validity": 0.125,
+    "tool_error_rate": 0.0,
+    "redundant_call_rate": 0.0,
+    "structured_unsupported_rate": 0.0,
+    "structured_claims": 11,
+    "unsupported_claims": 0,
+    "valid_tool_calls": 1,
+    "error_tool_calls": 0,
+    "redundant_tool_calls": 0,
+    "e2e_reviewed": null,
+    "review_complete": false,
+    "seconds": 332.379946864,
+    "generation_seconds": 331.7516702649991,
+    "tool_calls": 8,
+    "model_calls": 11,
+    "total_tokens": 53560,
+    "elapsed_seconds_is_partial": false,
+    "retrieval_transition": "budget_exhausted",
+    "protocol_warnings": [
+      "tool_arg_alias:search_places.limit->top_k",
+      "tool_arg_alias:search_places.limit->top_k",
+      "tool_arg_alias:search_places.limit->top_k",
+      "tool_arg_alias:search_places.limit->top_k",
+      "tool_arg_alias:search_places.limit->top_k",
+      "tool_arg_alias:search_places.limit->top_k",
+      "tool_arg_alias:search_places.limit->top_k"
+    ],
+    "components": [
+      {
+        "component": "hotel",
+        "mode": "recommend",
+        "passed": false,
+        "retrieval_evidence_pass": true
+      },
+      {
+        "component": "restaurant",
+        "mode": "no_match",
+        "passed": false,
+        "retrieval_evidence_pass": true
+      }
+    ],
+    "actions": [
+      {
+        "call_id": "1-1",
+        "syntax_valid": true,
+        "repeated": false
+      },
+      {
+        "call_id": "2-1",
+        "syntax_valid": false,
+        "repeated": false
+      },
+      {
+        "call_id": "3-1",
+        "syntax_valid": false,
+        "repeated": false
+      },
+      {
+        "call_id": "4-1",
+        "syntax_valid": false,
+        "repeated": false
+      },
+      {
+        "call_id": "5-1",
+        "syntax_valid": false,
+        "repeated": false
+      },
+      {
+        "call_id": "6-1",
+        "syntax_valid": false,
+        "repeated": false
+      },
+      {
+        "call_id": "7-1",
+        "syntax_valid": false,
+        "repeated": false
+      },
+      {
+        "call_id": "8-1",
+        "syntax_valid": false,
+        "repeated": false
+      }
+    ],
+    "schema_errors": [],
+    "failures": [
+      "component_failure",
+      "grounding_inconsistent",
+      "structured_inconsistency"
+    ],
+    "missing_facts": {},
+    "incorrect_facts": {}
+  },
+  {
+    "attempt_id": "d287ef74-fc5c-4e8b-b7d8-659f62420a5d",
+    "run_id": 43,
+    "scenario_id": "SDC-001",
+    "language": "EN",
+    "scenario_type": "Typical",
+    "domain": "Entertainment",
+    "execution_status": "completed",
+    "schema_validity": 1,
+    "e2e_structured": 1,
+    "component_completion": 1.0,
+    "retrieval_evidence_coverage": 1.0,
+    "tool_syntax_validity": 1.0,
+    "tool_error_rate": 0.0,
+    "redundant_call_rate": 0.0,
+    "structured_unsupported_rate": 0.0,
+    "structured_claims": 5,
+    "unsupported_claims": 0,
+    "valid_tool_calls": 1,
+    "error_tool_calls": 0,
+    "redundant_tool_calls": 0,
+    "e2e_reviewed": null,
+    "review_complete": false,
+    "seconds": 69.4105503790006,
+    "generation_seconds": 69.28031957599978,
+    "tool_calls": 1,
+    "model_calls": 3,
+    "total_tokens": 12121,
+    "elapsed_seconds_is_partial": false,
+    "retrieval_transition": "ready_marker",
+    "protocol_warnings": [],
+    "components": [
+      {
+        "component": "activity",
+        "mode": "recommend",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      }
+    ],
+    "actions": [
+      {
+        "call_id": "1-1",
+        "syntax_valid": true,
+        "repeated": false
+      }
+    ],
+    "schema_errors": [],
+    "failures": [],
+    "missing_facts": {},
+    "incorrect_facts": {}
+  },
+  {
+    "attempt_id": "093426e6-1e1c-43b9-b504-ec74abbd948c",
+    "run_id": 43,
+    "scenario_id": "SDC-003",
+    "language": "AR",
+    "scenario_type": "Typical",
+    "domain": "Entertainment",
+    "execution_status": "completed",
+    "schema_validity": 1,
+    "e2e_structured": 1,
+    "component_completion": 1.0,
+    "retrieval_evidence_coverage": 1.0,
+    "tool_syntax_validity": 1.0,
+    "tool_error_rate": 0.0,
+    "redundant_call_rate": 0.0,
+    "structured_unsupported_rate": 0.0,
+    "structured_claims": 5,
+    "unsupported_claims": 0,
+    "valid_tool_calls": 1,
+    "error_tool_calls": 0,
+    "redundant_tool_calls": 0,
+    "e2e_reviewed": null,
+    "review_complete": false,
+    "seconds": 141.14507573799983,
+    "generation_seconds": 140.94974831199943,
+    "tool_calls": 1,
+    "model_calls": 4,
+    "total_tokens": 18672,
+    "elapsed_seconds_is_partial": false,
+    "retrieval_transition": "ready_marker",
+    "protocol_warnings": [],
+    "components": [
+      {
+        "component": "activity",
+        "mode": "recommend",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      }
+    ],
+    "actions": [
+      {
+        "call_id": "1-1",
+        "syntax_valid": true,
+        "repeated": false
+      }
+    ],
+    "schema_errors": [],
+    "failures": [],
+    "missing_facts": {},
+    "incorrect_facts": {}
+  },
+  {
+    "attempt_id": "bc21f339-ea79-4bba-a120-f15215a978b2",
+    "run_id": 43,
+    "scenario_id": "SDC-007",
+    "language": "AR",
+    "scenario_type": "Typical",
+    "domain": "Hotels",
+    "execution_status": "completed",
+    "schema_validity": 1,
+    "e2e_structured": 1,
+    "component_completion": 1.0,
+    "retrieval_evidence_coverage": 1.0,
+    "tool_syntax_validity": 1.0,
+    "tool_error_rate": 0.0,
+    "redundant_call_rate": 0.0,
+    "structured_unsupported_rate": 0.0,
+    "structured_claims": 20,
+    "unsupported_claims": 0,
+    "valid_tool_calls": 1,
+    "error_tool_calls": 0,
+    "redundant_tool_calls": 0,
+    "e2e_reviewed": null,
+    "review_complete": false,
+    "seconds": 140.82748967800035,
+    "generation_seconds": 140.68901691200062,
+    "tool_calls": 1,
+    "model_calls": 3,
+    "total_tokens": 13321,
+    "elapsed_seconds_is_partial": false,
+    "retrieval_transition": "no_tool_fallback",
+    "protocol_warnings": [
+      "no_tool_fallback"
+    ],
+    "components": [
+      {
+        "component": "hotel",
+        "mode": "recommend",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      }
+    ],
+    "actions": [
+      {
+        "call_id": "1-1",
+        "syntax_valid": true,
+        "repeated": false
+      }
+    ],
+    "schema_errors": [],
+    "failures": [],
+    "missing_facts": {},
+    "incorrect_facts": {}
+  },
+  {
+    "attempt_id": "9ca7d997-43b3-4b86-a85b-274d380dc2e2",
+    "run_id": 43,
+    "scenario_id": "SDC-008",
+    "language": "EN",
+    "scenario_type": "Typical",
+    "domain": "Hotels",
+    "execution_status": "completed",
+    "schema_validity": 1,
+    "e2e_structured": 1,
+    "component_completion": 1.0,
+    "retrieval_evidence_coverage": 1.0,
+    "tool_syntax_validity": 1.0,
+    "tool_error_rate": 0.0,
+    "redundant_call_rate": 0.0,
+    "structured_unsupported_rate": 0.0,
+    "structured_claims": 20,
+    "unsupported_claims": 0,
+    "valid_tool_calls": 1,
+    "error_tool_calls": 0,
+    "redundant_tool_calls": 0,
+    "e2e_reviewed": null,
+    "review_complete": false,
+    "seconds": 141.2519910660003,
+    "generation_seconds": 141.10646759999963,
+    "tool_calls": 1,
+    "model_calls": 3,
+    "total_tokens": 13183,
+    "elapsed_seconds_is_partial": false,
+    "retrieval_transition": "duplicate_search_blocked",
+    "protocol_warnings": [
+      "duplicate_search_blocked"
+    ],
+    "components": [
+      {
+        "component": "hotel",
+        "mode": "recommend",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      }
+    ],
+    "actions": [
+      {
+        "call_id": "1-1",
+        "syntax_valid": true,
+        "repeated": false
+      }
+    ],
+    "schema_errors": [],
+    "failures": [],
+    "missing_facts": {},
+    "incorrect_facts": {}
+  },
+  {
+    "attempt_id": "640edebf-8a22-41be-964a-08c52fdd58cf",
+    "run_id": 43,
+    "scenario_id": "SDC-009",
+    "language": "AR",
+    "scenario_type": "Typical",
+    "domain": "Hotels",
+    "execution_status": "completed",
+    "schema_validity": 1,
+    "e2e_structured": 1,
+    "component_completion": 1.0,
+    "retrieval_evidence_coverage": 1.0,
+    "tool_syntax_validity": 1.0,
+    "tool_error_rate": 0.0,
+    "redundant_call_rate": 0.0,
+    "structured_unsupported_rate": 0.0,
+    "structured_claims": 20,
+    "unsupported_claims": 0,
+    "valid_tool_calls": 1,
+    "error_tool_calls": 0,
+    "redundant_tool_calls": 0,
+    "e2e_reviewed": null,
+    "review_complete": false,
+    "seconds": 131.7903354199998,
+    "generation_seconds": 131.64548736599954,
+    "tool_calls": 1,
+    "model_calls": 3,
+    "total_tokens": 13259,
+    "elapsed_seconds_is_partial": false,
+    "retrieval_transition": "ready_marker",
+    "protocol_warnings": [],
+    "components": [
+      {
+        "component": "hotel",
+        "mode": "recommend",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      }
+    ],
+    "actions": [
+      {
+        "call_id": "1-1",
+        "syntax_valid": true,
+        "repeated": false
+      }
+    ],
+    "schema_errors": [],
+    "failures": [],
+    "missing_facts": {},
+    "incorrect_facts": {}
+  },
+  {
+    "attempt_id": "81ac73e8-e738-4811-9769-e39a0a5b0fc8",
+    "run_id": 43,
+    "scenario_id": "SDC-014",
+    "language": "EN",
+    "scenario_type": "Typical",
+    "domain": "Hotels",
+    "execution_status": "completed",
+    "schema_validity": 1,
+    "e2e_structured": 1,
+    "component_completion": 1.0,
+    "retrieval_evidence_coverage": 1.0,
+    "tool_syntax_validity": 1.0,
+    "tool_error_rate": 0.0,
+    "redundant_call_rate": 0.0,
+    "structured_unsupported_rate": 0.0,
+    "structured_claims": 22,
+    "unsupported_claims": 0,
+    "valid_tool_calls": 1,
+    "error_tool_calls": 0,
+    "redundant_tool_calls": 0,
+    "e2e_reviewed": null,
+    "review_complete": false,
+    "seconds": 133.54345703499985,
+    "generation_seconds": 133.40642764800032,
+    "tool_calls": 1,
+    "model_calls": 3,
+    "total_tokens": 13029,
+    "elapsed_seconds_is_partial": false,
+    "retrieval_transition": "ready_marker",
+    "protocol_warnings": [],
+    "components": [
+      {
+        "component": "hotel",
+        "mode": "recommend",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      }
+    ],
+    "actions": [
+      {
+        "call_id": "1-1",
+        "syntax_valid": true,
+        "repeated": false
+      }
+    ],
+    "schema_errors": [],
+    "failures": [],
+    "missing_facts": {},
+    "incorrect_facts": {}
+  },
+  {
+    "attempt_id": "e08d0805-d201-4045-963c-67ad35197737",
+    "run_id": 43,
+    "scenario_id": "SDC-019",
+    "language": "AR",
+    "scenario_type": "Typical",
+    "domain": "Hotel + activity",
+    "execution_status": "completed",
+    "schema_validity": 1,
+    "e2e_structured": 1,
+    "component_completion": 1.0,
+    "retrieval_evidence_coverage": 1.0,
+    "tool_syntax_validity": 0.5,
+    "tool_error_rate": 0.0,
+    "redundant_call_rate": 0.0,
+    "structured_unsupported_rate": 0.0,
+    "structured_claims": 16,
+    "unsupported_claims": 0,
+    "valid_tool_calls": 1,
+    "error_tool_calls": 0,
+    "redundant_tool_calls": 0,
+    "e2e_reviewed": null,
+    "review_complete": false,
+    "seconds": 229.35478119599975,
+    "generation_seconds": 229.10537845700037,
+    "tool_calls": 2,
+    "model_calls": 4,
+    "total_tokens": 21231,
+    "elapsed_seconds_is_partial": false,
+    "retrieval_transition": "ready_marker",
+    "protocol_warnings": [
+      "tool_arg_alias:search_places.limit->top_k"
+    ],
+    "components": [
+      {
+        "component": "hotel",
+        "mode": "recommend",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      },
+      {
+        "component": "activity",
+        "mode": "recommend",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      }
+    ],
+    "actions": [
+      {
+        "call_id": "1-1",
+        "syntax_valid": true,
+        "repeated": false
+      },
+      {
+        "call_id": "1-2",
+        "syntax_valid": false,
+        "repeated": false
+      }
+    ],
+    "schema_errors": [],
+    "failures": [],
+    "missing_facts": {},
+    "incorrect_facts": {}
+  },
+  {
+    "attempt_id": "86acf9cb-c215-4c5f-b6a9-5627151d8c76",
+    "run_id": 43,
+    "scenario_id": "SDC-020",
+    "language": "EN",
+    "scenario_type": "Typical",
+    "domain": "Hotel + activity",
+    "execution_status": "completed",
+    "schema_validity": 1,
+    "e2e_structured": 1,
+    "component_completion": 1.0,
+    "retrieval_evidence_coverage": 1.0,
+    "tool_syntax_validity": 0.3333333333333333,
+    "tool_error_rate": 0.3333333333333333,
+    "redundant_call_rate": 0.0,
+    "structured_unsupported_rate": 0.0,
+    "structured_claims": 16,
+    "unsupported_claims": 0,
+    "valid_tool_calls": 1,
+    "error_tool_calls": 1,
+    "redundant_tool_calls": 0,
+    "e2e_reviewed": null,
+    "review_complete": false,
+    "seconds": 117.8019359939999,
+    "generation_seconds": 117.56418261900035,
+    "tool_calls": 3,
+    "model_calls": 4,
+    "total_tokens": 16476,
+    "elapsed_seconds_is_partial": false,
+    "retrieval_transition": "ready_marker",
+    "protocol_warnings": [
+      "tool_arg_alias:search_places.limit->top_k",
+      "tool_arg_alias:search_places.limit->top_k"
+    ],
+    "components": [
+      {
+        "component": "hotel",
+        "mode": "recommend",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      },
+      {
+        "component": "activity",
+        "mode": "recommend",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      }
+    ],
+    "actions": [
+      {
+        "call_id": "1-1",
+        "syntax_valid": true,
+        "repeated": false
+      },
+      {
+        "call_id": "1-2",
+        "syntax_valid": false,
+        "repeated": false
+      },
+      {
+        "call_id": "2-1",
+        "syntax_valid": false,
+        "repeated": false
+      }
+    ],
+    "schema_errors": [],
+    "failures": [],
+    "missing_facts": {},
+    "incorrect_facts": {}
+  },
+  {
+    "attempt_id": "0f87d3c3-9a90-4b9e-bac8-48fbfb963bce",
+    "run_id": 43,
+    "scenario_id": "SDC-025",
+    "language": "EN",
+    "scenario_type": "Typical",
+    "domain": "Hotel + event",
+    "execution_status": "completed",
+    "schema_validity": 1,
+    "e2e_structured": 1,
+    "component_completion": 1.0,
+    "retrieval_evidence_coverage": 1.0,
+    "tool_syntax_validity": 1.0,
+    "tool_error_rate": 0.0,
+    "redundant_call_rate": 0.0,
+    "structured_unsupported_rate": 0.0,
+    "structured_claims": 17,
+    "unsupported_claims": 0,
+    "valid_tool_calls": 2,
+    "error_tool_calls": 0,
+    "redundant_tool_calls": 0,
+    "e2e_reviewed": null,
+    "review_complete": false,
+    "seconds": 218.74541586300074,
+    "generation_seconds": 218.48495775099946,
+    "tool_calls": 2,
+    "model_calls": 5,
+    "total_tokens": 23340,
+    "elapsed_seconds_is_partial": false,
+    "retrieval_transition": "ready_marker",
+    "protocol_warnings": [],
+    "components": [
+      {
+        "component": "hotel",
+        "mode": "recommend",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      },
+      {
+        "component": "event",
+        "mode": "recommend",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      }
+    ],
+    "actions": [
+      {
+        "call_id": "1-1",
+        "syntax_valid": true,
+        "repeated": false
+      },
+      {
+        "call_id": "2-1",
+        "syntax_valid": true,
+        "repeated": false
+      }
+    ],
+    "schema_errors": [],
+    "failures": [],
+    "missing_facts": {},
+    "incorrect_facts": {}
+  },
+  {
+    "attempt_id": "af2a58e8-e4f2-4142-af67-4beb61b9a297",
+    "run_id": 43,
+    "scenario_id": "SDC-027",
+    "language": "AR",
+    "scenario_type": "Typical",
+    "domain": "Hotel + event",
+    "execution_status": "completed",
+    "schema_validity": 1,
+    "e2e_structured": 1,
+    "component_completion": 1.0,
+    "retrieval_evidence_coverage": 1.0,
+    "tool_syntax_validity": 1.0,
+    "tool_error_rate": 0.0,
+    "redundant_call_rate": 0.0,
+    "structured_unsupported_rate": 0.0,
+    "structured_claims": 17,
+    "unsupported_claims": 0,
+    "valid_tool_calls": 2,
+    "error_tool_calls": 0,
+    "redundant_tool_calls": 0,
+    "e2e_reviewed": null,
+    "review_complete": false,
+    "seconds": 227.18072390100042,
+    "generation_seconds": 226.9568076579999,
+    "tool_calls": 2,
+    "model_calls": 4,
+    "total_tokens": 20360,
+    "elapsed_seconds_is_partial": false,
+    "retrieval_transition": "ready_marker",
+    "protocol_warnings": [],
+    "components": [
+      {
+        "component": "hotel",
+        "mode": "recommend",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      },
+      {
+        "component": "event",
+        "mode": "recommend",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      }
+    ],
+    "actions": [
+      {
+        "call_id": "1-1",
+        "syntax_valid": true,
+        "repeated": false
+      },
+      {
+        "call_id": "1-2",
+        "syntax_valid": true,
+        "repeated": false
+      }
+    ],
+    "schema_errors": [],
+    "failures": [],
+    "missing_facts": {},
+    "incorrect_facts": {}
+  },
+  {
+    "attempt_id": "6bf2a473-7c1d-4e29-a73f-9c258fbc7f35",
+    "run_id": 43,
+    "scenario_id": "SDC-031",
+    "language": "AR",
+    "scenario_type": "Typical",
+    "domain": "Restaurants",
+    "execution_status": "completed",
+    "schema_validity": 1,
+    "e2e_structured": 1,
+    "component_completion": 1.0,
+    "retrieval_evidence_coverage": 1.0,
+    "tool_syntax_validity": 1.0,
+    "tool_error_rate": 0.0,
+    "redundant_call_rate": 0.0,
+    "structured_unsupported_rate": 0.0,
+    "structured_claims": 12,
+    "unsupported_claims": 0,
+    "valid_tool_calls": 1,
+    "error_tool_calls": 0,
+    "redundant_tool_calls": 0,
+    "e2e_reviewed": null,
+    "review_complete": false,
+    "seconds": 223.67332496500057,
+    "generation_seconds": 223.4347000100006,
+    "tool_calls": 1,
+    "model_calls": 4,
+    "total_tokens": 19952,
+    "elapsed_seconds_is_partial": false,
+    "retrieval_transition": "answer_draft_discarded",
+    "protocol_warnings": [
+      "answer_draft_discarded"
+    ],
+    "components": [
+      {
+        "component": "restaurant",
+        "mode": "recommend",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      }
+    ],
+    "actions": [
+      {
+        "call_id": "1-1",
+        "syntax_valid": true,
+        "repeated": false
+      }
+    ],
+    "schema_errors": [],
+    "failures": [],
+    "missing_facts": {},
+    "incorrect_facts": {}
+  },
+  {
+    "attempt_id": "0673946b-b86f-422f-8be9-be6895468035",
+    "run_id": 43,
+    "scenario_id": "SDC-035",
+    "language": "EN",
+    "scenario_type": "Typical",
+    "domain": "Restaurants",
+    "execution_status": "completed",
+    "schema_validity": 1,
+    "e2e_structured": 1,
+    "component_completion": 1.0,
+    "retrieval_evidence_coverage": 1.0,
+    "tool_syntax_validity": 1.0,
+    "tool_error_rate": 0.0,
+    "redundant_call_rate": 0.0,
+    "structured_unsupported_rate": 0.0,
+    "structured_claims": 18,
+    "unsupported_claims": 0,
+    "valid_tool_calls": 1,
+    "error_tool_calls": 0,
+    "redundant_tool_calls": 0,
+    "e2e_reviewed": null,
+    "review_complete": false,
+    "seconds": 258.28463372999977,
+    "generation_seconds": 258.07864740900004,
+    "tool_calls": 1,
+    "model_calls": 4,
+    "total_tokens": 20389,
+    "elapsed_seconds_is_partial": false,
+    "retrieval_transition": "duplicate_search_blocked",
+    "protocol_warnings": [
+      "duplicate_search_blocked"
+    ],
+    "components": [
+      {
+        "component": "restaurant",
+        "mode": "recommend",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      }
+    ],
+    "actions": [
+      {
+        "call_id": "1-1",
+        "syntax_valid": true,
+        "repeated": false
+      }
+    ],
+    "schema_errors": [],
+    "failures": [],
+    "missing_facts": {},
+    "incorrect_facts": {}
+  },
+  {
+    "attempt_id": "2a2b024e-0caa-4fe1-84f6-39d7401a6d12",
+    "run_id": 43,
+    "scenario_id": "SDC-037",
+    "language": "EN",
+    "scenario_type": "Typical",
+    "domain": "Events",
+    "execution_status": "completed",
+    "schema_validity": 1,
+    "e2e_structured": 1,
+    "component_completion": 1.0,
+    "retrieval_evidence_coverage": 1.0,
+    "tool_syntax_validity": 1.0,
+    "tool_error_rate": 0.0,
+    "redundant_call_rate": 0.0,
+    "structured_unsupported_rate": 0.0,
+    "structured_claims": 12,
+    "unsupported_claims": 0,
+    "valid_tool_calls": 1,
+    "error_tool_calls": 0,
+    "redundant_tool_calls": 0,
+    "e2e_reviewed": null,
+    "review_complete": false,
+    "seconds": 212.22653932899993,
+    "generation_seconds": 212.0159858190009,
+    "tool_calls": 1,
+    "model_calls": 4,
+    "total_tokens": 19839,
+    "elapsed_seconds_is_partial": false,
+    "retrieval_transition": "duplicate_search_blocked",
+    "protocol_warnings": [
+      "duplicate_search_blocked"
+    ],
+    "components": [
+      {
+        "component": "event",
+        "mode": "recommend",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      }
+    ],
+    "actions": [
+      {
+        "call_id": "1-1",
+        "syntax_valid": true,
+        "repeated": false
+      }
+    ],
+    "schema_errors": [],
+    "failures": [],
+    "missing_facts": {},
+    "incorrect_facts": {}
+  },
+  {
+    "attempt_id": "1374868f-3188-42fe-ad9f-c8f4fdb555e3",
+    "run_id": 43,
+    "scenario_id": "SDC-038",
+    "language": "AR",
+    "scenario_type": "Typical",
+    "domain": "Events",
+    "execution_status": "completed",
+    "schema_validity": 1,
+    "e2e_structured": 1,
+    "component_completion": 1.0,
+    "retrieval_evidence_coverage": 1.0,
+    "tool_syntax_validity": 1.0,
+    "tool_error_rate": 0.0,
+    "redundant_call_rate": 0.0,
+    "structured_unsupported_rate": 0.0,
+    "structured_claims": 12,
+    "unsupported_claims": 0,
+    "valid_tool_calls": 1,
+    "error_tool_calls": 0,
+    "redundant_tool_calls": 0,
+    "e2e_reviewed": null,
+    "review_complete": false,
+    "seconds": 183.12911752000036,
+    "generation_seconds": 182.88784334500087,
+    "tool_calls": 1,
+    "model_calls": 4,
+    "total_tokens": 19639,
+    "elapsed_seconds_is_partial": false,
+    "retrieval_transition": "ready_marker",
+    "protocol_warnings": [],
+    "components": [
+      {
+        "component": "event",
+        "mode": "recommend",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      }
+    ],
+    "actions": [
+      {
+        "call_id": "1-1",
+        "syntax_valid": true,
+        "repeated": false
+      }
+    ],
+    "schema_errors": [],
+    "failures": [],
+    "missing_facts": {},
+    "incorrect_facts": {}
+  },
+  {
+    "attempt_id": "629d4b73-5424-435f-a8ae-92a9db05ecd7",
+    "run_id": 43,
+    "scenario_id": "SDC-043",
+    "language": "AR",
+    "scenario_type": "Edge",
+    "domain": "Hotels",
+    "execution_status": "grounding_inconsistent",
+    "schema_validity": 1,
+    "e2e_structured": 0,
+    "component_completion": 0.0,
+    "retrieval_evidence_coverage": 1.0,
+    "tool_syntax_validity": 1.0,
+    "tool_error_rate": 0.0,
+    "redundant_call_rate": 0.0,
+    "structured_unsupported_rate": null,
+    "structured_claims": 0,
+    "unsupported_claims": 0,
+    "valid_tool_calls": 1,
+    "error_tool_calls": 0,
+    "redundant_tool_calls": 0,
+    "e2e_reviewed": null,
+    "review_complete": false,
+    "seconds": 132.2327431069998,
+    "generation_seconds": 131.99187894999977,
+    "tool_calls": 1,
+    "model_calls": 5,
+    "total_tokens": 24078,
+    "elapsed_seconds_is_partial": false,
+    "retrieval_transition": "ready_marker",
+    "protocol_warnings": [],
+    "components": [
+      {
+        "component": "hotel",
+        "mode": "no_match",
+        "passed": false,
+        "retrieval_evidence_pass": true
+      }
+    ],
+    "actions": [
+      {
+        "call_id": "1-1",
+        "syntax_valid": true,
+        "repeated": false
+      }
+    ],
+    "schema_errors": [],
+    "failures": [
+      "component_failure",
+      "grounding_inconsistent",
+      "structured_inconsistency",
+      "wrong_status"
+    ],
+    "missing_facts": {},
+    "incorrect_facts": {}
+  },
+  {
+    "attempt_id": "7bb6a76b-e30e-4e04-af6e-21955d5da76d",
+    "run_id": 43,
+    "scenario_id": "SDC-045",
+    "language": "EN",
+    "scenario_type": "Edge",
+    "domain": "Restaurants",
+    "execution_status": "completed",
+    "schema_validity": 1,
+    "e2e_structured": 1,
+    "component_completion": 1.0,
+    "retrieval_evidence_coverage": 1.0,
+    "tool_syntax_validity": 1.0,
+    "tool_error_rate": 0.0,
+    "redundant_call_rate": 0.0,
+    "structured_unsupported_rate": null,
+    "structured_claims": 0,
+    "unsupported_claims": 0,
+    "valid_tool_calls": 8,
+    "error_tool_calls": 0,
+    "redundant_tool_calls": 0,
+    "e2e_reviewed": null,
+    "review_complete": false,
+    "seconds": 121.66442843700042,
+    "generation_seconds": 121.13928143499925,
+    "tool_calls": 8,
+    "model_calls": 10,
+    "total_tokens": 38856,
+    "elapsed_seconds_is_partial": false,
+    "retrieval_transition": "budget_exhausted",
+    "protocol_warnings": [],
+    "components": [
+      {
+        "component": "restaurant",
+        "mode": "no_match",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      }
+    ],
+    "actions": [
+      {
+        "call_id": "1-1",
+        "syntax_valid": true,
+        "repeated": false
+      },
+      {
+        "call_id": "2-1",
+        "syntax_valid": true,
+        "repeated": false
+      },
+      {
+        "call_id": "3-1",
+        "syntax_valid": true,
+        "repeated": false
+      },
+      {
+        "call_id": "4-1",
+        "syntax_valid": true,
+        "repeated": false
+      },
+      {
+        "call_id": "5-1",
+        "syntax_valid": true,
+        "repeated": false
+      },
+      {
+        "call_id": "6-1",
+        "syntax_valid": true,
+        "repeated": false
+      },
+      {
+        "call_id": "7-1",
+        "syntax_valid": true,
+        "repeated": false
+      },
+      {
+        "call_id": "8-1",
+        "syntax_valid": true,
+        "repeated": false
+      }
+    ],
+    "schema_errors": [],
+    "failures": [],
+    "missing_facts": {},
+    "incorrect_facts": {}
+  },
+  {
+    "attempt_id": "c349bdb5-e7c8-4da6-b622-2571c7f6866a",
+    "run_id": 43,
+    "scenario_id": "SDC-048",
+    "language": "EN",
+    "scenario_type": "Edge",
+    "domain": "Missing hotel data",
+    "execution_status": "completed",
+    "schema_validity": 1,
+    "e2e_structured": 1,
+    "component_completion": 1.0,
+    "retrieval_evidence_coverage": 1.0,
+    "tool_syntax_validity": 1.0,
+    "tool_error_rate": 0.0,
+    "redundant_call_rate": 0.0,
+    "structured_unsupported_rate": null,
+    "structured_claims": 0,
+    "unsupported_claims": 0,
+    "valid_tool_calls": 1,
+    "error_tool_calls": 0,
+    "redundant_tool_calls": 0,
+    "e2e_reviewed": null,
+    "review_complete": false,
+    "seconds": 46.239407917999415,
+    "generation_seconds": 46.102357404998656,
+    "tool_calls": 1,
+    "model_calls": 3,
+    "total_tokens": 11944,
+    "elapsed_seconds_is_partial": false,
+    "retrieval_transition": "ready_marker",
+    "protocol_warnings": [],
+    "components": [
+      {
+        "component": "hotel",
+        "mode": "unknown",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      }
+    ],
+    "actions": [
+      {
+        "call_id": "1-1",
+        "syntax_valid": true,
+        "repeated": false
+      }
+    ],
+    "schema_errors": [],
+    "failures": [],
+    "missing_facts": {},
+    "incorrect_facts": {}
+  },
+  {
+    "attempt_id": "80dead62-f576-4431-a3ae-78803a45a92d",
+    "run_id": 43,
+    "scenario_id": "SDC-055",
+    "language": "EN",
+    "scenario_type": "Edge",
+    "domain": "Clarification",
+    "execution_status": "completed",
+    "schema_validity": 1,
+    "e2e_structured": 1,
+    "component_completion": 1.0,
+    "retrieval_evidence_coverage": 1.0,
+    "tool_syntax_validity": null,
+    "tool_error_rate": null,
+    "redundant_call_rate": null,
+    "structured_unsupported_rate": null,
+    "structured_claims": 0,
+    "unsupported_claims": 0,
+    "valid_tool_calls": 0,
+    "error_tool_calls": 0,
+    "redundant_tool_calls": 0,
+    "e2e_reviewed": null,
+    "review_complete": false,
+    "seconds": 25.702825641000345,
+    "generation_seconds": 25.64075328099989,
+    "tool_calls": 0,
+    "model_calls": 1,
+    "total_tokens": 5167,
+    "elapsed_seconds_is_partial": false,
+    "retrieval_transition": "preflight_missing_city",
+    "protocol_warnings": [],
+    "components": [
+      {
+        "component": "request_logic",
+        "mode": "clarify",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      }
+    ],
+    "actions": [],
+    "schema_errors": [],
+    "failures": [],
+    "missing_facts": {},
+    "incorrect_facts": {}
+  },
+  {
+    "attempt_id": "a67a50e8-f713-4061-88fb-c072c28c3e4a",
+    "run_id": 43,
+    "scenario_id": "SDC-056",
+    "language": "AR",
+    "scenario_type": "Edge",
+    "domain": "Conflicting constraints",
+    "execution_status": "completed",
+    "schema_validity": 1,
+    "e2e_structured": 1,
+    "component_completion": 1.0,
+    "retrieval_evidence_coverage": 1.0,
+    "tool_syntax_validity": null,
+    "tool_error_rate": null,
+    "redundant_call_rate": null,
+    "structured_unsupported_rate": null,
+    "structured_claims": 0,
+    "unsupported_claims": 0,
+    "valid_tool_calls": 0,
+    "error_tool_calls": 0,
+    "redundant_tool_calls": 0,
+    "e2e_reviewed": null,
+    "review_complete": false,
+    "seconds": 76.13093871399997,
+    "generation_seconds": 76.01478830899941,
+    "tool_calls": 0,
+    "model_calls": 2,
+    "total_tokens": 11101,
+    "elapsed_seconds_is_partial": false,
+    "retrieval_transition": "preflight_conflicting_budget",
+    "protocol_warnings": [],
+    "components": [
+      {
+        "component": "request_logic",
+        "mode": "clarify",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      }
+    ],
+    "actions": [],
+    "schema_errors": [],
+    "failures": [],
+    "missing_facts": {},
+    "incorrect_facts": {}
+  },
+  {
+    "attempt_id": "e277f3dc-491a-429d-9bdc-8437134338b2",
+    "run_id": 43,
+    "scenario_id": "SDC-058",
+    "language": "AR",
+    "scenario_type": "Edge",
+    "domain": "Partial hotel + restaurant",
+    "execution_status": "completed",
+    "schema_validity": 1,
+    "e2e_structured": 1,
+    "component_completion": 1.0,
+    "retrieval_evidence_coverage": 1.0,
+    "tool_syntax_validity": 0.125,
+    "tool_error_rate": 0.0,
+    "redundant_call_rate": 0.0,
+    "structured_unsupported_rate": 0.0,
+    "structured_claims": 11,
+    "unsupported_claims": 0,
+    "valid_tool_calls": 1,
+    "error_tool_calls": 0,
+    "redundant_tool_calls": 0,
+    "e2e_reviewed": null,
+    "review_complete": false,
+    "seconds": 370.03210602000036,
+    "generation_seconds": 369.4265200110003,
+    "tool_calls": 8,
+    "model_calls": 11,
+    "total_tokens": 53872,
+    "elapsed_seconds_is_partial": false,
+    "retrieval_transition": "budget_exhausted",
+    "protocol_warnings": [
+      "tool_arg_alias:search_places.limit->top_k",
+      "tool_arg_alias:search_places.limit->top_k",
+      "tool_arg_alias:search_places.limit->top_k",
+      "tool_arg_alias:search_places.limit->top_k",
+      "tool_arg_alias:search_places.limit->top_k",
+      "tool_arg_alias:search_places.limit->top_k",
+      "tool_arg_alias:search_places.limit->top_k"
+    ],
+    "components": [
+      {
+        "component": "hotel",
+        "mode": "recommend",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      },
+      {
+        "component": "restaurant",
+        "mode": "no_match",
+        "passed": true,
+        "retrieval_evidence_pass": true
+      }
+    ],
+    "actions": [
+      {
+        "call_id": "1-1",
+        "syntax_valid": true,
+        "repeated": false
+      },
+      {
+        "call_id": "2-1",
+        "syntax_valid": false,
+        "repeated": false
+      },
+      {
+        "call_id": "3-1",
+        "syntax_valid": false,
+        "repeated": false
+      },
+      {
+        "call_id": "4-1",
+        "syntax_valid": false,
+        "repeated": false
+      },
+      {
+        "call_id": "5-1",
+        "syntax_valid": false,
+        "repeated": false
+      },
+      {
+        "call_id": "6-1",
+        "syntax_valid": false,
+        "repeated": false
+      },
+      {
+        "call_id": "7-1",
+        "syntax_valid": false,
+        "repeated": false
+      },
+      {
+        "call_id": "8-1",
+        "syntax_valid": false,
+        "repeated": false
+      }
+    ],
+    "schema_errors": [],
+    "failures": [],
+    "missing_facts": {},
+    "incorrect_facts": {}
+  }
+]
