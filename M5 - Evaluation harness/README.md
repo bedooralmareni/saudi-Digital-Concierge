@@ -10,6 +10,21 @@ with variance across three seeds; ≥ 1 trajectory-level metric.
 > Scope: M5 is the *measurement instrument* plus one or more single-agent **baselines**.
 > The multi-agent treatment and the controlled comparison are M6, not M5.
 
+### What the reported scores are — and are not
+
+- **All published E2E figures are Structured E2E (automatic), not Human-reviewed E2E.** Structured
+  E2E checks the structured-output contract — shape, status, grounded options/required facts and
+  constraint-aligned components. It does **not** verify the free-text `message`/`reason` prose or
+  semantic intent. The reviewed metrics (`e2e`/`cc`/`tv`/`ucr` for OpenAI, `e2e_reviewed` for
+  Qwen) require a human prose/intent review that is **not completed**, so they are left empty —
+  never scored as 0.
+- **Golden-set scoring is a contract + grounding check, not an answer-quality judgement.** A high
+  structured score means the output obeyed the schema and matched the ground-truth records; it is
+  not a claim that the prose is fully correct or helpful.
+- **These are Development-set baselines, not independent final results.** Development-20 was used
+  during iterative tuning, so the numbers are optimistic relative to a held-out test. Validation
+  and Final Test splits remain reserved.
+
 ---
 
 ## Criteria map (C5.1 – C5.4)
@@ -100,14 +115,35 @@ committed **with its execution outputs** as run evidence — is
 ### 3. Qwen baseline score with variance (C5.2 / C5.4)
 
 The reported Qwen v8 results (merged 60 attempts, 20 cases × 3 seeds) are in
-`baseline_scores/qwen_single_agent_v8/` — `summary.csv`, `run_scores.csv` and the full
-`M5_Evaluation_Report_Qwen_v8.md`. The runner notebook (batch 1) with its execution outputs
-is in `notebooks/`.
+`baseline_scores/qwen_single_agent_v8/`:
 
-> Note: the complete Qwen v8 submission bundle (its own scorer `m5_evaluate.py`, offline
-> tests, `runtime_snapshot`, and all 60 raw attempt records) was removed from the working
-> tree to keep the repository tidy. It remains recoverable from git history at commit
-> `dc55bf4`.
+- `summary.csv`, `run_scores.csv` — the reported scores with variance;
+- `scores.csv`, `runs.jsonl` — per-attempt results and the raw 60-attempt run log;
+- `harness/` — the Qwen v8 scorer source (`m5_evaluate.py`, `m5_contract.py`, `m5_runner.py`),
+  offline tests and the v8 schema, kept for inspection;
+- `M5_Evaluation_Report_Qwen_v8.md` and a folder `README.md` with per-metric details.
+
+The Qwen scorer reads each experiment's `attempts/*.json` against the pinned project snapshot, so
+an **exact** rescore uses the complete original bundle. It was removed from the tree for tidiness
+but is recoverable from git history; this restores it and re-runs the offline scorer (no GPU,
+model weights or API calls needed):
+
+```bash
+git checkout dc55bf4 -- "Qwen3_8B_M5_v8_Merged_Submission/"
+cd "Qwen3_8B_M5_v8_Merged_Submission/Qwen_M5_v8_Submission"
+# the pinned DB + vectors are .gitignored out of the bundle — copy them from the repo root (same SHA-256):
+cp ../../data/final/knowledge_base.sqlite runtime_snapshot/data/final/
+cp ../../data/final/vector_store/vectors.npy runtime_snapshot/data/final/vector_store/
+python test_m5.py runtime_snapshot Qwen3_8B_M5_v8_Development20/frozen20.json
+python test_v8_guards.py
+python -c "from m5_evaluate import evaluate_experiment; \
+  print(evaluate_experiment('runtime_snapshot', 'Qwen3_8B_M5_v8_Development20', \
+  'Qwen3_8B_M5_v8_Development20/human_review.json')[0])"
+```
+
+Verified: this restores the bundle and reproduces `summary.csv` exactly (`recorded_attempts: 60`,
+`e2e_structured` 0.900 ± 0.050). See `baseline_scores/qwen_single_agent_v8/README.md` for the full
+reproduction and per-metric case counts.
 
 ---
 
@@ -121,19 +157,25 @@ M5 - Evaluation harness/
 │   └── Qwen3_8B_M5_v8_Development20_Batch_1.ipynb  # Qwen v8 runner, scenarios 1–10 × 3 seeds (with outputs)
 └── baseline_scores/
     ├── openai_single_agent/
+    │   ├── README.md                       # provenance, repro, per-metric case counts
     │   ├── summary.csv                     # mean / variance / SD across 3 seeds
     │   └── run_scores.csv                  # per-seed scores
     └── qwen_single_agent_v8/
+        ├── README.md                       # provenance, repro, per-metric case counts
         ├── summary.csv
         ├── run_scores.csv
+        ├── scores.csv                      # per-attempt scores (60 rows)
+        ├── runs.jsonl                      # raw 60-attempt run log
+        ├── harness/                        # Qwen v8 scorer source + offline tests + v8 schema
         └── M5_Evaluation_Report_Qwen_v8.md # full Qwen v8 write-up (C5.1–C5.4 + error analysis)
 ```
 
 > The Qwen v8 baseline was run in 30-attempt batches; `notebooks/` holds the batch-1 run
-> (scenarios 1–10 × 3 seeds). The reported merged **60-attempt** results live in
-> `baseline_scores/qwen_single_agent_v8/`. The full Qwen submission bundle (its scorer,
-> offline tests, `runtime_snapshot` and 60 raw attempt records) was removed from the tree to
-> keep the repo tidy and is recoverable from git history at commit `dc55bf4`.
+> (scenarios 1–10 × 3 seeds). The reported merged **60-attempt** results, the raw run log and
+> the scorer source live in `baseline_scores/qwen_single_agent_v8/`. The full original bundle
+> (with the bulky `runtime_snapshot` copy of the DB/vectors/gold and the per-attempt records
+> the scorer consumes) was removed from the tree to keep the repo tidy; the one-line
+> `git checkout dc55bf4 -- …` above restores it for an exact rescore.
 
 Canonical code and data referenced above live in the repository root
 (`evaluation/`, `schemas/`, `data/final/`), not duplicated here.

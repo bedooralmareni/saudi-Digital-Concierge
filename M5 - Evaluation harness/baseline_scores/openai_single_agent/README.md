@@ -45,22 +45,36 @@ Runner notebook (with its execution outputs):
 
 ## C5.4 — Baseline results across three seeds
 
-| Metric | Level | Mean | Sample SD | Sample variance |
-|---|---|---:|---:|---:|
-| `e2e_structured` | end-to-end | 0.767 | 0.0289 | 0.000833 |
-| `cc_structured` | component | 0.767 | 0.0289 | 0.000833 |
-| `hcs` (hard-constraint satisfaction) | component | 0.771 | 0.0361 | 0.001302 |
-| `tool_syntax_validity` | trajectory | 1.000 | 0.0000 | 0.000000 |
-| `tool_error_rate` | trajectory | 0.000 | 0.0000 | 0.000000 |
-| `schema_validity` | output | 1.000 | 0.0000 | 0.000000 |
-| `entity_grounding` | output | 1.000 | 0.0000 | 0.000000 |
-| `structured_ucr` | output | 0.000 | 0.0000 | 0.000000 |
-| `structured_consistency_pass` | output | 1.000 | 0.0000 | 0.000000 |
-| Latency (s/attempt) | process | 13.35 | 1.52 | 2.324 |
-| Cost (USD/attempt) | process | 0.00478 | 0.00111 | 1.24e-06 |
+> **All E2E scores here are Structured E2E (automatic), not Human-reviewed E2E.** Structured E2E
+> checks the structured-output contract and grounding; it does not verify free-text prose or
+> intent. The reviewed metrics (`e2e`, `cc`, `tv`, `ucr`) need an optional human review that is
+> not completed, so they are left empty — never scored as 0.
+
+| Metric | Level | Mean | Sample SD | Sample variance | Cases scored / seed |
+|---|---|---:|---:|---:|:--:|
+| `e2e_structured` | end-to-end | 0.767 | 0.0289 | 0.000833 | 20 / 20 |
+| `cc_structured` | component | 0.767 | 0.0289 | 0.000833 | 20 / 20 |
+| `hcs` (hard-constraint satisfaction) | component | 0.771 | 0.0361 | 0.001302 | **16 / 20** |
+| `tool_syntax_validity` | trajectory | 1.000 | 0.0000 | 0.000000 | 20 / 20 |
+| `tool_error_rate` | trajectory | 0.000 | 0.0000 | 0.000000 | 20 / 20 |
+| `schema_validity` | output | 1.000 | 0.0000 | 0.000000 | 20 / 20 |
+| `entity_grounding` | output | 1.000 | 0.0000 | 0.000000 | **13 / 20** |
+| `structured_ucr` (unsupported-claim rate) | output | 0.000 | 0.0000 | 0.000000 | **13 / 20** |
+| `structured_consistency_pass` | output | 1.000 | 0.0000 | 0.000000 | 20 / 20 |
+| Latency (s/attempt) | process | 13.35 | 1.52 | 2.324 | 20 / 20 |
+| Cost (USD/attempt) | process | 0.00478 | 0.00111 | 1.24e-06 | 20 / 20 |
 
 **Seed-level `e2e_structured`:** 17 → 0.75; 29 → 0.80; 43 → 0.75. Mean **0.767**, sample variance
 **0.000833** (ddof=1 over the three seed-level case means, not over 60 independent attempts).
+
+**Why some denominators are below 20 (per seed):** a metric is reported only where it is defined,
+never padded with zeros.
+- `hcs` → **16**: only the scenarios that carry a hard constraint to satisfy (e.g. hotel
+  price/rating/capacity requests) are in scope.
+- `entity_grounding` / `structured_ucr` → **13**: only attempts that actually selected items —
+  there is nothing to ground or to check for unsupported claims when no option was returned.
+- The reviewed `e2e` / `cc` (5/20) and `tv` / `ucr` (0/20) depend on the unfinished human review
+  and are excluded from the reported means.
 
 ## Files
 
