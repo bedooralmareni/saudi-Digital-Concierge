@@ -99,20 +99,15 @@ committed **with its execution outputs** as run evidence — is
 
 ### 3. Qwen baseline score with variance (C5.2 / C5.4)
 
-The Qwen v8 submission (its scorer `m5_evaluate.py`, runner, offline tests, and raw
-attempts) is the self-contained bundle on `main` at
-`Qwen3_8B_M5_v8_Merged_Submission/Qwen_M5_v8_Submission/`. From that directory:
+The reported Qwen v8 results (merged 60 attempts, 20 cases × 3 seeds) are in
+`baseline_scores/qwen_single_agent_v8/` — `summary.csv`, `run_scores.csv` and the full
+`M5_Evaluation_Report_Qwen_v8.md`. The runner notebook (batch 1) with its execution outputs
+is in `notebooks/`.
 
-```bash
-python test_m5.py runtime_snapshot Qwen3_8B_M5_v8_Development20/frozen20.json
-python test_v8_guards.py
-python -c "from m5_evaluate import evaluate_experiment; \
-  print(evaluate_experiment('runtime_snapshot', \
-  'Qwen3_8B_M5_v8_Development20', \
-  'Qwen3_8B_M5_v8_Development20/human_review.json')[0])"
-```
-
-The committed result tables are mirrored here in `baseline_scores/qwen_single_agent_v8/`.
+> Note: the complete Qwen v8 submission bundle (its own scorer `m5_evaluate.py`, offline
+> tests, `runtime_snapshot`, and all 60 raw attempt records) was removed from the working
+> tree to keep the repository tidy. It remains recoverable from git history at commit
+> `dc55bf4`.
 
 ---
 
@@ -135,9 +130,10 @@ M5 - Evaluation harness/
 ```
 
 > The Qwen v8 baseline was run in 30-attempt batches; `notebooks/` holds the batch-1 run
-> (scenarios 1–10 × 3 seeds). The full merged **60-attempt** Qwen results (the reported
-> baseline), together with the Qwen scorer, offline tests and all raw attempts, are the
-> bundle on `main` under `Qwen3_8B_M5_v8_Merged_Submission/`.
+> (scenarios 1–10 × 3 seeds). The reported merged **60-attempt** results live in
+> `baseline_scores/qwen_single_agent_v8/`. The full Qwen submission bundle (its scorer,
+> offline tests, `runtime_snapshot` and 60 raw attempt records) was removed from the tree to
+> keep the repo tidy and is recoverable from git history at commit `dc55bf4`.
 
 Canonical code and data referenced above live in the repository root
 (`evaluation/`, `schemas/`, `data/final/`), not duplicated here.
